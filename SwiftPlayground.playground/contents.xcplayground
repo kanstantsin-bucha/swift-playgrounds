@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' display-mode='rendered' buildActiveScheme='true' executeOnSourceChanges='true' importAppTypes='true'>
+    <pages>
+        <page name='Links'/>
+        <page name='Error'/>
+        <page name='Remove Infix'/>
+        <page name='Combine'/>
+        <page name='Dates'/>
+        <page name='Wait for async work'/>
+        <page name='Throwing'/>
+        <page name='Localization'/>
+        <page name='Array'/>
+        <page name='Files'/>
+        <page name='UI'/>
+        <page name='Notifications'/>
+        <page name='Result&lt;String, Error&gt;'/>
+        <page name='DateFromatter'/>
+        <page name='DuplicatedCopiesOfClosures'/>
+        <page name='RangesAndOptions'/>
+        <page name='PropertyWrapper'/>
+        <page name='MapPLay'/>
+        <page name='Predicate'/>
+        <page name='localFeatureSwitcher'/>
+        <page name='DisappearingCleanup'/>
+        <page name='CoreDataIntro'/>
+        <page name='Map'/>
+        <page name='Optionals'/>
+    </pages>
+</playground>
