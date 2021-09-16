@@ -18,7 +18,9 @@ if let _ = optional {
     print("nil")
 }
 
+с
 class Alone {
+    var optional: Int?
     func work() {
         print("work")
     }
@@ -28,9 +30,17 @@ var one: Alone?
 weak var two: Alone?
 
 one = Alone()
+one?.optional = 8
 two = one
 
 two?.work()
+// ===
+
+if let opt = one?.optional {
+    print(opt)
+}
+
+// ===
 
 one = nil
 DispatchQueue.main.async() {
@@ -38,6 +48,9 @@ DispatchQueue.main.async() {
     two?.work()
     PlaygroundPage.current.finishExecution()
 }
+
+
+
 
 PlaygroundPage.current.needsIndefiniteExecution
 

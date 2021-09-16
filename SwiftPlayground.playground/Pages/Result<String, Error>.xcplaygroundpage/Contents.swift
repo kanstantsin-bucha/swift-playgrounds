@@ -36,8 +36,31 @@ extension NetworkTransportError: LocalizedError {
     }
 }
 
-let result: Result<String, Error> = .failure(NetworkTransportError.noOAuthToken)
+class Handler {
+    func handle(result: Result<String, Error>) {
+        let closure = { [weak self] in
+            switch result {
+            case .success:
+                print("success")
 
-print("the error: \(result)")
+            case .failure(let error):
+                (error as? LocalizedError).flatMap { self?.showAlert($0) }
+            }
+        }
+        closure()
+    }
+
+    func showAlert(_ error: LocalizedError) {
+        print("Alert \(error.localizedDescription)")
+    }
+}
+
+let resultOne: Result<String, Error> = .failure(NetworkTransportError.noOAuthToken)
+
+print("the error: \(resultOne)")
+
+Handler().handle(result: .failure(NetworkTransportError.noOAuthToken))
+
+
 
 //: [Next](@next)

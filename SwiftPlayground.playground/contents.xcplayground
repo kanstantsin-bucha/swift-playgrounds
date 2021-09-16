@@ -25,5 +25,6 @@
         <page name='CoreDataIntro'/>
         <page name='Map'/>
         <page name='Optionals'/>
+        <page name='CodeWars1'/>
     </pages>
 </playground>

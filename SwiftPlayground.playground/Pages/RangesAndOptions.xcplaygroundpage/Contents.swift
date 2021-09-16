@@ -41,5 +41,30 @@ func triangular(_ n: Int) -> Int{
 
 triangular(0)
 
+public enum UnitValueState: Int {
+    case good = 0
+    case warning
+    case danger
+    case alarm
+}
+
+let range1: Range<Double> = 1..<2
+print(range1.contains(1.99))
+
+func state(value: Double) -> UnitValueState {
+    switch value {
+    case 0..<1:
+        return .good
+    case 1..<3:
+        return .warning
+    case 4..<10:
+        return .danger
+    default:
+        return .alarm
+    }
+}
+
+print(state(value: 1.5))
+
 
 //: [Next](@next)
