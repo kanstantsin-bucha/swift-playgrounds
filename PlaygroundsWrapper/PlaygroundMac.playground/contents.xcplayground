@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Advertisement Bluetooth UUID'/>
+        <page name='Array'/>
+        <page name='CodeWars1'/>
+        <page name='Combine'/>
+        <page name='CoreDataIntro'/>
+        <page name='DateFromatter'/>
+        <page name='Dates'/>
+        <page name='DisappearingCleanup'/>
+        <page name='DuplicatedCopiesOfClosures'/>
+        <page name='Error'/>
+        <page name='Files'/>
+        <page name='GatherWeb'/>
+        <page name='LazyVarInplementationOfAProtocol'/>
+        <page name='Links'/>
+        <page name='localFeatureSwitcher'/>
+        <page name='Localization'/>
+        <page name='Map'/>
+        <page name='MapPLay'/>
+        <page name='MetaType'/>
+        <page name='Notifications'/>
+        <page name='Numbers'/>
+        <page name='Optionals'/>
+        <page name='Predicate'/>
+        <page name='PropertyWrapper'/>
+        <page name='RangesAndOptions'/>
+        <page name='Remove Infix'/>
+        <page name='Result&lt;String, Error&gt;'/>
+        <page name='StrategyPattern'/>
+        <page name='Throwing'/>
+        <page name='TTP Command Exctractor'/>
+        <page name='UI'/>
+        <page name='String'/>
+        <page name='Wait for async work'/>
+    </pages>
+</playground>
