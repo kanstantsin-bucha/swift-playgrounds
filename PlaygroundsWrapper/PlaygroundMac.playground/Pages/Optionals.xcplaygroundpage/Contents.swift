@@ -49,11 +49,8 @@ DispatchQueue.main.async() {
     PlaygroundPage.current.finishExecution()
 }
 
-
-
-
 PlaygroundPage.current.needsIndefiniteExecution
 
-
+let playground = PlaygroundPage.current.finishExecution()
 
 //: [Next](@next)

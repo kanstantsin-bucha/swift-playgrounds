@@ -71,5 +71,9 @@ func state(value: Double) -> UnitValueState {
 
 print(state(value: 1.5))
 
+let array = [1, 2, 3]
+for i in 0..<array.count {
+    print(array[i])
+}
 
 //: [Next](@next)

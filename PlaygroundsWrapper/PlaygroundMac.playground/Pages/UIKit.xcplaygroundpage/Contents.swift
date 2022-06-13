@@ -136,21 +136,21 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.frame = CGRect(x: 0, y: 0, width: 320, height: 480)
-        self.tableView = UITableView(frame: self.view.frame)
-        self.tableView!.dataSource = dataProvider
-        self.tableView!.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        self.view.addSubview(self.tableView!)
-        self.view.leadingAnchor.constraint(
+        view.frame = CGRect(x: 0, y: 0, width: 320, height: 480)
+        tableView = UITableView(frame: self.view.frame)
+        tableView!.dataSource = dataProvider
+        tableView!.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        view.addSubview(self.tableView!)
+        view.leadingAnchor.constraint(
             equalTo: self.tableView!.leadingAnchor
         ).isActive = true
-        self.view.trailingAnchor.constraint(
+        view.trailingAnchor.constraint(
             equalTo: self.tableView!.trailingAnchor
         ).isActive = true
-        self.view.topAnchor.constraint(
+        view.topAnchor.constraint(
             equalTo: self.tableView!.topAnchor
         ).isActive = true
-        self.view.bottomAnchor.constraint(
+        view.bottomAnchor.constraint(
             equalTo: self.tableView!.bottomAnchor
         ).isActive = true
     }

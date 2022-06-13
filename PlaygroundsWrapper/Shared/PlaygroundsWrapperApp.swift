@@ -7,11 +7,20 @@
 
 import SwiftUI
 
+struct AppState {
+    @State var gradient = Gradient(colors: [
+        Color(red: 1, green: 0.1, blue: 0.1),
+        Color(red: 0.1, green: 0.1, blue: 1),
+    ])
+}
+
+let state = AppState()
+
 @main
 struct PlaygroundsWrapperApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(gradient: state.$gradient)
         }
     }
 }

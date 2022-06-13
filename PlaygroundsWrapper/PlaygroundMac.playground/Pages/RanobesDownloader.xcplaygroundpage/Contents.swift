@@ -11,6 +11,32 @@ NSSetUncaughtExceptionHandler { exception in
     print("💥 Exception thrown: \(exception)")
 }
 
+struct Article {
+    let chapter: UInt
+    let index: UInt
+}
+
+struct Ranobe {
+    static let greatMageReturns = Ranobe(
+        title: "TheGreatMageReturnsAfter4000_Book_1",
+        firstArticle: Article(chapter: 201, index: 1395059),
+        lastArticle: Article(chapter: 239, index: 1395097)
+    )
+    static let darkMagicianTransmigrates = Ranobe(
+        title: "TheDarkMagicianTransmigratesAfter66666Years",
+        firstArticle: Article(chapter: 101, index: 1621218),
+        lastArticle: Article(chapter: 200, index: 1621317)
+    )
+    static let swallowedStar = Ranobe(
+        title: "SwallowedStar",
+        firstArticle: Article(chapter: 51, index: 52258),
+        lastArticle: Article(chapter: 150, index: 52408)
+    )
+
+    let title: String
+    let firstArticle: Article
+    let lastArticle: Article
+}
 
 typealias GatherContentsCompletion = (Result<String, Error>) -> Void
 enum GatherError: Error {
@@ -18,7 +44,7 @@ enum GatherError: Error {
     case noData
     case invalidStringData
     case invalidHTML
-    case invalidTextMarkup
+    case invalidTextMarkup(description: String)
 }
 
 struct PageParser {
@@ -39,14 +65,16 @@ struct PageParser {
     
     private func parseHeadline(body: Element) throws -> String {
         guard let headline = try body.getElementsByAttributeValueContaining("itemprop", "headline").first() else {
-            throw GatherError.invalidTextMarkup
+            throw GatherError.invalidTextMarkup(description: "No headline")
         }
         return headline.ownText()
     }
     
     private func parseArticle(body: Element) throws -> String {
+        // Do not change "arrticle" - this is the way it the site has this tag
         guard let article = try body.getElementById("arrticle") else {
-            throw GatherError.invalidTextMarkup
+            print(body)
+            throw GatherError.invalidTextMarkup(description: "No article")
         }
         return try article.text(trimAndNormaliseWhitespace: false)
     }
@@ -77,13 +105,12 @@ func gather(webPage: String, parser: PageParser, session: URLSession, completion
     task.resume()
 }
             
+let ranobe = Ranobe.swallowedStar
 let session = URLSession(configuration: .default)
 var contents = ""
-let firstArticle = 226901
-let lastArticle = 226987
 
-var article = firstArticle
-while article <= lastArticle {
+var article = ranobe.firstArticle.index
+while article <= ranobe.lastArticle.index {
     let group = DispatchGroup()
     group.enter()
     gather(
@@ -95,14 +122,16 @@ while article <= lastArticle {
         case let .success(articleText):
             print("Finished downloading Article: \(article)")
             contents += articleText
-            let progress = Double(article - firstArticle + 1) / Double(lastArticle - firstArticle + 1)
+            let iterationsTotal = Double(ranobe.lastArticle.index - ranobe.firstArticle.index + 1)
+            let iterationsPassed = Double(article - ranobe.firstArticle.index + 1)
+            let progress = iterationsPassed / iterationsTotal
             print("Loaded: \(contents.lengthOfBytes(using: .utf8)) Bytes. Progress: \(Int(progress * 100))%")
             
         case let .failure(error):
             print("Got error \(error) for the Article: \(article)")
         }
         print("Pushback interval started for Article: \(article)")
-        DispatchQueue.global().asyncAfter(deadline: .now() + .seconds(10)) {
+        DispatchQueue.global().asyncAfter(deadline: .now() + .seconds(5)) {
             print("Pushback interval finished for Article: \(article)")
             group.leave()
         }
@@ -112,7 +141,7 @@ while article <= lastArticle {
     article += 1
 }
 
-let fileName = "SealedDivineThrone\(firstArticle)-\(lastArticle).txt"
+let fileName = "\(ranobe.title)-(\(ranobe.firstArticle.chapter)-\(ranobe.lastArticle.chapter)).txt"
 let directory = FileManager.default.urls(for: .downloadsDirectory, in: .userDomainMask)[0]
 let fileUrl = directory.appendingPathComponent(fileName, isDirectory: false)
 print("Loaded total: \(contents.lengthOfBytes(using: .utf8)) Bytes")
@@ -123,6 +152,7 @@ do {
     print("Failed write contents to the file: \(error)")
 }
 print("All Done. Go fun!")
+print("to convert into modi use https://ebook.online-convert.com/convert-to-mobi")
 page.finishExecution()
 
 //: [Next](@next)
