@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Actors'/>
+        <page name='Advertisement Bluetooth UUID'/>
+        <page name='Array'/>
+        <page name='AssociatedTypes'/>
+        <page name='AsyncAwait'/>
+        <page name='CodeWars1'/>
+        <page name='Combine'/>
+        <page name='CoreDataIntro'/>
+        <page name='DateFromatter'/>
+        <page name='Dates'/>
+        <page name='Dictionaries'/>
+        <page name='DisappearingCleanup'/>
+        <page name='DispatchGroup'/>
+        <page name='DuplicatedCopiesOfClosures'/>
+        <page name='Error'/>
+        <page name='Files'/>
+        <page name='Groups'/>
+        <page name='LazyVarInplementationOfAProtocol'/>
+        <page name='Links'/>
+        <page name='localFeatureSwitcher'/>
+        <page name='Localization'/>
+        <page name='Map'/>
+        <page name='MapPLay'/>
+        <page name='MetaType'/>
+        <page name='Notifications'/>
+        <page name='Numbers'/>
+        <page name='Optionals'/>
+        <page name='Predicate'/>
+        <page name='PropertyWrapper'/>
+        <page name='RangesAndOptions'/>
+        <page name='RanobesDownloader'/>
+        <page name='Remove Infix'/>
+        <page name='Result&lt;String, Error&gt;'/>
+        <page name='StrategyPattern'/>
+        <page name='String'/>
+        <page name='TableView'/>
+        <page name='Throwing'/>
+        <page name='SwiftUI-Fields'/>
+        <page name='SwiftUI-Gradient'/>
+        <page name='Pointers'/>
+        <page name='UIKit'/>
+        <page name='Wait for async work'/>
+        <page name='XCTest'/>
+        <page name='SwiftUI-Basics'/>
+        <page name='ControlTimeInTests'/>
+    </pages>
+</playground>
