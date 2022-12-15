@@ -3,5 +3,8 @@
     <pages>
         <page name='ControlTimeInTests'/>
         <page name='Colors'/>
+        <page name='ScrollView'/>
+        <page name='TableViewCellDynamicWithStackView'/>
+        <page name='HttpBin'/>
     </pages>
 </playground>

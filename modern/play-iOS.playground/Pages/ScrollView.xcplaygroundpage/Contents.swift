@@ -11,6 +11,7 @@ class ViewController: UIViewController {
         scrollView.translatesAutoresizingMaskIntoConstraints = false
 //        scrollView.contentInset = .zero
         scrollView.delegate = self
+        print(self)
         return scrollView
     }()
     

@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:DemoUIKit/DemoUIKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:StructuredConcurrency.playground">
+   </FileRef>
+   <FileRef
       location = "group:play-CodingInterview.playground">
    </FileRef>
    <FileRef
