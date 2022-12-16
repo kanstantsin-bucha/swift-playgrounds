@@ -1,4 +1,5 @@
 import SwiftUI
+import UIModule
 
 public struct MainModule {
     public private(set) var text = "Hello, World!"
