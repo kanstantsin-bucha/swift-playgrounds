@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "reaction_dislike.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
