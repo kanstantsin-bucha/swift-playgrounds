@@ -18,7 +18,7 @@ final class PlayerOneViewControllerTests: XCTestCase {
         XCTAssertNotNil(createPlayerOneViewController())
     }
     
-    func test_playerOneView_name_isSettable() {
+    func test_playerOneView_nameSetter_updatesNameLabel() {
         // Given
         let sut = createPlayerOneViewController()
         sut?.loadView()
@@ -28,7 +28,7 @@ final class PlayerOneViewControllerTests: XCTestCase {
         XCTAssertEqual(sut?.nameLabel.text, "Test")
     }
     
-    func test_playerOneView_score_isSettable() {
+    func test_playerOneView_scoreSetter_updatesScoreLabel() {
         // Given
         let sut = createPlayerOneViewController()
         sut?.loadView()
