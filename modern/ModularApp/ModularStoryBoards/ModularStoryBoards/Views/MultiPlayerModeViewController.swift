@@ -8,5 +8,6 @@
 import UIKit
 
 class MultiPlayerModeViewController: UIViewController {
+    // we use MultiPlayerScoreViewConfigurator in MultiPlayerScoreView storyboard to set the reference
     var playersScore: MultiPlayerScoreViewController!
 }

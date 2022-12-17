@@ -1,5 +1,5 @@
 //
-//  PlayerOneViewControllerTests.swift
+//  PlayerOneViewTests.swift
 //  ModularStoryboardsTests
 //
 //  Created by Kanstantsin Bucha on 17/12/2022.
@@ -8,7 +8,7 @@
 import XCTest
 @testable import ModularStoryboards
 
-final class PlayerOneViewControllerTests: XCTestCase {
+final class PlayerOneViewTests: XCTestCase {
     private let storyboard = UIStoryboard(
         name: "PlayerOneView",
         bundle: nil
@@ -38,7 +38,7 @@ final class PlayerOneViewControllerTests: XCTestCase {
         XCTAssertEqual(sut?.scoreLabel.text, "15")
     }
     
-    private func createPlayerOneViewController() -> PlayerOneViewController? {
-        storyboard.instantiateInitialViewController() as? PlayerOneViewController
+    private func createPlayerOneViewController() -> PlayerViewController? {
+        storyboard.instantiateInitialViewController() as? PlayerViewController
     }
 }

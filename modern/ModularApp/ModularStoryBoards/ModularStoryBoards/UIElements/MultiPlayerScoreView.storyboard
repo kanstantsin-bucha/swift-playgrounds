@@ -16,6 +16,14 @@
             </objects>
             <point key="canvasLocation" x="153" y="-100"/>
         </scene>
+        <!--PlayerOneView-->
+        <scene sceneID="Vnw-kF-ZVl">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PlayerOneView" id="Skr-8h-ZW4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Frr-0x-LFQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-178" y="-96"/>
+        </scene>
         <!--Multi Player Score View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
@@ -25,13 +33,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S1X-he-f8v">
-                                <rect key="frame" x="0.0" y="0.0" width="196" height="84"/>
+                                <rect key="frame" x="0.0" y="0.0" width="196.66666666666666" height="84"/>
                                 <connections>
                                     <segue destination="Skr-8h-ZW4" kind="embed" id="frn-dS-ABW"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xog-P4-Jyw">
-                                <rect key="frame" x="196" y="0.0" width="197" height="84"/>
+                                <rect key="frame" x="196.66666666666663" y="0.0" width="196.33333333333337" height="84"/>
                                 <connections>
                                     <segue destination="dXP-pK-PXc" kind="embed" id="Vkp-Va-RmJ"/>
                                 </connections>
@@ -54,16 +62,13 @@
                     <size key="freeformSize" width="393" height="84"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <customObject id="3wl-nI-wVo" customClass="MultiPlayerScoreViewConfigurator" customModule="ModularStoryboards" customModuleProvider="target">
+                    <connections>
+                        <outlet property="scoreViewController" destination="Y6W-OH-hqX" id="TeT-5q-JEs"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="23.664122137404579" y="-2.1126760563380285"/>
-        </scene>
-        <!--PlayerOneView-->
-        <scene sceneID="Vnw-kF-ZVl">
-            <objects>
-                <viewControllerPlaceholder storyboardName="PlayerOneView" id="Skr-8h-ZW4" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Frr-0x-LFQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-178" y="-96"/>
         </scene>
     </scenes>
     <resources>

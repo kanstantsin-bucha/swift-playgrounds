@@ -9,10 +9,20 @@ import UIKit
 
 class MultiPlayerScoreViewController: UIViewController {
     // We use here access to the children (all embedded controllers became children)
-    var playerOne: PlayerOneViewController! {
-        return children.compactMap { $0 as? PlayerOneViewController }.first
+    var playerOne: PlayerViewController! {
+        return children.compactMap { $0 as? PlayerViewController }.first
     }
-    var playerTwo: PlayerTwoViewController! {
-        return children.compactMap { $0 as? PlayerTwoViewController }.first
+    var playerTwo: PlayerViewController! {
+        return children.compactMap { $0 as? PlayerViewController }.last
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print("viewDidLoad")
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("viewWillAppear")
     }
 }

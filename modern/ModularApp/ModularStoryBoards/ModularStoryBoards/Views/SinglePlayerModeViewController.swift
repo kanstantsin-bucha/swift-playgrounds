@@ -9,11 +9,11 @@ import UIKit
 
 class SinglePlayerModeViewController: UIViewController {
     // we use prepare for segue method and segue.identifier that set in the storyboard
-    var playerScore: PlayerOneViewController!
+    var playerScore: PlayerViewController!
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "EmbedPlayerOneView",
-           let score = segue.destination as? PlayerOneViewController {
+           let score = segue.destination as? PlayerViewController {
             playerScore = score
         }
     }

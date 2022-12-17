@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PlayerOneViewController: UIViewController {
+class PlayerViewController: UIViewController {
     @IBOutlet private(set) weak var nameLabel: UILabel!
     @IBOutlet private(set) weak var scoreLabel: UILabel!
     
