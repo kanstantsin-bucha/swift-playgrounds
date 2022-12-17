@@ -30,7 +30,7 @@
                                     <constraint firstAttribute="height" priority="250" constant="100" id="tTZ-Kc-60l"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="wie-yt-VAl" kind="embed" id="Eig-IW-LaT"/>
+                                    <segue destination="wie-yt-VAl" kind="embed" identifier="EmbedPlayerOneView" id="Eig-IW-LaT"/>
                                 </connections>
                             </containerView>
                         </subviews>

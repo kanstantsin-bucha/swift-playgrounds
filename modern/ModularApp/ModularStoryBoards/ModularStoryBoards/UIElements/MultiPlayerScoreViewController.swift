@@ -8,6 +8,7 @@
 import UIKit
 
 class MultiPlayerScoreViewController: UIViewController {
+    // We use here access to the children (all embedded controllers became children)
     var playerOne: PlayerOneViewController! {
         return children.compactMap { $0 as? PlayerOneViewController }.first
     }
