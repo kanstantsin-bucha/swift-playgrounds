@@ -6,7 +6,7 @@
 //
 
 import XCTest
-import ModularStoryboards
+@testable import ModularStoryboards
 
 final class PlayerOneViewControllerTests: XCTestCase {
     private let storyboard = UIStoryboard(
@@ -15,6 +15,30 @@ final class PlayerOneViewControllerTests: XCTestCase {
     )
 
     func test_playerOneViewInitialViewController_isPlayerOneViewController() {
-        XCTAssertTrue(storyboard.instantiateInitialViewController() is PlayerOneViewController)
+        XCTAssertNotNil(createPlayerOneViewController())
+    }
+    
+    func test_playerOneView_name_isSettable() {
+        // Given
+        let sut = createPlayerOneViewController()
+        sut?.loadView()
+        // When
+        sut?.name = "Test"
+        // Then
+        XCTAssertEqual(sut?.nameLabel.text, "Test")
+    }
+    
+    func test_playerOneView_score_isSettable() {
+        // Given
+        let sut = createPlayerOneViewController()
+        sut?.loadView()
+        // When
+        sut?.score = "15"
+        // Then
+        XCTAssertEqual(sut?.scoreLabel.text, "15")
+    }
+    
+    private func createPlayerOneViewController() -> PlayerOneViewController? {
+        storyboard.instantiateInitialViewController() as? PlayerOneViewController
     }
 }

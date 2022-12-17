@@ -7,7 +7,25 @@
 
 import UIKit
 
-public class PlayerOneViewController: UIViewController {
+class PlayerOneViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
+    
+    var name: String? {
+        set {
+            nameLabel.text = newValue
+        }
+        get {
+            nameLabel.text
+        }
+    }
+    
+    var score: String? {
+        set {
+            scoreLabel.text = newValue
+        }
+        get {
+            scoreLabel.text
+        }
+    }
 }
