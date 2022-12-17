@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PlayerOneView-->
+        <scene sceneID="qUs-3P-QkK">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PlayerOneView" id="wie-yt-VAl" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M3b-vr-Dou" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-166" y="-549"/>
+        </scene>
+        <!--Single Player-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="SinglePlayerModeViewController" customModule="ModularStoryboards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ObB-jr-jDN">
+                                <rect key="frame" x="8" y="67" width="377" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="250" constant="100" id="tTZ-Kc-60l"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="wie-yt-VAl" kind="embed" id="Eig-IW-LaT"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ObB-jr-jDN" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="8" id="OsQ-S4-4Sh"/>
+                            <constraint firstItem="ObB-jr-jDN" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="8" id="kDg-W1-ydq"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ObB-jr-jDN" secondAttribute="trailing" constant="8" id="pze-9A-ZA8"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Single Player" image="anonymous_icon" landscapeImage="anonymous_icon" id="svL-Mc-VsX"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="35" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="anonymous_icon" width="43" height="44"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

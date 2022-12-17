@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PlayerTwoView-->
+        <scene sceneID="vsJ-af-tOf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PlayerTwoView" id="dXP-pK-PXc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8yY-V0-Qx0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153" y="-100"/>
+        </scene>
+        <!--Multi Player Score View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="MultiPlayerScoreViewController" customModule="ModularStoryboards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="84"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S1X-he-f8v">
+                                <rect key="frame" x="0.0" y="0.0" width="196" height="84"/>
+                                <connections>
+                                    <segue destination="Skr-8h-ZW4" kind="embed" id="frn-dS-ABW"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xog-P4-Jyw">
+                                <rect key="frame" x="196" y="0.0" width="197" height="84"/>
+                                <connections>
+                                    <segue destination="dXP-pK-PXc" kind="embed" id="Vkp-Va-RmJ"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="S1X-he-f8v" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="4CG-zG-BcT"/>
+                            <constraint firstAttribute="trailing" secondItem="xog-P4-Jyw" secondAttribute="trailing" id="DhF-DT-srl"/>
+                            <constraint firstItem="xog-P4-Jyw" firstAttribute="width" secondItem="S1X-he-f8v" secondAttribute="width" id="I5i-z2-FKZ"/>
+                            <constraint firstItem="xog-P4-Jyw" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="MDT-Ce-MJS"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="S1X-he-f8v" secondAttribute="bottom" id="P9P-Uz-Zkm"/>
+                            <constraint firstAttribute="bottom" secondItem="xog-P4-Jyw" secondAttribute="bottom" id="YLE-va-N8q"/>
+                            <constraint firstItem="xog-P4-Jyw" firstAttribute="leading" secondItem="S1X-he-f8v" secondAttribute="trailing" id="cgM-bd-B1T"/>
+                            <constraint firstItem="S1X-he-f8v" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="wSJ-vQ-m38"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="393" height="84"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="23.664122137404579" y="-2.1126760563380285"/>
+        </scene>
+        <!--PlayerOneView-->
+        <scene sceneID="Vnw-kF-ZVl">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PlayerOneView" id="Skr-8h-ZW4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Frr-0x-LFQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-178" y="-96"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
