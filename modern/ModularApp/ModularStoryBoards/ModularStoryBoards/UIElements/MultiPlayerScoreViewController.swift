@@ -8,5 +8,6 @@
 import UIKit
 
 class MultiPlayerScoreViewController: UIViewController {
-    
+    @IBOutlet weak var playerOne: UIViewController!
+    @IBOutlet weak var playerTwo: UIViewController!
 }

@@ -8,5 +8,5 @@
 import UIKit
 
 class SinglePlayerModeViewController: UIViewController {
-    
+    @IBOutlet weak var playerScore: PlayerOneViewController!
 }
