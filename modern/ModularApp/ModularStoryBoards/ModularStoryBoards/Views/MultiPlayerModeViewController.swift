@@ -8,5 +8,5 @@
 import UIKit
 
 class MultiPlayerModeViewController: UIViewController {
-    @IBOutlet weak var playersScore: MultiPlayerScoreViewController!
+    var playersScore: MultiPlayerScoreViewController!
 }
