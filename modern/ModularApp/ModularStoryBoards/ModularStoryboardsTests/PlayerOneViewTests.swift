@@ -13,6 +13,12 @@ final class PlayerOneViewTests: XCTestCase {
         name: "PlayerOneView",
         bundle: nil
     )
+    private weak var sut: PlayerViewController!
+    
+    override func tearDown() {
+        super.tearDown()
+        XCTAssertNil(sut)
+    }
 
     func test_playerOneViewInitialViewController_isPlayerOneViewController() {
         XCTAssertNotNil(createPlayerOneViewController())
@@ -39,6 +45,7 @@ final class PlayerOneViewTests: XCTestCase {
     }
     
     private func createPlayerOneViewController() -> PlayerViewController? {
-        storyboard.instantiateInitialViewController() as? PlayerViewController
+        sut = storyboard.instantiateInitialViewController() as? PlayerViewController
+        return sut
     }
 }
