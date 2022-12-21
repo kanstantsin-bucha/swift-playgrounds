@@ -8,7 +8,7 @@
 import XCTest
 @testable import ModularStoryboards
 
-final class PlayerOneViewTests: XCTestCase {
+final class PlayerOneViewTests: AppTestCase {
     private let storyboard = UIStoryboard(
         name: "PlayerOneView",
         bundle: nil
@@ -21,31 +21,36 @@ final class PlayerOneViewTests: XCTestCase {
     }
 
     func test_playerOneViewInitialViewController_isPlayerOneViewController() {
-        XCTAssertNotNil(createPlayerOneViewController())
+        _ = createSut()
     }
     
     func test_playerOneView_nameSetter_updatesNameLabel() {
         // Given
-        let sut = createPlayerOneViewController()
-        sut?.loadView()
+        let sut = createSut()
+        sut.loadView()
         // When
-        sut?.name = "Test"
+        applyAppearLifeCycle(sut)
+        sut.name = "Test"
         // Then
-        XCTAssertEqual(sut?.nameLabel.text, "Test")
+        XCTAssertEqual(sut.nameLabel.text, "Test")
+        applyDisappearLifeCycle(sut)
     }
     
     func test_playerOneView_scoreSetter_updatesScoreLabel() {
         // Given
-        let sut = createPlayerOneViewController()
-        sut?.loadView()
+        let sut = createSut()
+        sut.loadView()
         // When
-        sut?.score = "15"
+        applyAppearLifeCycle(sut)
+        sut.score = "15"
         // Then
-        XCTAssertEqual(sut?.scoreLabel.text, "15")
+        XCTAssertEqual(sut.scoreLabel.text, "15")
+        applyDisappearLifeCycle(sut)
     }
     
-    private func createPlayerOneViewController() -> PlayerViewController? {
+    private func createSut() -> PlayerViewController {
         sut = storyboard.instantiateInitialViewController() as? PlayerViewController
-        return sut
+        XCTAssertNotNil(sut)
+        return sut ?? PlayerViewController()
     }
 }
