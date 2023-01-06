@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:PlaygroundRunner/PlaygroundRunner.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:play-Networking.playground">
+   </FileRef>
+   <FileRef
       location = "group:ModularApp/ModularStoryboards/ModularStoryboards.xcodeproj">
    </FileRef>
    <FileRef
