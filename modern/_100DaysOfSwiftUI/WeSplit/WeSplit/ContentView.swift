@@ -10,15 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Form {
-            Group {
-                Text("1")
-                Text("1")
-                Text("1")
-                Text("1")
-                Text("1")
+            Section {
                 Text("1")
             }
-            Group {
+            Section {
                 Text("2")
                 Text("2")
                 Text("2")
