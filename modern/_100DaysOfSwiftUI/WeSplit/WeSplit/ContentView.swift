@@ -9,7 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-       Text("Hello")
+        Form {
+            Group {
+                Text("1")
+                Text("1")
+                Text("1")
+                Text("1")
+                Text("1")
+                Text("1")
+            }
+            Group {
+                Text("2")
+                Text("2")
+                Text("2")
+                Text("2")
+                Text("2")
+                Text("2")
+            }
+        }
     }
 }
 
