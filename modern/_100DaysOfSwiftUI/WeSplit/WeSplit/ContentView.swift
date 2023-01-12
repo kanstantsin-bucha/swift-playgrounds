@@ -9,18 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Form {
-            Section {
-                Text("1")
+        NavigationView {
+            Form {
+                Section {
+                    Text("1")
+                }
+                Section {
+                    Text("2")
+                    Text("2")
+                    Text("2")
+                    Text("2")
+                    Text("2")
+                    Text("2")
+                }
             }
-            Section {
-                Text("2")
-                Text("2")
-                Text("2")
-                Text("2")
-                Text("2")
-                Text("2")
-            }
+            .navigationTitle("Swift")
         }
     }
 }
