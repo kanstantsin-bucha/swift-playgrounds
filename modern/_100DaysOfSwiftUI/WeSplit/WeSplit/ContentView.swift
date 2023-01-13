@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var checkAmount = 10.0
+    @State private var checkAmount = 50.0
     @State private var numberOfPeopleIndex = 0
-    @State private var tipPercentage = 20
+    @State private var tipPercentage = 15
     
     private var format: FloatingPointFormatStyle<Double>.Currency {
         .currency(code: Locale.current.currencyCode ?? "USD")
+    }
+    
+    private var totalPerPerson: Double {
+        checkAmount * (1 + Double(tipPercentage) / 100) / Double(numberOfPeopleIndex + 2)
     }
     
     private let tipPercentages = [10, 15, 20, 25, 0]
@@ -38,8 +42,20 @@ struct ContentView: View {
                     }
                 }
                 Section {
-                    Text(checkAmount, format: format)
-                    Text(numberOfPeopleIndex, format: .number)
+                    Picker("People count", selection: $tipPercentage) {
+                        ForEach(tipPercentages, id: \.self) {
+                            Text($0, format: .percent)
+                        }
+                    }
+                    .pickerStyle(.segmented)
+                } header: {
+                     Text("How much tip do you want to leave?")
+                }
+               
+                Section {
+                    Text(totalPerPerson, format: format)
+                } header: {
+                    Text("Total per Person")
                 }
             }
         }
