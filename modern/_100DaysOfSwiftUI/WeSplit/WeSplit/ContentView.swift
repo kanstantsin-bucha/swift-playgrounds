@@ -11,6 +11,7 @@ struct ContentView: View {
     @State private var checkAmount = 50.0
     @State private var numberOfPeopleIndex = 0
     @State private var tipPercentage = 15
+    @FocusState private var isAmountFieldFocused
     
     private var format: FloatingPointFormatStyle<Double>.Currency {
         .currency(code: Locale.current.currencyCode ?? "USD")
@@ -30,6 +31,7 @@ struct ContentView: View {
                         value: $checkAmount,
                         format: .number
                     )
+                    .focused($isAmountFieldFocused)
                     .keyboardType(.decimalPad)
                     .onTapGesture {
                         checkAmount = 0.0
@@ -56,6 +58,15 @@ struct ContentView: View {
                     Text(totalPerPerson, format: format)
                 } header: {
                     Text("Total per Person")
+                }
+            }
+            .navigationTitle("WeSplit")
+            .toolbar {
+                ToolbarItemGroup(placement: .keyboard) {
+                    Spacer()
+                    Button("Done") {
+                        isAmountFieldFocused = false
+                    }
                 }
             }
         }
