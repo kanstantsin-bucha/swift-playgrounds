@@ -17,11 +17,14 @@ struct ContentView: View {
         .currency(code: Locale.current.currencyCode ?? "USD")
     }
     
-    private var totalPerPerson: Double {
-        checkAmount * (1 + Double(tipPercentage) / 100) / Double(numberOfPeopleIndex + 2)
+    private var totalAmount: Double {
+        checkAmount * (1 + Double(tipPercentage) / 100)
     }
     
-    private let tipPercentages = [10, 15, 20, 25, 0]
+    private var totalPerPerson: Double {
+        totalAmount / Double(numberOfPeopleIndex + 2)
+    }
+    
     var body: some View {
         NavigationView {
             Form {
@@ -37,19 +40,19 @@ struct ContentView: View {
                         checkAmount = 0.0
                     }
                     if #available(iOS 16.0, *) {
-                        pickerView
+                        peoplePickerView
                         .pickerStyle(.navigationLink)
                     } else {
-                        pickerView
+                        peoplePickerView
                     }
                 }
                 Section {
-                    Picker("People count", selection: $tipPercentage) {
-                        ForEach(tipPercentages, id: \.self) {
-                            Text($0, format: .percent)
-                        }
+                    if #available(iOS 16.0, *) {
+                        tipPickerView
+                        .pickerStyle(.navigationLink)
+                    } else {
+                        tipPickerView
                     }
-                    .pickerStyle(.segmented)
                 } header: {
                      Text("How much tip do you want to leave?")
                 }
@@ -57,7 +60,13 @@ struct ContentView: View {
                 Section {
                     Text(totalPerPerson, format: format)
                 } header: {
-                    Text("Total per Person")
+                    Text("Amount per person:")
+                }
+                
+                Section {
+                    Text(totalAmount, format: format)
+                } header: {
+                    Text("Amount total:")
                 }
             }
             .navigationTitle("WeSplit")
@@ -72,10 +81,18 @@ struct ContentView: View {
         }
     }
     
-    var pickerView: some View {
+    var peoplePickerView: some View {
         Picker("People count", selection: $numberOfPeopleIndex) {
             ForEach(2..<26) {
                 Text("\($0) People")
+            }
+        }
+    }
+    
+    var tipPickerView: some View {
+        Picker("Tip", selection: $tipPercentage) {
+            ForEach(1..<101) {
+                Text($0, format: .percent)
             }
         }
     }
