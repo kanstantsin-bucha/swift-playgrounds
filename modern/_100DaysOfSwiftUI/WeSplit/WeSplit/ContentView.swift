@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var name = ""
+    private let users = ["Mike", "Chack", "Bob"]
+    @State private var admin = "Mike"
     var body: some View {
         Form {
-            ForEach(1..<10) {
-               Text("> \($0)")
+            Picker("admin", selection: $admin) {
+                ForEach(users, id: \.self) {
+                    Text("\($0)")
+                }
             }
+            Text("admin is \(admin)")
         }
     }
 }
