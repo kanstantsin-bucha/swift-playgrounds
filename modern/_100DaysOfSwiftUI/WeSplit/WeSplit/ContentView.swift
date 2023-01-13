@@ -11,8 +11,9 @@ struct ContentView: View {
     @State private var name = ""
     var body: some View {
         Form {
-            TextField("name", text: $name)
-            Text("My name is \(name)")
+            ForEach(1..<10) {
+               Text("> \($0)")
+            }
         }
     }
 }
