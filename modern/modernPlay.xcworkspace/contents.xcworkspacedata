@@ -5,6 +5,9 @@
       location = "container:_100DaysOfSwiftUI"
       name = "100DaysOfSwiftUI">
       <FileRef
+         location = "group:WeConvert/WeConvert.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:WeSplit/WeSplit.xcodeproj">
       </FileRef>
    </Group>
