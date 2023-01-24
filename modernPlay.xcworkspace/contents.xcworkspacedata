@@ -55,10 +55,7 @@
       location = "group:UIKitiOS.playground">
    </FileRef>
    <FileRef
-      location = "container:/Users/kanstantsinbucha/I/swift-playgrounds/SwiftUI.playground">
-   </FileRef>
-   <FileRef
-      location = "group:/Users/kanstantsinbucha/I/swift-playgrounds/SamplesPatternsMacOS.playground">
+      location = "group:SamplesPatternsMacOS.playground">
    </FileRef>
    <Group
       location = "container:"
