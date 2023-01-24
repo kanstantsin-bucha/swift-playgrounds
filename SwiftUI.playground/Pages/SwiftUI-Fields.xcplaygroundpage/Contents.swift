@@ -1,7 +1,5 @@
 //: [Previous](@previous)
-import Cocoa
 import PlaygroundSupport
-import Print
 import SwiftUI
 
 public struct User {
@@ -23,7 +21,7 @@ public struct ContentView: View {
     
     public var body: some View {
         VStack {
-            PrintIt("reload ContentView")
+//            PrintIt("reload ContentView")
             Text("Your name is \(user.firstName) \(user.lastName).")
                 .scaledToFill()
                 .minimumScaleFactor(0.5)
@@ -33,7 +31,7 @@ public struct ContentView: View {
             TextField("Last name", text: $user.lastName)
             Form {
                 List(user.nickNames, id: \.self) { nickName in
-                    PrintIt("create nickName \(nickName)")
+//                    PrintIt("create nickName \(nickName)")
                     NickNameView(nickname: nickName)
                         .listRowBackground(Color.blue)
                         
@@ -51,15 +49,22 @@ struct NickNameView: View {
     var nickname: String
     
     var body: some View {
-        PrintIt("NickNameView \(nickname)")
+//        PrintIt("NickNameView \(nickname)")
         Text("\(nickname)")
     }
 }
 
-PlaygroundPage.current.setLiveView(ContentView(user: User()))
+
+// MARK: - Preview
+
+struct Container: View {
+    var body: some View {
+        ContentView(user: User())
+            .frame(width: 395, height: 700)
+    }
+}
+import PlaygroundSupport
+PlaygroundPage.current.setLiveView(Container())
 
 //: [Next](@next)
 
-
-
-//: [Next](@next)

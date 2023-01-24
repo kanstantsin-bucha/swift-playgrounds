@@ -1,8 +1,8 @@
 //: [Previous](@previous)
 
-import Cocoa
-import PlaygroundSupport
-import Print
+//import Cocoa
+
+//import Print
 import SwiftUI
 
 struct Previews_Intro: View {
@@ -38,10 +38,16 @@ struct Previews_Intro: View {
              */
         }
         .font(.title)
-        .frame(width: 300, height: 600)
     }
 }
 
-PlaygroundPage.current.setLiveView(Previews_Intro())
+struct Container: View {
+    var body: some View {
+        Previews_Intro()
+            .frame(width: 395, height: 700)
+    }
+}
+import PlaygroundSupport
+PlaygroundPage.current.setLiveView(Container())
 
 //: [Next](@next)

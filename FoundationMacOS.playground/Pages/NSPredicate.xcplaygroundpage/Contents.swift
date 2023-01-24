@@ -26,7 +26,7 @@ let members = [
 let opt = false
 let something: String? = opt ? nil : ""
 
-let predicate = NSPredicate(format: "ANY %K == %@", #keyPath(Member.phoneNumbers.canonizedPhoneNum), something)
+let predicate = NSPredicate(format: "ANY %K == %@", #keyPath(Member.phoneNumbers.canonizedPhoneNum), something as CVarArg)
 print(members.filtered(using: predicate))
 
 //: [Next](@next)

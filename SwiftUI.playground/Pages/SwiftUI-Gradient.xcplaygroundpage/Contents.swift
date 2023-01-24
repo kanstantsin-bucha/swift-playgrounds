@@ -35,7 +35,16 @@ struct AppState {
 
 let state = AppState()
 
-PlaygroundPage.current.setLiveView(ContentView(gradient: state.$gradient))
+// MARK: - Preview
+
+struct Container: View {
+    var body: some View {
+        ContentView(gradient: state.$gradient)
+            .frame(width: 395, height: 700)
+    }
+}
+import PlaygroundSupport
+PlaygroundPage.current.setLiveView(Container())
 
 //: [Next](@next)
 

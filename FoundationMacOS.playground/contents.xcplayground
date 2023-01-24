@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='StringFormat'/>
+        <page name='Files'/>
+        <page name='DispatchGroup'/>
+        <page name='CoreDataIntro'/>
+        <page name='Groups'/>
+        <page name='DateFromatter'/>
+        <page name='Dates'/>
+        <page name='NSPredicate'/>
+        <page name='DispatchGroupWait'/>
+        <page name='UserNotifications'/>
+    </pages>
+</playground>

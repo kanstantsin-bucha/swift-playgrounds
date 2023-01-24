@@ -31,6 +31,12 @@
       location = "group:PlaygroundRunner/PlaygroundRunner.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:FoundationMacOS.playground">
+   </FileRef>
+   <FileRef
+      location = "group:SwiftLangMacOS.playground">
+   </FileRef>
+   <FileRef
       location = "group:UnitTestsMacOS.playground">
    </FileRef>
    <FileRef
@@ -46,10 +52,10 @@
       location = "group:UIKitiOS.playground">
    </FileRef>
    <FileRef
-      location = "container:SwiftUIiOS.playground">
+      location = "container:/Users/kanstantsinbucha/I/swift-playgrounds/SwiftUI.playground">
    </FileRef>
    <FileRef
-      location = "group:playMacOS.playground">
+      location = "group:/Users/kanstantsinbucha/I/swift-playgrounds/SamplesPatternsMacOS.playground">
    </FileRef>
    <Group
       location = "container:"
