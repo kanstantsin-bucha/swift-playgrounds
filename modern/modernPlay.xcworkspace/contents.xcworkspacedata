@@ -14,32 +14,39 @@
          location = "group:WeSplit/WeSplit.xcodeproj">
       </FileRef>
    </Group>
+   <Group
+      location = "group:PlaygroundRunner/../New Group"
+      name = "Projects">
+      <FileRef
+         location = "group:../DemoUIKit/DemoUIKit.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../ModularApp/ModularApp.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../ModularStoryBoards/ModularStoryboards.xcodeproj">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:PlaygroundRunner/PlaygroundRunner.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UnitTestsMacOS.playground">
+   </FileRef>
+   <FileRef
+      location = "group:CodingInterview.playground">
    </FileRef>
    <FileRef
       location = "group:play-Networking.playground">
    </FileRef>
    <FileRef
-      location = "group:ModularApp/ModularStoryboards/ModularStoryboards.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:ModularApp/ModularApp.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:DemoUIKit/DemoUIKit.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:StructuredConcurrency.playground">
    </FileRef>
    <FileRef
-      location = "group:/Users/kanstantsinbucha/I/coder/apple/playgrounds/modern/CodingInterview.playground">
+      location = "group:UIKitiOS.playground">
    </FileRef>
    <FileRef
-      location = "group:iOSTimeControl/iOS16andLaterTimeControl.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:play-iOS.playground">
+      location = "group:/Users/kanstantsinbucha/I/swift-playgrounds/modern/SwiftUIiOS.playground">
    </FileRef>
    <FileRef
       location = "group:playMacOS.playground">

@@ -1,7 +1,6 @@
 //: [Previous](@previous)
 
 import UIKit
-import Print
 import XCTest
 
 let color1 = UIColor.lime
