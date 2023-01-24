@@ -15,16 +15,16 @@
       </FileRef>
    </Group>
    <Group
-      location = "group:PlaygroundRunner/../New Group"
+      location = "container:Projects"
       name = "Projects">
       <FileRef
-         location = "group:../DemoUIKit/DemoUIKit.xcodeproj">
+         location = "group:DemoUIKit/DemoUIKit.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:../ModularApp/ModularApp.xcodeproj">
+         location = "group:ModularApp/ModularApp.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:../ModularStoryBoards/ModularStoryboards.xcodeproj">
+         location = "group:ModularStoryBoards/ModularStoryboards.xcodeproj">
       </FileRef>
    </Group>
    <FileRef
@@ -46,7 +46,7 @@
       location = "group:UIKitiOS.playground">
    </FileRef>
    <FileRef
-      location = "group:/Users/kanstantsinbucha/I/swift-playgrounds/modern/SwiftUIiOS.playground">
+      location = "container:SwiftUIiOS.playground">
    </FileRef>
    <FileRef
       location = "group:playMacOS.playground">
