@@ -18,6 +18,9 @@
       location = "container:Projects"
       name = "Projects">
       <FileRef
+         location = "group:SwiftUI1/SwiftUI1.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:DemoUIKit/DemoUIKit.xcodeproj">
       </FileRef>
       <FileRef

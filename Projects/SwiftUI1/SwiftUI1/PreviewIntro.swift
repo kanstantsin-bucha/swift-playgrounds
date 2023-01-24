@@ -1,20 +1,23 @@
-//: [Previous](@previous)
+//
+//  PreviewIntro.swift
+//  SwiftUI1
+//
+//  Created by Kanstantsin Bucha on 24/01/2023.
+//
 
-//import Cocoa
-
-//import Print
 import SwiftUI
 
-struct Previews_Intro: View {
+struct PreviewsIntro: View {
     var body: some View {
+        // Print changes that make view reload the body
+        let _ = Self._printChanges()
         VStack(spacing: 20) {
             Text("Previews")
                 .font(.largeTitle)
             Text("Introduction")
                 .foregroundColor(.gray)
             Text("Xcode looks for a struct that conforms to the PreviewProvider protocol and accesses its previews property to display a view on the Canvas.")
-//                .fixedSize(horizontal: false, vertical: true)
-                .frame(maxWidth: .infinity)
+                .fixedSize(horizontal: false, vertical: true)
                 .background(Color.red)
                 .foregroundColor(.white)
                 .padding()
@@ -41,13 +44,8 @@ struct Previews_Intro: View {
     }
 }
 
-struct Container: View {
-    var body: some View {
-        Previews_Intro()
-            .frame(width: 395, height: 700)
+struct PreviewsIntro_Previews: PreviewProvider {
+    static var previews: some View {
+        PreviewsIntro()
     }
 }
-import PlaygroundSupport
-PlaygroundPage.current.setLiveView(Container())
-
-//: [Next](@next)
