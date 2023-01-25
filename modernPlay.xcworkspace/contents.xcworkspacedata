@@ -2,6 +2,10 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:_GraphQL"
+      name = "_GraphQL">
+   </Group>
+   <Group
       location = "container:_100DaysOfSwiftUI"
       name = "100DaysOfSwiftUI">
       <FileRef
