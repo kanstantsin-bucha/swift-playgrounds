@@ -18,6 +18,8 @@
     "uuid": "^3.3.3"
   },
   "devDependencies": {
+    "@types/graphql": "^14.5.0",
+    "apollo": "^2.34.0",
     "nodemon": "^1.19.2"
   }
 }

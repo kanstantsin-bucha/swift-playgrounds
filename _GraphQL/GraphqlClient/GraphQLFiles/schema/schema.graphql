@@ -1,0 +1,42 @@
+directive @cacheControl(
+  maxAge: Int
+  scope: CacheControlScope
+) on FIELD_DEFINITION | OBJECT | INTERFACE
+enum CacheControlScope {
+  PUBLIC
+  PRIVATE
+}
+
+input createTaskInput {
+  name: String!
+  completed: Boolean!
+  userId: ID!
+}
+
+type Mutation {
+  _: String
+  createTask(input: createTaskInput!): Task
+}
+
+type Query {
+  _: String
+  users: [User!]
+  user(id: ID!): User
+  tasks: [Task!]
+  task(id: ID!): Task
+}
+
+type Task {
+  id: ID!
+  name: String!
+  completed: Boolean!
+  user: User!
+}
+
+type User {
+  id: ID!
+  name: String!
+  email: String!
+  tasks: [Task!]
+}
+
