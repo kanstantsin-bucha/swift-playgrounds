@@ -1,7 +1,18 @@
 
+## Test the app
+
+0 from a command line
+1 navigate to graphql-apollo-api-part1 direcory
+2 run `npm start` 
+
+the graphql server will be started
+
+3 run the iOS Client app
+
+
 ## Generate files form GraphQL Schema
 
-run in command line from the root directory
+run in command line from the project root directory
 ```
  ./apollo-ios-cli generate --verbose
 ```
@@ -12,8 +23,10 @@ No additional work is required
 
 
 if there will be error that `apollo-ios-cli` not found,
-1 go to xcode
-2 right click on the GraphqlClient project file (blue icon)
-3 select "Install CLI" from the menu
+1 go to https://github.com/apollographql/apollo-ios/releases
+2 navigate to assets of the latest release
+3 download apollo-ios-cli.tar.gz file and extract it 
+near the apollo-codegen-config.json
+
 
 

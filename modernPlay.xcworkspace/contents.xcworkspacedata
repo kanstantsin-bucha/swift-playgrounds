@@ -5,7 +5,7 @@
       location = "group:_GraphQL"
       name = "_GraphQL">
       <FileRef
-         location = "group:GraphqlClient/GraphqlClient.xcodeproj">
+         location = "group:ApolloGraphqlClient/GraphqlClient.xcodeproj">
       </FileRef>
    </Group>
    <Group

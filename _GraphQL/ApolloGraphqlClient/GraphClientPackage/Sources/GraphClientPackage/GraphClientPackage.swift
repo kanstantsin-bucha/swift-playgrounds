@@ -65,6 +65,23 @@ public struct GraphClientPackage {
         }
     }
     
+    public func fetchUserWithTasksBy(id: ItemID) async throws -> (user: User, tasks: [Task]) {
+        try await withCheckedThrowingContinuation { continuation in
+            self.client.fetch(query: UserWithTasksByIDQuery(id: id)) { result in
+                guard let clientUser = try? result.get().data?.user else {
+                    continuation.resume(throwing: result.error ?? GraphError.noData)
+                    return
+                }
+                let tasks = (clientUser.tasks ?? []).map {
+                    Task(id: $0.id, name: $0.name, completed: $0.completed)
+                }
+                continuation.resume(returning:
+                    (User(id: clientUser.id, name: clientUser.name), tasks)
+                )
+            }
+        }
+    }
+    
     public func fetchTaskBy(id: ItemID) async throws -> Task {
         try await withCheckedThrowingContinuation { continuation in
             self.client.fetch(query: TaskByIDQuery(id: id)) { result in
