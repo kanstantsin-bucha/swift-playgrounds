@@ -10,7 +10,7 @@
    </Group>
    <Group
       location = "container:_100DaysOfSwiftUI"
-      name = "100DaysOfSwiftUI">
+      name = "_100DaysOfSwiftUI">
       <FileRef
          location = "group:GuessTheFlag/GuessTheFlag.xcodeproj">
       </FileRef>

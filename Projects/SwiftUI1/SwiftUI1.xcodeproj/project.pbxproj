@@ -14,6 +14,7 @@
 		FE44634C298010AB008FA94A /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44634B298010AB008FA94A /* Child.swift */; };
 		FE44634E298013D7008FA94A /* PreviewIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44634D298013D7008FA94A /* PreviewIntro.swift */; };
 		FE4463502980160B008FA94A /* GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44634F2980160B008FA94A /* GeometryReader.swift */; };
+		FE44639F2982762F008FA94A /* RadialGradientAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44639E2982762F008FA94A /* RadialGradientAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FE44634B298010AB008FA94A /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
 		FE44634D298013D7008FA94A /* PreviewIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewIntro.swift; sourceTree = "<group>"; };
 		FE44634F2980160B008FA94A /* GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader.swift; sourceTree = "<group>"; };
+		FE44639E2982762F008FA94A /* RadialGradientAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		FE44633829800790008FA94A /* SwiftUI1 */ = {
 			isa = PBXGroup;
 			children = (
+				FE44639D2982760E008FA94A /* Gradients */,
 				FE44634D298013D7008FA94A /* PreviewIntro.swift */,
 				FE44634F2980160B008FA94A /* GeometryReader.swift */,
 				FE44634A29801081008FA94A /* ParentChildDataFlow */,
@@ -84,6 +87,14 @@
 				FE44634B298010AB008FA94A /* Child.swift */,
 			);
 			path = ParentChildDataFlow;
+			sourceTree = "<group>";
+		};
+		FE44639D2982760E008FA94A /* Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				FE44639E2982762F008FA94A /* RadialGradientAnimation.swift */,
+			);
+			path = Gradients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 				FE446349298007A8008FA94A /* Parent.swift in Sources */,
 				FE4463502980160B008FA94A /* GeometryReader.swift in Sources */,
 				FE44634C298010AB008FA94A /* Child.swift in Sources */,
+				FE44639F2982762F008FA94A /* RadialGradientAnimation.swift in Sources */,
 				FE44634E298013D7008FA94A /* PreviewIntro.swift in Sources */,
 				FE44633A29800790008FA94A /* SwiftUI1App.swift in Sources */,
 			);
