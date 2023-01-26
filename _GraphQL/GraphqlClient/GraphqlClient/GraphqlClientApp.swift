@@ -16,6 +16,15 @@ struct GraphqlClientApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .task {
+                    do {
+                        let users = try await package.fetchAllUsers()
+                        let user = try await package.fetchUserBy(id: users[2].id)
+                        print(user)
+                    } catch {
+                        print(error)
+                    }
+                }
         }
     }
 }

@@ -1,0 +1,11 @@
+query AllTasks {
+  tasks {
+    id
+    name
+    completed
+    user {
+      id
+      name
+    }
+  }
+}
