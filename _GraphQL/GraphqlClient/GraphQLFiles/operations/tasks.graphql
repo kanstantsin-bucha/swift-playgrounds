@@ -9,3 +9,17 @@ query AllTasks {
     }
   }
 }
+
+query TaskByID($id: ID!) {
+  task(id: $id) {
+    id
+    name
+    completed
+  }
+}
+
+mutation CreateTask($input: createTaskInput!){
+  createTask(input: $input) {
+    id
+  }
+}

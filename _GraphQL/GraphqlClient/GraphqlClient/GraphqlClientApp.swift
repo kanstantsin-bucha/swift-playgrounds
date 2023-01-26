@@ -21,6 +21,15 @@ struct GraphqlClientApp: App {
                         let users = try await package.fetchAllUsers()
                         let user = try await package.fetchUserBy(id: users[2].id)
                         print(user)
+                        let taskID = try await package.createTask(
+                            input: CreateTaskInput(
+                                name: "Home Work",
+                                completed: false,
+                                userId: user.id
+                            )
+                        )
+                        let task = try await package.fetchTaskBy(id: taskID)
+                        print(task)
                     } catch {
                         print(error)
                     }
