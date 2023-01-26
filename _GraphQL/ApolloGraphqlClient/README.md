@@ -1,3 +1,10 @@
+## Links
+
+* https://www.apollographql.com/docs/ios/tutorial/codegen-getting-started
+* https://www.apollographql.com/docs/ios/v0-legacy/fetching-queries
+* https://www.apollographql.com/docs/ios/v0-legacy/mutations/
+* 
+
 
 ## Test the app
 
