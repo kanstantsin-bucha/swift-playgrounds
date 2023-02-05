@@ -13,7 +13,8 @@ struct SwiftUI1App: App {
         WindowGroup {
 //            PreviewsIntro()
 //            ParentChildDataFlow()
-            GeometryReaderV()
+//            GeometryReaderV()
+            BottomSheetSizedToFitView()
         }
     }
 }

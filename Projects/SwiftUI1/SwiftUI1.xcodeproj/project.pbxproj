@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE2B0A32298FAF9A00F425F3 /* BottomSheetSizedToFitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2B0A31298FAF9A00F425F3 /* BottomSheetSizedToFitView.swift */; };
 		FE44633A29800790008FA94A /* SwiftUI1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44633929800790008FA94A /* SwiftUI1App.swift */; };
 		FE44633E29800790008FA94A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE44633D29800790008FA94A /* Assets.xcassets */; };
 		FE44634229800790008FA94A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE44634129800790008FA94A /* Preview Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE2B0A31298FAF9A00F425F3 /* BottomSheetSizedToFitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetSizedToFitView.swift; sourceTree = "<group>"; };
 		FE44633629800790008FA94A /* SwiftUI1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE44633929800790008FA94A /* SwiftUI1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI1App.swift; sourceTree = "<group>"; };
 		FE44633D29800790008FA94A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE2B0A33298FB32900F425F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE2B0A31298FAF9A00F425F3 /* BottomSheetSizedToFitView.swift */,
+				FE44634F2980160B008FA94A /* GeometryReader.swift */,
+				FE44634D298013D7008FA94A /* PreviewIntro.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		FE44632D2980078F008FA94A = {
 			isa = PBXGroup;
 			children = (
@@ -61,8 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				FE44639D2982760E008FA94A /* Gradients */,
-				FE44634D298013D7008FA94A /* PreviewIntro.swift */,
-				FE44634F2980160B008FA94A /* GeometryReader.swift */,
+				FE2B0A33298FB32900F425F3 /* Views */,
 				FE44634A29801081008FA94A /* ParentChildDataFlow */,
 				FE44633929800790008FA94A /* SwiftUI1App.swift */,
 				FE44633D29800790008FA94A /* Assets.xcassets */,
@@ -168,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE446349298007A8008FA94A /* Parent.swift in Sources */,
+				FE2B0A32298FAF9A00F425F3 /* BottomSheetSizedToFitView.swift in Sources */,
 				FE4463502980160B008FA94A /* GeometryReader.swift in Sources */,
 				FE44634C298010AB008FA94A /* Child.swift in Sources */,
 				FE44639F2982762F008FA94A /* RadialGradientAnimation.swift in Sources */,
