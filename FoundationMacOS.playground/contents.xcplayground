@@ -11,5 +11,7 @@
         <page name='NSPredicate'/>
         <page name='DispatchGroupWait'/>
         <page name='UserNotifications'/>
+        <page name='CoreLocation'/>
+        <page name='CoreBluetooth'/>
     </pages>
 </playground>

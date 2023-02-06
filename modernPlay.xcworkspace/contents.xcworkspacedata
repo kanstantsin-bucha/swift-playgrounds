@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "container:_NewRelicIntegration"
+      name = "NewRelic">
+      <FileRef
+         location = "group:NewRelicIntegration.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:_GraphQL"
       name = "_GraphQL">
       <FileRef
