@@ -25,14 +25,14 @@ struct ContentView: View {
             )
             .ignoresSafeArea()
             VStack(alignment: .center) {
-                Text("Type a flag of")
+                Text("Tap a flag of")
                     .font(.headline)
                     .fontWeight(.bold)
-                    .foregroundStyle(.thickMaterial)
+                    .foregroundColor(.white)
                     .shadow(color: .blue, radius: 4)
                 Text("\(countries[correctAnswer])")
                     .font(.largeTitle)
-                    .foregroundStyle(.thickMaterial)
+                    .foregroundColor(.white)
                     .shadow(color: .blue, radius: 4)
                 ForEach(0..<3) { index in
                     button(
