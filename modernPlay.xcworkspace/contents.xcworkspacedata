@@ -14,6 +14,181 @@
    <Group
       location = "container:_100DaysOfSwiftUI"
       name = "_100DaysOfSwiftUI">
+      <Group
+         location = "group:100DaysOverview"
+         name = "100DaysOverview">
+         <FileRef
+            location = "group:100Days.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:100Days"
+            name = "100Days">
+            <FileRef
+               location = "group:BlursEffectView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SpirographView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CustomModifierView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ShowingAndHidingView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:UserDefaultView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:StepperView.swift">
+            </FileRef>
+            <FileRef
+               location = "group: HierarchicalCodableDataView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ListView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Term&amp;ConditionView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ResizingImageView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:AppStorageView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ColorCyclingView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ScrollViewExampleView.swift">
+            </FileRef>
+            <FileRef
+               location = "group: BindingView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:TrapezoidView.swift">
+            </FileRef>
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:Image.imageset"
+                  name = "Image.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Image.jpg">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:1024.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:AccentColor.colorset"
+                  name = "AccentColor.colorset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:ScrollingGridView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:NavigationLinkView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ViewModifierView.swift">
+            </FileRef>
+            <Group
+               location = "group:Preview Content"
+               name = "Preview Content">
+               <Group
+                  location = "group:Preview Assets.xcassets"
+                  name = "Preview Assets.xcassets">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:ColoredCirclesView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CheckerBoardView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:AnimationView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SpecialEffectsView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:BorderImageView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:DrawingShapeView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:DatePickerView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:InsettableShapeView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:DeletingView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SheetView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:DragView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:GridStackView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:_00DaysApp.swift">
+            </FileRef>
+            <FileRef
+               location = "group:DrawingPathView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:ContentView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:FlowerShapeView.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:100DaysTests"
+            name = "100DaysTests">
+            <FileRef
+               location = "group:_00DaysTests.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:100DaysUITests"
+            name = "100DaysUITests">
+            <FileRef
+               location = "group:_00DaysUITests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:_00DaysUITestsLaunchTests.swift">
+            </FileRef>
+         </Group>
+      </Group>
       <FileRef
          location = "group:GuessTheFlag/GuessTheFlag.xcodeproj">
       </FileRef>
