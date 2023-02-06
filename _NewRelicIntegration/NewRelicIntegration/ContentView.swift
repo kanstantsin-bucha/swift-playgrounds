@@ -16,6 +16,11 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .task {
+            let request = URLRequest(url: URL(string: "https://tut.by")!)
+            
+             try? await URLSession.shared.data(for: request)
+        }
     }
 }
 

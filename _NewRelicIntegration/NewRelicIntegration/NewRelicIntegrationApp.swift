@@ -13,6 +13,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         main.startTelemetry()
+        main.sendEvent()
+        main.sendLog()
         return true
     }
 }
