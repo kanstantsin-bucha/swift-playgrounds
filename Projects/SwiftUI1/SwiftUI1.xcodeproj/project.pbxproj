@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		FE2B0A31298FAF9A00F425F3 /* BottomSheetSizedToFitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetSizedToFitView.swift; sourceTree = "<group>"; };
+		FE2B0A34298FB8E700F425F3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FE44633629800790008FA94A /* SwiftUI1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE44633929800790008FA94A /* SwiftUI1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI1App.swift; sourceTree = "<group>"; };
 		FE44633D29800790008FA94A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 				FE44633D29800790008FA94A /* Assets.xcassets */,
 				FE44633F29800790008FA94A /* SwiftUI1.entitlements */,
 				FE44634029800790008FA94A /* Preview Content */,
+				FE2B0A34298FB8E700F425F3 /* README.md */,
 			);
 			path = SwiftUI1;
 			sourceTree = "<group>";
