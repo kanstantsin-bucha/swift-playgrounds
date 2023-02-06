@@ -27,10 +27,13 @@ struct ContentView: View {
             VStack(alignment: .center) {
                 Text("Type a flag of")
                     .font(.headline)
+                    .fontWeight(.bold)
                     .foregroundStyle(.thickMaterial)
+                    .shadow(color: .blue, radius: 4)
                 Text("\(countries[correctAnswer])")
                     .font(.largeTitle)
                     .foregroundStyle(.thickMaterial)
+                    .shadow(color: .blue, radius: 4)
                 ForEach(0..<3) { index in
                     button(
                         viewSettings(
