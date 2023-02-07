@@ -39,6 +39,8 @@
 		AC7FE5EA2987CCC20036E736 /* HierarchicalCodableDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7FE5E92987CCC20036E736 /* HierarchicalCodableDataView.swift */; };
 		AC7FE5EC2987D9920036E736 /* ScrollingGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7FE5EB2987D9920036E736 /* ScrollingGridView.swift */; };
 		AC819C3229922ED1009F7522 /* CodableConformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC819C3129922ED1009F7522 /* CodableConformanceView.swift */; };
+		AC819C3429924298009F7522 /* CodableDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC819C3329924298009F7522 /* CodableDataView.swift */; };
+		AC819C5629928669009F7522 /* LoadingImageFromServerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC819C5529928669009F7522 /* LoadingImageFromServerView.swift */; };
 		ACA7F7632981161B003B91AB /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA7F7622981161B003B91AB /* AnimationView.swift */; };
 		ACA7F76729815CEA003B91AB /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA7F76629815CEA003B91AB /* DragView.swift */; };
 		ACA7F769298160DC003B91AB /* ShowingAndHidingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA7F768298160DC003B91AB /* ShowingAndHidingView.swift */; };
@@ -102,6 +104,8 @@
 		AC7FE5E92987CCC20036E736 /* HierarchicalCodableDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchicalCodableDataView.swift; sourceTree = "<group>"; };
 		AC7FE5EB2987D9920036E736 /* ScrollingGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingGridView.swift; sourceTree = "<group>"; };
 		AC819C3129922ED1009F7522 /* CodableConformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableConformanceView.swift; sourceTree = "<group>"; };
+		AC819C3329924298009F7522 /* CodableDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableDataView.swift; sourceTree = "<group>"; };
+		AC819C5529928669009F7522 /* LoadingImageFromServerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingImageFromServerView.swift; sourceTree = "<group>"; };
 		ACA7F7622981161B003B91AB /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		ACA7F76629815CEA003B91AB /* DragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
 		ACA7F768298160DC003B91AB /* ShowingAndHidingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingAndHidingView.swift; sourceTree = "<group>"; };
@@ -195,6 +199,8 @@
 				AC1D5B71298C13AE00241F24 /* CheckerBoardView.swift */,
 				AC1D5B73298C310600241F24 /* SpirographView.swift */,
 				AC819C3129922ED1009F7522 /* CodableConformanceView.swift */,
+				AC819C3329924298009F7522 /* CodableDataView.swift */,
+				AC819C5529928669009F7522 /* LoadingImageFromServerView.swift */,
 				AC5E59FC29780BE400290E31 /* Assets.xcassets */,
 				AC5E59FE29780BE400290E31 /* Preview Content */,
 			);
@@ -379,10 +385,12 @@
 				AC5E5A5B29796F9400290E31 /* ViewModifierView.swift in Sources */,
 				AC819C3229922ED1009F7522 /* CodableConformanceView.swift in Sources */,
 				AC1D5B60298AAFF800241F24 /* DrawingShapeView.swift in Sources */,
+				AC819C3429924298009F7522 /* CodableDataView.swift in Sources */,
 				AC1D5B66298BD74D00241F24 /* BorderImageView.swift in Sources */,
 				AC1D5B74298C310600241F24 /* SpirographView.swift in Sources */,
 				AC1D5B68298BE1E600241F24 /* ColorCyclingView.swift in Sources */,
 				AC1D5B62298ABC7F00241F24 /* InsettableShapeView.swift in Sources */,
+				AC819C5629928669009F7522 /* LoadingImageFromServerView.swift in Sources */,
 				AC1D5B6C298BF06000241F24 /* ColoredCirclesView.swift in Sources */,
 				AC52F4E7297E9AA8005006E8 /* StepperView.swift in Sources */,
 				AC5E59FB29780BE400290E31 /* ContentView.swift in Sources */,
