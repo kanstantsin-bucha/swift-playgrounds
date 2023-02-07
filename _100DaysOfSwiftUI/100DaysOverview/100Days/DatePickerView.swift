@@ -12,6 +12,7 @@ struct DatePickerView: View {
     var body: some View {
         VStack {
             Text(Date.now.formatted(date: .complete, time: .omitted))
+           
             
             DatePicker("Please select Date", selection: $wakeUp,  in: Date.now..., displayedComponents: .hourAndMinute)
                 .labelsHidden()
