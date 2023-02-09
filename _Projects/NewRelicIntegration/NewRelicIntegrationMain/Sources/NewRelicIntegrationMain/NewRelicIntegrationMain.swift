@@ -2,6 +2,7 @@ import NewRelic
 
 public struct NewRelicIntegrationMain {
     public private(set) var text = "Hello, World!"
+    private let telemetry = NewRelicTelemetry()
 
     public init() {}
     
@@ -34,6 +35,13 @@ public struct NewRelicIntegrationMain {
         print("Send event: \(result)")
         NewRelic.recordMetric(withName: "MyMetricName", category: "MobileApp")
         NewRelic.recordBreadcrumb("SendEvent")
+    }
+    
+    public func startLogsTelemetry() {
+        telemetry.start()
+        telemetry.add(event: "App Started")
+        telemetry.add(event: "Telemetry Event 1")
+        telemetry.add(event: "Telemetry Event 2")
     }
     
     private func updateUserID() {

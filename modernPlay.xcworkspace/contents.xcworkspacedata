@@ -2,18 +2,8 @@
 <Workspace
    version = "1.0">
    <Group
-      location = "container:_NewRelicIntegration"
-      name = "NewRelic">
-      <FileRef
-         location = "group:NewRelicIntegration.xcodeproj">
-      </FileRef>
-   </Group>
-   <Group
       location = "group:_GraphQL"
       name = "_GraphQL">
-      <FileRef
-         location = "group:SwiftGraphQL/SwiftGraphQL.xcodeproj">
-      </FileRef>
       <FileRef
          location = "group:ApolloGraphqlClient/GraphqlClient.xcodeproj">
       </FileRef>
@@ -39,8 +29,11 @@
       </FileRef>
    </Group>
    <Group
-      location = "container:Projects"
-      name = "Projects">
+      location = "container:_Projects"
+      name = "_Projects">
+      <FileRef
+         location = "group:NewRelicIntegration/NewRelicIntegration.xcodeproj">
+      </FileRef>
       <FileRef
          location = "group:SwiftUI1/SwiftUI1.xcodeproj">
       </FileRef>

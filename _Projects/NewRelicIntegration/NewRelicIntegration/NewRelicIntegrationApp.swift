@@ -15,6 +15,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         main.startTelemetry()
         main.sendEvent()
         main.sendLog()
+        main.startLogsTelemetry()
         return true
     }
 }
