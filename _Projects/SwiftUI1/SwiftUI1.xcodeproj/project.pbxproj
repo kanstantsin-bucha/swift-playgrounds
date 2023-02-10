@@ -7,23 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FEC7C5072973163A008D705F /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7C5062973163A008D705F /* GuessTheFlagApp.swift */; };
-		FEC7C5092973163A008D705F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7C5082973163A008D705F /* ContentView.swift */; };
-		FEC7C50B2973163B008D705F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC7C50A2973163B008D705F /* Assets.xcassets */; };
-		FEC7C50F2973163B008D705F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC7C50E2973163B008D705F /* Preview Assets.xcassets */; };
+		FE2B0A32298FAF9A00F425F3 /* BottomSheetSizedToFitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2B0A31298FAF9A00F425F3 /* BottomSheetSizedToFitView.swift */; };
+		FE44633A29800790008FA94A /* SwiftUI1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44633929800790008FA94A /* SwiftUI1App.swift */; };
+		FE44633E29800790008FA94A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE44633D29800790008FA94A /* Assets.xcassets */; };
+		FE44634229800790008FA94A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE44634129800790008FA94A /* Preview Assets.xcassets */; };
+		FE446349298007A8008FA94A /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE446348298007A8008FA94A /* Parent.swift */; };
+		FE44634C298010AB008FA94A /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44634B298010AB008FA94A /* Child.swift */; };
+		FE44634E298013D7008FA94A /* PreviewIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44634D298013D7008FA94A /* PreviewIntro.swift */; };
+		FE4463502980160B008FA94A /* GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44634F2980160B008FA94A /* GeometryReader.swift */; };
+		FE44639F2982762F008FA94A /* RadialGradientAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44639E2982762F008FA94A /* RadialGradientAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FEC7C5032973163A008D705F /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEC7C5062973163A008D705F /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
-		FEC7C5082973163A008D705F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FEC7C50A2973163B008D705F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FEC7C50C2973163B008D705F /* GuessTheFlag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GuessTheFlag.entitlements; sourceTree = "<group>"; };
-		FEC7C50E2973163B008D705F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE2B0A31298FAF9A00F425F3 /* BottomSheetSizedToFitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetSizedToFitView.swift; sourceTree = "<group>"; };
+		FE2B0A34298FB8E700F425F3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE44633629800790008FA94A /* SwiftUI1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE44633929800790008FA94A /* SwiftUI1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI1App.swift; sourceTree = "<group>"; };
+		FE44633D29800790008FA94A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE44633F29800790008FA94A /* SwiftUI1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI1.entitlements; sourceTree = "<group>"; };
+		FE44634129800790008FA94A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE446348298007A8008FA94A /* Parent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parent.swift; sourceTree = "<group>"; };
+		FE44634B298010AB008FA94A /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		FE44634D298013D7008FA94A /* PreviewIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewIntro.swift; sourceTree = "<group>"; };
+		FE44634F2980160B008FA94A /* GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader.swift; sourceTree = "<group>"; };
+		FE44639E2982762F008FA94A /* RadialGradientAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FEC7C5002973163A008D705F /* Frameworks */ = {
+		FE44633329800790008FA94A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,78 +44,108 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FEC7C4FA2973163A008D705F = {
+		FE2B0A33298FB32900F425F3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FEC7C5052973163A008D705F /* GuessTheFlag */,
-				FEC7C5042973163A008D705F /* Products */,
+				FE2B0A31298FAF9A00F425F3 /* BottomSheetSizedToFitView.swift */,
+				FE44634F2980160B008FA94A /* GeometryReader.swift */,
+				FE44634D298013D7008FA94A /* PreviewIntro.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE44632D2980078F008FA94A = {
+			isa = PBXGroup;
+			children = (
+				FE44633829800790008FA94A /* SwiftUI1 */,
+				FE44633729800790008FA94A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FEC7C5042973163A008D705F /* Products */ = {
+		FE44633729800790008FA94A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FEC7C5032973163A008D705F /* GuessTheFlag.app */,
+				FE44633629800790008FA94A /* SwiftUI1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FEC7C5052973163A008D705F /* GuessTheFlag */ = {
+		FE44633829800790008FA94A /* SwiftUI1 */ = {
 			isa = PBXGroup;
 			children = (
-				FEC7C5062973163A008D705F /* GuessTheFlagApp.swift */,
-				FEC7C5082973163A008D705F /* ContentView.swift */,
-				FEC7C50A2973163B008D705F /* Assets.xcassets */,
-				FEC7C50C2973163B008D705F /* GuessTheFlag.entitlements */,
-				FEC7C50D2973163B008D705F /* Preview Content */,
+				FE44639D2982760E008FA94A /* Gradients */,
+				FE2B0A33298FB32900F425F3 /* Views */,
+				FE44634A29801081008FA94A /* ParentChildDataFlow */,
+				FE44633929800790008FA94A /* SwiftUI1App.swift */,
+				FE44633D29800790008FA94A /* Assets.xcassets */,
+				FE44633F29800790008FA94A /* SwiftUI1.entitlements */,
+				FE44634029800790008FA94A /* Preview Content */,
+				FE2B0A34298FB8E700F425F3 /* README.md */,
 			);
-			path = GuessTheFlag;
+			path = SwiftUI1;
 			sourceTree = "<group>";
 		};
-		FEC7C50D2973163B008D705F /* Preview Content */ = {
+		FE44634029800790008FA94A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FEC7C50E2973163B008D705F /* Preview Assets.xcassets */,
+				FE44634129800790008FA94A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE44634A29801081008FA94A /* ParentChildDataFlow */ = {
+			isa = PBXGroup;
+			children = (
+				FE446348298007A8008FA94A /* Parent.swift */,
+				FE44634B298010AB008FA94A /* Child.swift */,
+			);
+			path = ParentChildDataFlow;
+			sourceTree = "<group>";
+		};
+		FE44639D2982760E008FA94A /* Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				FE44639E2982762F008FA94A /* RadialGradientAnimation.swift */,
+			);
+			path = Gradients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FEC7C5022973163A008D705F /* GuessTheFlag */ = {
+		FE44633529800790008FA94A /* SwiftUI1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEC7C5122973163B008D705F /* Build configuration list for PBXNativeTarget "GuessTheFlag" */;
+			buildConfigurationList = FE44634529800790008FA94A /* Build configuration list for PBXNativeTarget "SwiftUI1" */;
 			buildPhases = (
-				FEC7C4FF2973163A008D705F /* Sources */,
-				FEC7C5002973163A008D705F /* Frameworks */,
-				FEC7C5012973163A008D705F /* Resources */,
+				FE44633229800790008FA94A /* Sources */,
+				FE44633329800790008FA94A /* Frameworks */,
+				FE44633429800790008FA94A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GuessTheFlag;
-			productName = GuessTheFlag;
-			productReference = FEC7C5032973163A008D705F /* GuessTheFlag.app */;
+			name = SwiftUI1;
+			productName = SwiftUI1;
+			productReference = FE44633629800790008FA94A /* SwiftUI1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FEC7C4FB2973163A008D705F /* Project object */ = {
+		FE44632E2980078F008FA94A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					FEC7C5022973163A008D705F = {
-						CreatedOnToolsVersion = 14.1;
+					FE44633529800790008FA94A = {
+						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = FEC7C4FE2973163A008D705F /* Build configuration list for PBXProject "GuessTheFlag" */;
+			buildConfigurationList = FE4463312980078F008FA94A /* Build configuration list for PBXProject "SwiftUI1" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,42 +153,47 @@
 				en,
 				Base,
 			);
-			mainGroup = FEC7C4FA2973163A008D705F;
-			productRefGroup = FEC7C5042973163A008D705F /* Products */;
+			mainGroup = FE44632D2980078F008FA94A;
+			productRefGroup = FE44633729800790008FA94A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FEC7C5022973163A008D705F /* GuessTheFlag */,
+				FE44633529800790008FA94A /* SwiftUI1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FEC7C5012973163A008D705F /* Resources */ = {
+		FE44633429800790008FA94A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEC7C50F2973163B008D705F /* Preview Assets.xcassets in Resources */,
-				FEC7C50B2973163B008D705F /* Assets.xcassets in Resources */,
+				FE44634229800790008FA94A /* Preview Assets.xcassets in Resources */,
+				FE44633E29800790008FA94A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FEC7C4FF2973163A008D705F /* Sources */ = {
+		FE44633229800790008FA94A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEC7C5092973163A008D705F /* ContentView.swift in Sources */,
-				FEC7C5072973163A008D705F /* GuessTheFlagApp.swift in Sources */,
+				FE446349298007A8008FA94A /* Parent.swift in Sources */,
+				FE2B0A32298FAF9A00F425F3 /* BottomSheetSizedToFitView.swift in Sources */,
+				FE4463502980160B008FA94A /* GeometryReader.swift in Sources */,
+				FE44634C298010AB008FA94A /* Child.swift in Sources */,
+				FE44639F2982762F008FA94A /* RadialGradientAnimation.swift in Sources */,
+				FE44634E298013D7008FA94A /* PreviewIntro.swift in Sources */,
+				FE44633A29800790008FA94A /* SwiftUI1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FEC7C5102973163B008D705F /* Debug */ = {
+		FE44634329800790008FA94A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		FEC7C5112973163B008D705F /* Release */ = {
+		FE44634429800790008FA94A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,17 +302,15 @@
 			};
 			name = Release;
 		};
-		FEC7C5132973163B008D705F /* Debug */ = {
+		FE44634629800790008FA94A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = GuessTheFlag/GuessTheFlag.entitlements;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_ENTITLEMENTS = SwiftUI1/SwiftUI1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = J6252NJ42R;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -279,15 +323,13 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kanstantsin-bucha.playground.GuessTheFlag";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kanstantsin-bucha.play.SwiftUI1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Wildcard;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -296,17 +338,15 @@
 			};
 			name = Debug;
 		};
-		FEC7C5142973163B008D705F /* Release */ = {
+		FE44634729800790008FA94A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = GuessTheFlag/GuessTheFlag.entitlements;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_ENTITLEMENTS = SwiftUI1/SwiftUI1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = J6252NJ42R;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -319,15 +359,13 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kanstantsin-bucha.playground.GuessTheFlag";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kanstantsin-bucha.play.SwiftUI1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Wildcard;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -339,25 +377,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FEC7C4FE2973163A008D705F /* Build configuration list for PBXProject "GuessTheFlag" */ = {
+		FE4463312980078F008FA94A /* Build configuration list for PBXProject "SwiftUI1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEC7C5102973163B008D705F /* Debug */,
-				FEC7C5112973163B008D705F /* Release */,
+				FE44634329800790008FA94A /* Debug */,
+				FE44634429800790008FA94A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FEC7C5122973163B008D705F /* Build configuration list for PBXNativeTarget "GuessTheFlag" */ = {
+		FE44634529800790008FA94A /* Build configuration list for PBXNativeTarget "SwiftUI1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEC7C5132973163B008D705F /* Debug */,
-				FEC7C5142973163B008D705F /* Release */,
+				FE44634629800790008FA94A /* Debug */,
+				FE44634729800790008FA94A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FEC7C4FB2973163A008D705F /* Project object */;
+	rootObject = FE44632E2980078F008FA94A /* Project object */;
 }

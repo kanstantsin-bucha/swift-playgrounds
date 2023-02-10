@@ -7,132 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE44633A29800790008FA94A /* SwiftUI1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44633929800790008FA94A /* SwiftUI1App.swift */; };
-		FE44633E29800790008FA94A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE44633D29800790008FA94A /* Assets.xcassets */; };
-		FE44634229800790008FA94A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE44634129800790008FA94A /* Preview Assets.xcassets */; };
-		FE446349298007A8008FA94A /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE446348298007A8008FA94A /* Parent.swift */; };
-		FE44634C298010AB008FA94A /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44634B298010AB008FA94A /* Child.swift */; };
-		FE44634E298013D7008FA94A /* PreviewIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44634D298013D7008FA94A /* PreviewIntro.swift */; };
-		FE4463502980160B008FA94A /* GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44634F2980160B008FA94A /* GeometryReader.swift */; };
-		FE44639F2982762F008FA94A /* RadialGradientAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44639E2982762F008FA94A /* RadialGradientAnimation.swift */; };
+		FE35A74B299102480004974F /* NewRelicIntegrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE35A74A299102480004974F /* NewRelicIntegrationApp.swift */; };
+		FE35A74D299102480004974F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE35A74C299102480004974F /* ContentView.swift */; };
+		FE35A74F299102490004974F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE35A74E299102490004974F /* Assets.xcassets */; };
+		FE35A753299102490004974F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE35A752299102490004974F /* Preview Assets.xcassets */; };
+		FE35A75E299106710004974F /* NewRelicIntegrationMain in Frameworks */ = {isa = PBXBuildFile; productRef = FE35A75D299106710004974F /* NewRelicIntegrationMain */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE44633629800790008FA94A /* SwiftUI1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE44633929800790008FA94A /* SwiftUI1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI1App.swift; sourceTree = "<group>"; };
-		FE44633D29800790008FA94A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FE44633F29800790008FA94A /* SwiftUI1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI1.entitlements; sourceTree = "<group>"; };
-		FE44634129800790008FA94A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FE446348298007A8008FA94A /* Parent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parent.swift; sourceTree = "<group>"; };
-		FE44634B298010AB008FA94A /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
-		FE44634D298013D7008FA94A /* PreviewIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewIntro.swift; sourceTree = "<group>"; };
-		FE44634F2980160B008FA94A /* GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader.swift; sourceTree = "<group>"; };
-		FE44639E2982762F008FA94A /* RadialGradientAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientAnimation.swift; sourceTree = "<group>"; };
+		FE35A747299102480004974F /* NewRelicIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewRelicIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE35A74A299102480004974F /* NewRelicIntegrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRelicIntegrationApp.swift; sourceTree = "<group>"; };
+		FE35A74C299102480004974F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE35A74E299102490004974F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE35A750299102490004974F /* NewRelicIntegration.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewRelicIntegration.entitlements; sourceTree = "<group>"; };
+		FE35A752299102490004974F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE35A75B2991052D0004974F /* NewRelicIntegrationMain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NewRelicIntegrationMain; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FE44633329800790008FA94A /* Frameworks */ = {
+		FE35A744299102480004974F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE35A75E299106710004974F /* NewRelicIntegrationMain in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FE44632D2980078F008FA94A = {
+		FE35A73E299102480004974F = {
 			isa = PBXGroup;
 			children = (
-				FE44633829800790008FA94A /* SwiftUI1 */,
-				FE44633729800790008FA94A /* Products */,
+				FE35A75B2991052D0004974F /* NewRelicIntegrationMain */,
+				FE35A749299102480004974F /* NewRelicIntegration */,
+				FE35A748299102480004974F /* Products */,
+				FE35A75C299106710004974F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		FE44633729800790008FA94A /* Products */ = {
+		FE35A748299102480004974F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE44633629800790008FA94A /* SwiftUI1.app */,
+				FE35A747299102480004974F /* NewRelicIntegration.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FE44633829800790008FA94A /* SwiftUI1 */ = {
+		FE35A749299102480004974F /* NewRelicIntegration */ = {
 			isa = PBXGroup;
 			children = (
-				FE44639D2982760E008FA94A /* Gradients */,
-				FE44634D298013D7008FA94A /* PreviewIntro.swift */,
-				FE44634F2980160B008FA94A /* GeometryReader.swift */,
-				FE44634A29801081008FA94A /* ParentChildDataFlow */,
-				FE44633929800790008FA94A /* SwiftUI1App.swift */,
-				FE44633D29800790008FA94A /* Assets.xcassets */,
-				FE44633F29800790008FA94A /* SwiftUI1.entitlements */,
-				FE44634029800790008FA94A /* Preview Content */,
+				FE35A74A299102480004974F /* NewRelicIntegrationApp.swift */,
+				FE35A74C299102480004974F /* ContentView.swift */,
+				FE35A74E299102490004974F /* Assets.xcassets */,
+				FE35A750299102490004974F /* NewRelicIntegration.entitlements */,
+				FE35A751299102490004974F /* Preview Content */,
 			);
-			path = SwiftUI1;
+			path = NewRelicIntegration;
 			sourceTree = "<group>";
 		};
-		FE44634029800790008FA94A /* Preview Content */ = {
+		FE35A751299102490004974F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FE44634129800790008FA94A /* Preview Assets.xcassets */,
+				FE35A752299102490004974F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FE44634A29801081008FA94A /* ParentChildDataFlow */ = {
+		FE35A75C299106710004974F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FE446348298007A8008FA94A /* Parent.swift */,
-				FE44634B298010AB008FA94A /* Child.swift */,
 			);
-			path = ParentChildDataFlow;
-			sourceTree = "<group>";
-		};
-		FE44639D2982760E008FA94A /* Gradients */ = {
-			isa = PBXGroup;
-			children = (
-				FE44639E2982762F008FA94A /* RadialGradientAnimation.swift */,
-			);
-			path = Gradients;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE44633529800790008FA94A /* SwiftUI1 */ = {
+		FE35A746299102480004974F /* NewRelicIntegration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE44634529800790008FA94A /* Build configuration list for PBXNativeTarget "SwiftUI1" */;
+			buildConfigurationList = FE35A756299102490004974F /* Build configuration list for PBXNativeTarget "NewRelicIntegration" */;
 			buildPhases = (
-				FE44633229800790008FA94A /* Sources */,
-				FE44633329800790008FA94A /* Frameworks */,
-				FE44633429800790008FA94A /* Resources */,
+				FE35A743299102480004974F /* Sources */,
+				FE35A744299102480004974F /* Frameworks */,
+				FE35A745299102480004974F /* Resources */,
+				FE35A75F299108180004974F /* Run NewRelic upload dSYM script */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftUI1;
-			productName = SwiftUI1;
-			productReference = FE44633629800790008FA94A /* SwiftUI1.app */;
+			name = NewRelicIntegration;
+			packageProductDependencies = (
+				FE35A75D299106710004974F /* NewRelicIntegrationMain */,
+			);
+			productName = NewRelicIntegration;
+			productReference = FE35A747299102480004974F /* NewRelicIntegration.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FE44632E2980078F008FA94A /* Project object */ = {
+		FE35A73F299102480004974F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					FE44633529800790008FA94A = {
+					FE35A746299102480004974F = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = FE4463312980078F008FA94A /* Build configuration list for PBXProject "SwiftUI1" */;
+			buildConfigurationList = FE35A742299102480004974F /* Build configuration list for PBXProject "NewRelicIntegration" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,46 +128,65 @@
 				en,
 				Base,
 			);
-			mainGroup = FE44632D2980078F008FA94A;
-			productRefGroup = FE44633729800790008FA94A /* Products */;
+			mainGroup = FE35A73E299102480004974F;
+			productRefGroup = FE35A748299102480004974F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE44633529800790008FA94A /* SwiftUI1 */,
+				FE35A746299102480004974F /* NewRelicIntegration */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FE44633429800790008FA94A /* Resources */ = {
+		FE35A745299102480004974F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE44634229800790008FA94A /* Preview Assets.xcassets in Resources */,
-				FE44633E29800790008FA94A /* Assets.xcassets in Resources */,
+				FE35A753299102490004974F /* Preview Assets.xcassets in Resources */,
+				FE35A74F299102490004974F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FE35A75F299108180004974F /* Run NewRelic upload dSYM script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run NewRelic upload dSYM script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCRIPT=`/usr/bin/find \"${SRCROOT}\" -name newrelic_postbuild.sh | head -n 1`\n\nif [ -z \"${SCRIPT}\"]; then\n\necho I Found a script\n\nARTIFACT_DIR=\"${BUILD_DIR%Build/*}SourcePackages/artifacts\"\n\nSCRIPT=`/usr/bin/find \"${ARTIFACT_DIR}\" -name newrelic_postbuild.sh | head -n 1`\n\nfi\n\n/bin/sh \"${SCRIPT}\" \"eu01xx70af9ba14518a8b5591e877e3503b82a6123-NRMA\"\n\necho I finished\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		FE44633229800790008FA94A /* Sources */ = {
+		FE35A743299102480004974F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE446349298007A8008FA94A /* Parent.swift in Sources */,
-				FE4463502980160B008FA94A /* GeometryReader.swift in Sources */,
-				FE44634C298010AB008FA94A /* Child.swift in Sources */,
-				FE44639F2982762F008FA94A /* RadialGradientAnimation.swift in Sources */,
-				FE44634E298013D7008FA94A /* PreviewIntro.swift in Sources */,
-				FE44633A29800790008FA94A /* SwiftUI1App.swift in Sources */,
+				FE35A74D299102480004974F /* ContentView.swift in Sources */,
+				FE35A74B299102480004974F /* NewRelicIntegrationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FE44634329800790008FA94A /* Debug */ = {
+		FE35A754299102490004974F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +244,7 @@
 			};
 			name = Debug;
 		};
-		FE44634429800790008FA94A /* Release */ = {
+		FE35A755299102490004974F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,15 +295,15 @@
 			};
 			name = Release;
 		};
-		FE44634629800790008FA94A /* Debug */ = {
+		FE35A757299102490004974F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SwiftUI1/SwiftUI1.entitlements;
+				CODE_SIGN_ENTITLEMENTS = NewRelicIntegration/NewRelicIntegration.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NewRelicIntegration/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -309,30 +316,32 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kanstantsin-bucha.play.SwiftUI1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kanstantsin-bucha.play.NewRelicIntegration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FE44634729800790008FA94A /* Release */ = {
+		FE35A758299102490004974F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SwiftUI1/SwiftUI1.entitlements;
+				CODE_SIGN_ENTITLEMENTS = NewRelicIntegration/NewRelicIntegration.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NewRelicIntegration/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -345,15 +354,17 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kanstantsin-bucha.play.SwiftUI1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kanstantsin-bucha.play.NewRelicIntegration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -363,25 +374,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FE4463312980078F008FA94A /* Build configuration list for PBXProject "SwiftUI1" */ = {
+		FE35A742299102480004974F /* Build configuration list for PBXProject "NewRelicIntegration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE44634329800790008FA94A /* Debug */,
-				FE44634429800790008FA94A /* Release */,
+				FE35A754299102490004974F /* Debug */,
+				FE35A755299102490004974F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE44634529800790008FA94A /* Build configuration list for PBXNativeTarget "SwiftUI1" */ = {
+		FE35A756299102490004974F /* Build configuration list for PBXNativeTarget "NewRelicIntegration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE44634629800790008FA94A /* Debug */,
-				FE44634729800790008FA94A /* Release */,
+				FE35A757299102490004974F /* Debug */,
+				FE35A758299102490004974F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE35A75D299106710004974F /* NewRelicIntegrationMain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NewRelicIntegrationMain;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = FE44632E2980078F008FA94A /* Project object */;
+	rootObject = FE35A73F299102480004974F /* Project object */;
 }
