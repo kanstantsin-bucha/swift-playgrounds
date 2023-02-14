@@ -29,6 +29,95 @@
       </FileRef>
    </Group>
    <Group
+      location = "group:/Users/kanstantsinbucha/I/swift-playgrounds/_Packages"
+      name = "_Packages">
+      <Group
+         location = "group:MethodSwizzling"
+         name = "MethodSwizzling">
+         <Group
+            location = "group:Tests"
+            name = "Tests">
+            <Group
+               location = "group:MethodSwizzlingTests"
+               name = "MethodSwizzlingTests">
+               <FileRef
+                  location = "group:MethodSwizzlingTests.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:Package.swift">
+         </FileRef>
+         <Group
+            location = "group:Sources"
+            name = "Sources">
+            <Group
+               location = "group:MethodSwizzling"
+               name = "MethodSwizzling">
+               <FileRef
+                  location = "group:MethodSwizzling.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:main.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:CentralDelegate.swift">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:nodejs-unix-sockets"
+         name = "nodejs-unix-sockets">
+         <FileRef
+            location = "group:/Users/kanstantsinbucha/I/swift-playgrounds/_Packages/nodejs-unix-sockets/index.js">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:swift-unix-sockets"
+         name = "swift-unix-sockets">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:Package.resolved">
+         </FileRef>
+         <FileRef
+            location = "group:Package.swift">
+         </FileRef>
+         <Group
+            location = "group:Sources"
+            name = "Sources">
+            <Group
+               location = "group:TestServer"
+               name = "TestServer">
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:main.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:TestClient"
+               name = "TestClient">
+               <FileRef
+                  location = "group:Data+Hex.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+               <FileRef
+                  location = "group:main.swift">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+   </Group>
+   <Group
       location = "container:_Projects"
       name = "_Projects">
       <FileRef
