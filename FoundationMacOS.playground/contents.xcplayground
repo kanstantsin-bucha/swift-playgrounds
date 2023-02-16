@@ -13,5 +13,6 @@
         <page name='UserNotifications'/>
         <page name='CoreLocation'/>
         <page name='CoreBluetooth'/>
+        <page name='CBCentralManagerWrapper'/>
     </pages>
 </playground>
