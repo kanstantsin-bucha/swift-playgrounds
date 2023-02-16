@@ -54,6 +54,7 @@
 		ACA96DBA2983E19000E557F8 /* UserDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA96DB92983E19000E557F8 /* UserDefaultView.swift */; };
 		ACA96DBC2983E4E500E557F8 /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA96DBB2983E4E500E557F8 /* AppStorageView.swift */; };
 		ACEF2732299E481F00364257 /* RespondingToStateChangesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2731299E481F00364257 /* RespondingToStateChangesView.swift */; };
+		ACEF2734299E501400364257 /* ConfirmationDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2733299E501400364257 /* ConfirmationDialogView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		ACA96DB92983E19000E557F8 /* UserDefaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultView.swift; sourceTree = "<group>"; };
 		ACA96DBB2983E4E500E557F8 /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
 		ACEF2731299E481F00364257 /* RespondingToStateChangesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespondingToStateChangesView.swift; sourceTree = "<group>"; };
+		ACEF2733299E501400364257 /* ConfirmationDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 				AC819C952994FAE3009F7522 /* TextEditorView.swift */,
 				AC819CA629969167009F7522 /* CoreDataView.swift */,
 				ACEF2731299E481F00364257 /* RespondingToStateChangesView.swift */,
+				ACEF2733299E501400364257 /* ConfirmationDialogView.swift */,
 				AC5E59FC29780BE400290E31 /* Assets.xcassets */,
 				AC5E59FE29780BE400290E31 /* Preview Content */,
 			);
@@ -406,6 +409,7 @@
 				AC1D5B66298BD74D00241F24 /* BorderImageView.swift in Sources */,
 				AC1D5B74298C310600241F24 /* SpirographView.swift in Sources */,
 				AC1D5B68298BE1E600241F24 /* ColorCyclingView.swift in Sources */,
+				ACEF2734299E501400364257 /* ConfirmationDialogView.swift in Sources */,
 				AC1D5B62298ABC7F00241F24 /* InsettableShapeView.swift in Sources */,
 				AC819C5629928669009F7522 /* LoadingImageFromServerView.swift in Sources */,
 				AC1D5B6C298BF06000241F24 /* ColoredCirclesView.swift in Sources */,
