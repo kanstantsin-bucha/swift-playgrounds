@@ -23,9 +23,23 @@ struct IntegratingCoreImageView: View {
         let beginImage = CIImage(image: inputImage)
         
         let context = CIContext()
-        let currentFilter = CIFilter.sepiaTone()
+        let currentFilter = CIFilter.crystallize()
         currentFilter.inputImage = beginImage
-        currentFilter.intensity = 1
+        
+        let inputKeys = currentFilter.inputKeys
+        let amount = 1.0
+        
+        if inputKeys.contains(kCIInputIntensityKey) {
+            currentFilter.setValue(amount, forKey: kCIInputIntensityKey)
+        }
+        
+        if inputKeys.contains(kCIInputRadiusKey) {
+            currentFilter.setValue(amount * 120, forKey: kCIInputRadiusKey)
+        }
+        
+        if inputKeys.contains(kCIInputScaleKey) {
+            currentFilter.setValue(amount * 10, forKey: kCIInputScaleKey)
+        }
         
         guard let outputImage = currentFilter.outputImage else { return }
         if let cgImage = context.createCGImage(outputImage, from: outputImage.extent) {
