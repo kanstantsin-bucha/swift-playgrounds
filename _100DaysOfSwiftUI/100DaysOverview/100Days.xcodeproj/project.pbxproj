@@ -55,6 +55,7 @@
 		ACA96DBC2983E4E500E557F8 /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA96DBB2983E4E500E557F8 /* AppStorageView.swift */; };
 		ACEF2732299E481F00364257 /* RespondingToStateChangesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2731299E481F00364257 /* RespondingToStateChangesView.swift */; };
 		ACEF2734299E501400364257 /* ConfirmationDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2733299E501400364257 /* ConfirmationDialogView.swift */; };
+		ACEF2736299E59A600364257 /* IntegratingCoreImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2735299E59A600364257 /* IntegratingCoreImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +127,7 @@
 		ACA96DBB2983E4E500E557F8 /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
 		ACEF2731299E481F00364257 /* RespondingToStateChangesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespondingToStateChangesView.swift; sourceTree = "<group>"; };
 		ACEF2733299E501400364257 /* ConfirmationDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogView.swift; sourceTree = "<group>"; };
+		ACEF2735299E59A600364257 /* IntegratingCoreImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegratingCoreImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 				AC819CA629969167009F7522 /* CoreDataView.swift */,
 				ACEF2731299E481F00364257 /* RespondingToStateChangesView.swift */,
 				ACEF2733299E501400364257 /* ConfirmationDialogView.swift */,
+				ACEF2735299E59A600364257 /* IntegratingCoreImageView.swift */,
 				AC5E59FC29780BE400290E31 /* Assets.xcassets */,
 				AC5E59FE29780BE400290E31 /* Preview Content */,
 			);
@@ -397,6 +400,7 @@
 				ACA96DB82983D9B900E557F8 /* DeletingView.swift in Sources */,
 				ACA7F769298160DC003B91AB /* ShowingAndHidingView.swift in Sources */,
 				AC5E5A61297AAE3200290E31 /*  BindingView.swift in Sources */,
+				ACEF2736299E59A600364257 /* IntegratingCoreImageView.swift in Sources */,
 				AC819C942994E4F3009F7522 /* CustomComponentWith@BindingView.swift in Sources */,
 				AC1D5B6E298BF31B00241F24 /* BlursEffectView.swift in Sources */,
 				AC1D5B72298C13AE00241F24 /* CheckerBoardView.swift in Sources */,
