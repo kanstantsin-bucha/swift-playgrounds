@@ -5,6 +5,8 @@
         <page name='Actors'/>
         <page name='TaskGroup'/>
         <page name='AsyncSequence'/>
-        <page name='SendableClosures'/>
+        <page name='AsyncAwait'/>
+        <page name='MutatingStrucInsideSendableClosures'/>
+        <page name='TasksQueue'/>
     </pages>
 </playground>
