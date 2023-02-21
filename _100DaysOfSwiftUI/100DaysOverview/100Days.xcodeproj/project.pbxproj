@@ -59,6 +59,7 @@
 		ACEF2738299E703100364257 /* WrappingUIViewControllerInSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2737299E703100364257 /* WrappingUIViewControllerInSwiftUIView.swift */; };
 		ACEF273A299E72EB00364257 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2739299E72EB00364257 /* ImagePicker.swift */; };
 		ACEF273C299E9D9C00364257 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF273B299E9D9C00364257 /* ImageSaver.swift */; };
+		ACEF275E29A50EBC00364257 /* ConformanceToComparableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF275D29A50EBC00364257 /* ConformanceToComparableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +135,7 @@
 		ACEF2737299E703100364257 /* WrappingUIViewControllerInSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingUIViewControllerInSwiftUIView.swift; sourceTree = "<group>"; };
 		ACEF2739299E72EB00364257 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		ACEF273B299E9D9C00364257 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		ACEF275D29A50EBC00364257 /* ConformanceToComparableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConformanceToComparableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +233,7 @@
 				ACEF2737299E703100364257 /* WrappingUIViewControllerInSwiftUIView.swift */,
 				ACEF2739299E72EB00364257 /* ImagePicker.swift */,
 				ACEF273B299E9D9C00364257 /* ImageSaver.swift */,
+				ACEF275D29A50EBC00364257 /* ConformanceToComparableView.swift */,
 				AC5E59FC29780BE400290E31 /* Assets.xcassets */,
 				AC5E59FE29780BE400290E31 /* Preview Content */,
 			);
@@ -393,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACA7F76B29816B70003B91AB /* CustomModifierView.swift in Sources */,
+				ACEF275E29A50EBC00364257 /* ConformanceToComparableView.swift in Sources */,
 				AC7FE5E62987B3BF0036E736 /* ScrollViewExampleView.swift in Sources */,
 				ACA7F76729815CEA003B91AB /* DragView.swift in Sources */,
 				AC5E5A5D2979A66800290E31 /* GridStackView.swift in Sources */,
