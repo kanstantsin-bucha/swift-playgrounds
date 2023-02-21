@@ -60,6 +60,8 @@
 		ACEF273A299E72EB00364257 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2739299E72EB00364257 /* ImagePicker.swift */; };
 		ACEF273C299E9D9C00364257 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF273B299E9D9C00364257 /* ImageSaver.swift */; };
 		ACEF275E29A50EBC00364257 /* ConformanceToComparableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF275D29A50EBC00364257 /* ConformanceToComparableView.swift */; };
+		ACEF276029A514C300364257 /* DataToDocumentsDirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF275F29A514C300364257 /* DataToDocumentsDirectoryView.swift */; };
+		ACEF276229A52BD300364257 /* SwitchStatesEnumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF276129A52BD300364257 /* SwitchStatesEnumView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +138,8 @@
 		ACEF2739299E72EB00364257 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		ACEF273B299E9D9C00364257 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 		ACEF275D29A50EBC00364257 /* ConformanceToComparableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConformanceToComparableView.swift; sourceTree = "<group>"; };
+		ACEF275F29A514C300364257 /* DataToDocumentsDirectoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataToDocumentsDirectoryView.swift; sourceTree = "<group>"; };
+		ACEF276129A52BD300364257 /* SwitchStatesEnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchStatesEnumView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +238,8 @@
 				ACEF2739299E72EB00364257 /* ImagePicker.swift */,
 				ACEF273B299E9D9C00364257 /* ImageSaver.swift */,
 				ACEF275D29A50EBC00364257 /* ConformanceToComparableView.swift */,
+				ACEF275F29A514C300364257 /* DataToDocumentsDirectoryView.swift */,
+				ACEF276129A52BD300364257 /* SwitchStatesEnumView.swift */,
 				AC5E59FC29780BE400290E31 /* Assets.xcassets */,
 				AC5E59FE29780BE400290E31 /* Preview Content */,
 			);
@@ -402,6 +408,7 @@
 				AC5E5A5D2979A66800290E31 /* GridStackView.swift in Sources */,
 				AC819CA729969167009F7522 /* CoreDataView.swift in Sources */,
 				AC7FE5E42987AE600036E736 /* ResizingImageView.swift in Sources */,
+				ACEF276229A52BD300364257 /* SwitchStatesEnumView.swift in Sources */,
 				ACA7F7632981161B003B91AB /* AnimationView.swift in Sources */,
 				AC7FE5EC2987D9920036E736 /* ScrollingGridView.swift in Sources */,
 				AC1D5B6A298BEE4800241F24 /* SpecialEffectsView.swift in Sources */,
@@ -415,6 +422,7 @@
 				ACA7F769298160DC003B91AB /* ShowingAndHidingView.swift in Sources */,
 				ACEF273C299E9D9C00364257 /* ImageSaver.swift in Sources */,
 				AC5E5A61297AAE3200290E31 /*  BindingView.swift in Sources */,
+				ACEF276029A514C300364257 /* DataToDocumentsDirectoryView.swift in Sources */,
 				ACEF2736299E59A600364257 /* IntegratingCoreImageView.swift in Sources */,
 				AC819C942994E4F3009F7522 /* CustomComponentWith@BindingView.swift in Sources */,
 				AC1D5B6E298BF31B00241F24 /* BlursEffectView.swift in Sources */,
