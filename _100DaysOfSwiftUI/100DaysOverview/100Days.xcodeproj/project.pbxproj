@@ -62,6 +62,7 @@
 		ACEF275E29A50EBC00364257 /* ConformanceToComparableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF275D29A50EBC00364257 /* ConformanceToComparableView.swift */; };
 		ACEF276029A514C300364257 /* DataToDocumentsDirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF275F29A514C300364257 /* DataToDocumentsDirectoryView.swift */; };
 		ACEF276229A52BD300364257 /* SwitchStatesEnumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF276129A52BD300364257 /* SwitchStatesEnumView.swift */; };
+		ACEF276429A52E5B00364257 /*  MapKitIntegratingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF276329A52E5B00364257 /*  MapKitIntegratingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +141,7 @@
 		ACEF275D29A50EBC00364257 /* ConformanceToComparableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConformanceToComparableView.swift; sourceTree = "<group>"; };
 		ACEF275F29A514C300364257 /* DataToDocumentsDirectoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataToDocumentsDirectoryView.swift; sourceTree = "<group>"; };
 		ACEF276129A52BD300364257 /* SwitchStatesEnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchStatesEnumView.swift; sourceTree = "<group>"; };
+		ACEF276329A52E5B00364257 /*  MapKitIntegratingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " MapKitIntegratingView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 				ACEF275D29A50EBC00364257 /* ConformanceToComparableView.swift */,
 				ACEF275F29A514C300364257 /* DataToDocumentsDirectoryView.swift */,
 				ACEF276129A52BD300364257 /* SwitchStatesEnumView.swift */,
+				ACEF276329A52E5B00364257 /*  MapKitIntegratingView.swift */,
 				AC5E59FC29780BE400290E31 /* Assets.xcassets */,
 				AC5E59FE29780BE400290E31 /* Preview Content */,
 			);
@@ -446,6 +449,7 @@
 				ACEF2732299E481F00364257 /* RespondingToStateChangesView.swift in Sources */,
 				AC1D5B70298C08A200241F24 /* TrapezoidView.swift in Sources */,
 				AC7FE5E82987C5360036E736 /* NavigationLinkView.swift in Sources */,
+				ACEF276429A52E5B00364257 /*  MapKitIntegratingView.swift in Sources */,
 				AC52F4E9297E9D45005006E8 /* DatePickerView.swift in Sources */,
 				AC819C5829928B92009F7522 /* ValidatingFormView.swift in Sources */,
 				AC5E59F929780BE400290E31 /* _00DaysApp.swift in Sources */,
