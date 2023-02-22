@@ -63,6 +63,7 @@
 		ACEF276029A514C300364257 /* DataToDocumentsDirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF275F29A514C300364257 /* DataToDocumentsDirectoryView.swift */; };
 		ACEF276229A52BD300364257 /* SwitchStatesEnumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF276129A52BD300364257 /* SwitchStatesEnumView.swift */; };
 		ACEF276429A52E5B00364257 /*  MapKitIntegratingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF276329A52E5B00364257 /*  MapKitIntegratingView.swift */; };
+		ACEF278429A652AE00364257 /* TouchIDandFaceIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF278329A652AE00364257 /* TouchIDandFaceIDView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +143,7 @@
 		ACEF275F29A514C300364257 /* DataToDocumentsDirectoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataToDocumentsDirectoryView.swift; sourceTree = "<group>"; };
 		ACEF276129A52BD300364257 /* SwitchStatesEnumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchStatesEnumView.swift; sourceTree = "<group>"; };
 		ACEF276329A52E5B00364257 /*  MapKitIntegratingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " MapKitIntegratingView.swift"; sourceTree = "<group>"; };
+		ACEF278329A652AE00364257 /* TouchIDandFaceIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDandFaceIDView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +245,7 @@
 				ACEF275F29A514C300364257 /* DataToDocumentsDirectoryView.swift */,
 				ACEF276129A52BD300364257 /* SwitchStatesEnumView.swift */,
 				ACEF276329A52E5B00364257 /*  MapKitIntegratingView.swift */,
+				ACEF278329A652AE00364257 /* TouchIDandFaceIDView.swift */,
 				AC5E59FC29780BE400290E31 /* Assets.xcassets */,
 				AC5E59FE29780BE400290E31 /* Preview Content */,
 			);
@@ -431,6 +434,7 @@
 				AC1D5B6E298BF31B00241F24 /* BlursEffectView.swift in Sources */,
 				AC1D5B72298C13AE00241F24 /* CheckerBoardView.swift in Sources */,
 				AC7FE5EA2987CCC20036E736 /* HierarchicalCodableDataView.swift in Sources */,
+				ACEF278429A652AE00364257 /* TouchIDandFaceIDView.swift in Sources */,
 				ACA96DB62983C19600E557F8 /* SheetView.swift in Sources */,
 				AC5E5A5B29796F9400290E31 /* ViewModifierView.swift in Sources */,
 				AC819C3229922ED1009F7522 /* CodableConformanceView.swift in Sources */,
@@ -616,6 +620,7 @@
 				DEVELOPMENT_TEAM = A3954PK469;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to ulock your Data";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We can save this image in Library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -646,6 +651,7 @@
 				DEVELOPMENT_TEAM = A3954PK469;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to ulock your Data";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We can save this image in Library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
