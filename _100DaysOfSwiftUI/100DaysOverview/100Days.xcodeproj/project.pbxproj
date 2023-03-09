@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC028F0D29AF8C0600765C32 /* AccessibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC028F0C29AF8C0600765C32 /* AccessibilityView.swift */; };
+		AC028F0F29AF922400765C32 /* HidingAndGroupingAccessibilityDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC028F0E29AF922400765C32 /* HidingAndGroupingAccessibilityDataView.swift */; };
+		AC028F1129AF9DC400765C32 /* ReadingTheValueOfControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC028F1029AF9DC400765C32 /* ReadingTheValueOfControlsView.swift */; };
 		AC1D5B5E298AADBE00241F24 /* DrawingPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D5B5D298AADBE00241F24 /* DrawingPathView.swift */; };
 		AC1D5B60298AAFF800241F24 /* DrawingShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D5B5F298AAFF800241F24 /* DrawingShapeView.swift */; };
 		AC1D5B62298ABC7F00241F24 /* InsettableShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D5B61298ABC7F00241F24 /* InsettableShapeView.swift */; };
@@ -53,6 +56,8 @@
 		ACA96DB82983D9B900E557F8 /* DeletingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA96DB72983D9B900E557F8 /* DeletingView.swift */; };
 		ACA96DBA2983E19000E557F8 /* UserDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA96DB92983E19000E557F8 /* UserDefaultView.swift */; };
 		ACA96DBC2983E4E500E557F8 /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA96DBB2983E4E500E557F8 /* AppStorageView.swift */; };
+		ACE404CC29BA2804007DC8DA /* EnvironmentObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE404CB29BA2804007DC8DA /* EnvironmentObjectView.swift */; };
+		ACE404CE29BA2AE4007DC8DA /* TabExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE404CD29BA2AE4007DC8DA /* TabExampleView.swift */; };
 		ACEF2732299E481F00364257 /* RespondingToStateChangesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2731299E481F00364257 /* RespondingToStateChangesView.swift */; };
 		ACEF2734299E501400364257 /* ConfirmationDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2733299E501400364257 /* ConfirmationDialogView.swift */; };
 		ACEF2736299E59A600364257 /* IntegratingCoreImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2735299E59A600364257 /* IntegratingCoreImageView.swift */; };
@@ -87,6 +92,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC028F0C29AF8C0600765C32 /* AccessibilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityView.swift; sourceTree = "<group>"; };
+		AC028F0E29AF922400765C32 /* HidingAndGroupingAccessibilityDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HidingAndGroupingAccessibilityDataView.swift; sourceTree = "<group>"; };
+		AC028F1029AF9DC400765C32 /* ReadingTheValueOfControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingTheValueOfControlsView.swift; sourceTree = "<group>"; };
 		AC1D5B5D298AADBE00241F24 /* DrawingPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingPathView.swift; sourceTree = "<group>"; };
 		AC1D5B5F298AAFF800241F24 /* DrawingShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingShapeView.swift; sourceTree = "<group>"; };
 		AC1D5B61298ABC7F00241F24 /* InsettableShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsettableShapeView.swift; sourceTree = "<group>"; };
@@ -136,6 +144,8 @@
 		ACA96DB72983D9B900E557F8 /* DeletingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletingView.swift; sourceTree = "<group>"; };
 		ACA96DB92983E19000E557F8 /* UserDefaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultView.swift; sourceTree = "<group>"; };
 		ACA96DBB2983E4E500E557F8 /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
+		ACE404CB29BA2804007DC8DA /* EnvironmentObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectView.swift; sourceTree = "<group>"; };
+		ACE404CD29BA2AE4007DC8DA /* TabExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabExampleView.swift; sourceTree = "<group>"; };
 		ACEF2731299E481F00364257 /* RespondingToStateChangesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespondingToStateChangesView.swift; sourceTree = "<group>"; };
 		ACEF2733299E501400364257 /* ConfirmationDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogView.swift; sourceTree = "<group>"; };
 		ACEF2735299E59A600364257 /* IntegratingCoreImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegratingCoreImageView.swift; sourceTree = "<group>"; };
@@ -255,6 +265,11 @@
 				ACEF278529A66FFA00364257 /* UserLocationsToMapView.swift */,
 				ACEF278729A6766E00364257 /* SecondLocation.swift */,
 				ACEF278929A8F00E00364257 /* EditView.swift */,
+				AC028F0C29AF8C0600765C32 /* AccessibilityView.swift */,
+				AC028F0E29AF922400765C32 /* HidingAndGroupingAccessibilityDataView.swift */,
+				AC028F1029AF9DC400765C32 /* ReadingTheValueOfControlsView.swift */,
+				ACE404CB29BA2804007DC8DA /* EnvironmentObjectView.swift */,
+				ACE404CD29BA2AE4007DC8DA /* TabExampleView.swift */,
 				AC5E59FC29780BE400290E31 /* Assets.xcassets */,
 				AC5E59FE29780BE400290E31 /* Preview Content */,
 			);
@@ -423,9 +438,11 @@
 				AC5E5A5D2979A66800290E31 /* GridStackView.swift in Sources */,
 				AC819CA729969167009F7522 /* CoreDataView.swift in Sources */,
 				AC7FE5E42987AE600036E736 /* ResizingImageView.swift in Sources */,
+				ACE404CC29BA2804007DC8DA /* EnvironmentObjectView.swift in Sources */,
 				ACEF276229A52BD300364257 /* SwitchStatesEnumView.swift in Sources */,
 				ACA7F7632981161B003B91AB /* AnimationView.swift in Sources */,
 				AC7FE5EC2987D9920036E736 /* ScrollingGridView.swift in Sources */,
+				AC028F1129AF9DC400765C32 /* ReadingTheValueOfControlsView.swift in Sources */,
 				AC1D5B6A298BEE4800241F24 /* SpecialEffectsView.swift in Sources */,
 				AC52F4EB297EABF3005006E8 /* ListView.swift in Sources */,
 				AC1D5B5E298AADBE00241F24 /* DrawingPathView.swift in Sources */,
@@ -445,6 +462,8 @@
 				AC7FE5EA2987CCC20036E736 /* HierarchicalCodableDataView.swift in Sources */,
 				ACEF278429A652AE00364257 /* TouchIDandFaceIDView.swift in Sources */,
 				ACEF278629A66FFA00364257 /* UserLocationsToMapView.swift in Sources */,
+				ACE404CE29BA2AE4007DC8DA /* TabExampleView.swift in Sources */,
+				AC028F0D29AF8C0600765C32 /* AccessibilityView.swift in Sources */,
 				ACA96DB62983C19600E557F8 /* SheetView.swift in Sources */,
 				AC5E5A5B29796F9400290E31 /* ViewModifierView.swift in Sources */,
 				AC819C3229922ED1009F7522 /* CodableConformanceView.swift in Sources */,
@@ -460,6 +479,7 @@
 				AC819C5629928669009F7522 /* LoadingImageFromServerView.swift in Sources */,
 				AC1D5B6C298BF06000241F24 /* ColoredCirclesView.swift in Sources */,
 				AC52F4E7297E9AA8005006E8 /* StepperView.swift in Sources */,
+				AC028F0F29AF922400765C32 /* HidingAndGroupingAccessibilityDataView.swift in Sources */,
 				AC5E59FB29780BE400290E31 /* ContentView.swift in Sources */,
 				ACEF2732299E481F00364257 /* RespondingToStateChangesView.swift in Sources */,
 				ACEF278A29A8F00E00364257 /* EditView.swift in Sources */,
