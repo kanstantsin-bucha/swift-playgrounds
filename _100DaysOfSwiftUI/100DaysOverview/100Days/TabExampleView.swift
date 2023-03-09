@@ -34,7 +34,6 @@ struct TabExampleView: View {
                 }
                 .tag("Two")
         }
-       
     }
 }
 
