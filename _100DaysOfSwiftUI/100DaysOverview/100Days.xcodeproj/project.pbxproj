@@ -64,6 +64,7 @@
 		ACE404D629BB45A2007DC8DA /* ContextMenusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE404D529BB45A2007DC8DA /* ContextMenusView.swift */; };
 		ACE404D829BB53A6007DC8DA /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE404D729BB53A6007DC8DA /* SwipeActionsView.swift */; };
 		ACE404DA29BB632B007DC8DA /* SchedulingLocalNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE404D929BB632B007DC8DA /* SchedulingLocalNotificationView.swift */; };
+		ACE404DE29BB7021007DC8DA /* SwiftPackageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE404DD29BB7021007DC8DA /* SwiftPackageView.swift */; };
 		ACEF2732299E481F00364257 /* RespondingToStateChangesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2731299E481F00364257 /* RespondingToStateChangesView.swift */; };
 		ACEF2734299E501400364257 /* ConfirmationDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2733299E501400364257 /* ConfirmationDialogView.swift */; };
 		ACEF2736299E59A600364257 /* IntegratingCoreImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2735299E59A600364257 /* IntegratingCoreImageView.swift */; };
@@ -158,6 +159,7 @@
 		ACE404D529BB45A2007DC8DA /* ContextMenusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenusView.swift; sourceTree = "<group>"; };
 		ACE404D729BB53A6007DC8DA /* SwipeActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsView.swift; sourceTree = "<group>"; };
 		ACE404D929BB632B007DC8DA /* SchedulingLocalNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingLocalNotificationView.swift; sourceTree = "<group>"; };
+		ACE404DD29BB7021007DC8DA /* SwiftPackageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPackageView.swift; sourceTree = "<group>"; };
 		ACEF2731299E481F00364257 /* RespondingToStateChangesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespondingToStateChangesView.swift; sourceTree = "<group>"; };
 		ACEF2733299E501400364257 /* ConfirmationDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogView.swift; sourceTree = "<group>"; };
 		ACEF2735299E59A600364257 /* IntegratingCoreImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegratingCoreImageView.swift; sourceTree = "<group>"; };
@@ -288,6 +290,7 @@
 				ACE404D529BB45A2007DC8DA /* ContextMenusView.swift */,
 				ACE404D729BB53A6007DC8DA /* SwipeActionsView.swift */,
 				ACE404D929BB632B007DC8DA /* SchedulingLocalNotificationView.swift */,
+				ACE404DD29BB7021007DC8DA /* SwiftPackageView.swift */,
 				AC5E59FC29780BE400290E31 /* Assets.xcassets */,
 				AC5E59FE29780BE400290E31 /* Preview Content */,
 			);
@@ -489,6 +492,7 @@
 				AC5E5A5B29796F9400290E31 /* ViewModifierView.swift in Sources */,
 				AC819C3229922ED1009F7522 /* CodableConformanceView.swift in Sources */,
 				ACEF2738299E703100364257 /* WrappingUIViewControllerInSwiftUIView.swift in Sources */,
+				ACE404DE29BB7021007DC8DA /* SwiftPackageView.swift in Sources */,
 				AC1D5B60298AAFF800241F24 /* DrawingShapeView.swift in Sources */,
 				AC819C3429924298009F7522 /* CodableDataView.swift in Sources */,
 				AC1D5B66298BD74D00241F24 /* BorderImageView.swift in Sources */,
