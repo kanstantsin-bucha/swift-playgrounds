@@ -62,6 +62,7 @@
 		ACE404D229BB38AC007DC8DA /* ResultTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE404D129BB38AC007DC8DA /* ResultTypeView.swift */; };
 		ACE404D429BB4318007DC8DA /* ControllingImageInterpolationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE404D329BB4318007DC8DA /* ControllingImageInterpolationView.swift */; };
 		ACE404D629BB45A2007DC8DA /* ContextMenusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE404D529BB45A2007DC8DA /* ContextMenusView.swift */; };
+		ACE404D829BB53A6007DC8DA /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE404D729BB53A6007DC8DA /* SwipeActionsView.swift */; };
 		ACEF2732299E481F00364257 /* RespondingToStateChangesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2731299E481F00364257 /* RespondingToStateChangesView.swift */; };
 		ACEF2734299E501400364257 /* ConfirmationDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2733299E501400364257 /* ConfirmationDialogView.swift */; };
 		ACEF2736299E59A600364257 /* IntegratingCoreImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2735299E59A600364257 /* IntegratingCoreImageView.swift */; };
@@ -154,6 +155,7 @@
 		ACE404D129BB38AC007DC8DA /* ResultTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTypeView.swift; sourceTree = "<group>"; };
 		ACE404D329BB4318007DC8DA /* ControllingImageInterpolationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingImageInterpolationView.swift; sourceTree = "<group>"; };
 		ACE404D529BB45A2007DC8DA /* ContextMenusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenusView.swift; sourceTree = "<group>"; };
+		ACE404D729BB53A6007DC8DA /* SwipeActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsView.swift; sourceTree = "<group>"; };
 		ACEF2731299E481F00364257 /* RespondingToStateChangesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespondingToStateChangesView.swift; sourceTree = "<group>"; };
 		ACEF2733299E501400364257 /* ConfirmationDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogView.swift; sourceTree = "<group>"; };
 		ACEF2735299E59A600364257 /* IntegratingCoreImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegratingCoreImageView.swift; sourceTree = "<group>"; };
@@ -282,6 +284,7 @@
 				ACE404D129BB38AC007DC8DA /* ResultTypeView.swift */,
 				ACE404D329BB4318007DC8DA /* ControllingImageInterpolationView.swift */,
 				ACE404D529BB45A2007DC8DA /* ContextMenusView.swift */,
+				ACE404D729BB53A6007DC8DA /* SwipeActionsView.swift */,
 				AC5E59FC29780BE400290E31 /* Assets.xcassets */,
 				AC5E59FE29780BE400290E31 /* Preview Content */,
 			);
@@ -506,6 +509,7 @@
 				AC819C5829928B92009F7522 /* ValidatingFormView.swift in Sources */,
 				AC5E59F929780BE400290E31 /* _00DaysApp.swift in Sources */,
 				AC819C962994FAE3009F7522 /* TextEditorView.swift in Sources */,
+				ACE404D829BB53A6007DC8DA /* SwipeActionsView.swift in Sources */,
 				ACA96DBA2983E19000E557F8 /* UserDefaultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
