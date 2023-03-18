@@ -74,7 +74,7 @@ struct BottomView: View {
 
 struct BottomSheetSizedToFitView_Previews: PreviewProvider {
     static var previews: some View {
-        BottomSizedView()
+        BottomSheetSizedToFitView()
         //            .previewDevice(PreviewDevice(rawValue: "iPhone 14"))
     }
 }

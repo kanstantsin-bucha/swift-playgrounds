@@ -48,5 +48,14 @@ if there will be error that `apollo-ios-cli` not found,
 3 download apollo-ios-cli.tar.gz file and extract it 
 near the apollo-codegen-config.json
 
+# Alternatives
 
+### SwiftGraphQL 
 
+it is looking good, but library is not maintained.
+2 weeks - still no answer to issue raised at github repo.
+
+I got code generation issue. It looks like server provides schema with invalid characters inside.
+And if in case GraphQL I can use a local schema that I can correct, 
+in case of SwiftGraphQL there is only online way - 
+the cli tool generates code using a connection to the server.
