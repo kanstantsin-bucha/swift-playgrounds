@@ -16,6 +16,7 @@
 		FE44634E298013D7008FA94A /* PreviewIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44634D298013D7008FA94A /* PreviewIntro.swift */; };
 		FE4463502980160B008FA94A /* GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44634F2980160B008FA94A /* GeometryReader.swift */; };
 		FE44639F2982762F008FA94A /* RadialGradientAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44639E2982762F008FA94A /* RadialGradientAnimation.swift */; };
+		FE9AEF2829C737510009ABA1 /* ValueNavigationInNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2729C737510009ABA1 /* ValueNavigationInNavigationStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		FE44634D298013D7008FA94A /* PreviewIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewIntro.swift; sourceTree = "<group>"; };
 		FE44634F2980160B008FA94A /* GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader.swift; sourceTree = "<group>"; };
 		FE44639E2982762F008FA94A /* RadialGradientAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientAnimation.swift; sourceTree = "<group>"; };
+		FE9AEF2729C737510009ABA1 /* ValueNavigationInNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueNavigationInNavigationStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		FE44633829800790008FA94A /* SwiftUI1 */ = {
 			isa = PBXGroup;
 			children = (
+				FE9AEF2629C737280009ABA1 /* NavigationFromiOS16 */,
 				FE44639D2982760E008FA94A /* Gradients */,
 				FE2B0A33298FB32900F425F3 /* Views */,
 				FE44634A29801081008FA94A /* ParentChildDataFlow */,
@@ -108,6 +111,14 @@
 				FE44639E2982762F008FA94A /* RadialGradientAnimation.swift */,
 			);
 			path = Gradients;
+			sourceTree = "<group>";
+		};
+		FE9AEF2629C737280009ABA1 /* NavigationFromiOS16 */ = {
+			isa = PBXGroup;
+			children = (
+				FE9AEF2729C737510009ABA1 /* ValueNavigationInNavigationStack.swift */,
+			);
+			path = NavigationFromiOS16;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 				FE446349298007A8008FA94A /* Parent.swift in Sources */,
 				FE2B0A32298FAF9A00F425F3 /* BottomSheetSizedToFitView.swift in Sources */,
 				FE4463502980160B008FA94A /* GeometryReader.swift in Sources */,
+				FE9AEF2829C737510009ABA1 /* ValueNavigationInNavigationStack.swift in Sources */,
 				FE44634C298010AB008FA94A /* Child.swift in Sources */,
 				FE44639F2982762F008FA94A /* RadialGradientAnimation.swift in Sources */,
 				FE44634E298013D7008FA94A /* PreviewIntro.swift in Sources */,
