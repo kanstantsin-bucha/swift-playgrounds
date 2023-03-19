@@ -17,6 +17,9 @@
 		FE4463502980160B008FA94A /* GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44634F2980160B008FA94A /* GeometryReader.swift */; };
 		FE44639F2982762F008FA94A /* RadialGradientAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44639E2982762F008FA94A /* RadialGradientAnimation.swift */; };
 		FE9AEF2829C737510009ABA1 /* ValueNavigationInNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2729C737510009ABA1 /* ValueNavigationInNavigationStack.swift */; };
+		FE9AEF2B29C740900009ABA1 /* DestinationInNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2A29C740900009ABA1 /* DestinationInNavigationView.swift */; };
+		FE9AEF2E29C742C50009ABA1 /* NavigationDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2D29C742C50009ABA1 /* NavigationDestination.swift */; };
+		FE9AEF3029C749120009ABA1 /* PrintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2F29C749120009ABA1 /* PrintView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		FE44634F2980160B008FA94A /* GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader.swift; sourceTree = "<group>"; };
 		FE44639E2982762F008FA94A /* RadialGradientAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientAnimation.swift; sourceTree = "<group>"; };
 		FE9AEF2729C737510009ABA1 /* ValueNavigationInNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueNavigationInNavigationStack.swift; sourceTree = "<group>"; };
+		FE9AEF2A29C740900009ABA1 /* DestinationInNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationInNavigationView.swift; sourceTree = "<group>"; };
+		FE9AEF2D29C742C50009ABA1 /* NavigationDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestination.swift; sourceTree = "<group>"; };
+		FE9AEF2F29C749120009ABA1 /* PrintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +81,7 @@
 		FE44633829800790008FA94A /* SwiftUI1 */ = {
 			isa = PBXGroup;
 			children = (
-				FE9AEF2629C737280009ABA1 /* NavigationFromiOS16 */,
+				FE9AEF2C29C7429C0009ABA1 /* Navigation */,
 				FE44639D2982760E008FA94A /* Gradients */,
 				FE2B0A33298FB32900F425F3 /* Views */,
 				FE44634A29801081008FA94A /* ParentChildDataFlow */,
@@ -84,6 +90,7 @@
 				FE44633F29800790008FA94A /* SwiftUI1.entitlements */,
 				FE44634029800790008FA94A /* Preview Content */,
 				FE2B0A34298FB8E700F425F3 /* README.md */,
+				FE9AEF2F29C749120009ABA1 /* PrintView.swift */,
 			);
 			path = SwiftUI1;
 			sourceTree = "<group>";
@@ -119,6 +126,24 @@
 				FE9AEF2729C737510009ABA1 /* ValueNavigationInNavigationStack.swift */,
 			);
 			path = NavigationFromiOS16;
+			sourceTree = "<group>";
+		};
+		FE9AEF2929C740750009ABA1 /* NavigationBeforeiOS16 */ = {
+			isa = PBXGroup;
+			children = (
+				FE9AEF2A29C740900009ABA1 /* DestinationInNavigationView.swift */,
+			);
+			path = NavigationBeforeiOS16;
+			sourceTree = "<group>";
+		};
+		FE9AEF2C29C7429C0009ABA1 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				FE9AEF2929C740750009ABA1 /* NavigationBeforeiOS16 */,
+				FE9AEF2629C737280009ABA1 /* NavigationFromiOS16 */,
+				FE9AEF2D29C742C50009ABA1 /* NavigationDestination.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +217,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE446349298007A8008FA94A /* Parent.swift in Sources */,
+				FE9AEF2B29C740900009ABA1 /* DestinationInNavigationView.swift in Sources */,
 				FE2B0A32298FAF9A00F425F3 /* BottomSheetSizedToFitView.swift in Sources */,
 				FE4463502980160B008FA94A /* GeometryReader.swift in Sources */,
+				FE9AEF2E29C742C50009ABA1 /* NavigationDestination.swift in Sources */,
 				FE9AEF2829C737510009ABA1 /* ValueNavigationInNavigationStack.swift in Sources */,
+				FE9AEF3029C749120009ABA1 /* PrintView.swift in Sources */,
 				FE44634C298010AB008FA94A /* Child.swift in Sources */,
 				FE44639F2982762F008FA94A /* RadialGradientAnimation.swift in Sources */,
 				FE44634E298013D7008FA94A /* PreviewIntro.swift in Sources */,

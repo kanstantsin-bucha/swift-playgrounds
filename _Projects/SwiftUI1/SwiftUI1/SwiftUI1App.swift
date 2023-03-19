@@ -18,6 +18,7 @@ struct SwiftUI1App: App {
             if #available(iOS 16, *) {
                 ValueNavigationInNavigationStack()
             }
+//            DestinationInNavigationView()
         }
     }
 }
