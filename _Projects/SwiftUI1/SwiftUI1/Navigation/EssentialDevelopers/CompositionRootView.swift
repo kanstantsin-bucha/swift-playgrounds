@@ -77,7 +77,10 @@ struct CompositionRootView: View {
             }
         }
         .sheet(isPresented: $sheet.isPresented) {
-            RegistrationView(registration: registration)
+            // pass bindings and closures in views instead of models when possible
+            RegistrationView(registrationAction: { [weak registration] in
+                registration?.isRegistered.toggle()
+            })
         }
     }
     
