@@ -3,7 +3,7 @@ import Combine
 
 class MainViewModel: ObservableObject {
     @Published var selected: Tab = .keys
-    enum Tab: Int, CaseIterable, Identifiable {
+    enum Tab: Int, CaseIterable, Identifiable, Hashable {
         case keys
         case doors
         case user
@@ -19,7 +19,7 @@ class SheetViewModel: ObservableObject {
     @Published var isPresented = false
 }
 
-class RegisterViewModel: ObservableObject {
+class RegistrationViewModel: ObservableObject {
     @Published var isRegistered = false
 }
 
@@ -28,7 +28,7 @@ class MainFlow {
     
     init(
         main: MainViewModel,
-        register: RegisterViewModel,
+        register: RegistrationViewModel,
         sheet: SheetViewModel
     ) {
         cancellable = register.$isRegistered
@@ -36,7 +36,7 @@ class MainFlow {
             .sink { isRegistered in
                 if isRegistered {
                     sheet.isPresented = false
-                    main.selected = .user
+                    main.selected = .keys
                 }
             }
     }
@@ -47,36 +47,43 @@ private var mainFlow: MainFlow?
 func composeMainNavigationView() -> CompositionRootView {
     let mainModel = MainViewModel()
     let sheetModel = SheetViewModel()
-    let registrationModel = RegisterViewModel()
+    let registrationModel = RegistrationViewModel()
     mainFlow = MainFlow(main: mainModel, register: registrationModel, sheet: sheetModel)
-    return CompositionRootView(model: mainModel, sheet: sheetModel)
+    return CompositionRootView(model: mainModel, sheet: sheetModel, registration: registrationModel)
 }
 
 
 struct CompositionRootView: View {
     @ObservedObject var model: MainViewModel
     @ObservedObject var sheet: SheetViewModel
+    @ObservedObject var registration: RegistrationViewModel
     var body: some View {
         TabView(selection: $model.selected) {
             ForEach(MainViewModel.Tab.allCases) { tab in
                 switch tab {
                 case .keys: KeysTab()
                     .tag(tab)
-                    .tabItem { Label("KeysTab", image: "key") }
+                    .tabItem { Label("Keys", systemImage: "key.horizontal") }
                 case .doors: DoorsTab()
                     .tag(tab)
-                    .tabItem { Label("DoorsTab", image: "door") }
+                    .tabItem { Label("Doors", systemImage: "door.left.hand.open") }
                 case .sites: SitesTab()
                     .tag(tab)
-                    .tabItem { Label("SitesTab", image: "site") }
-                case .user: UserTab()
+                    .tabItem { Label("Sites", systemImage: "link") }
+                case .user: UserTab(registrationAction: registrationAction)
                     .tag(tab)
-                    .tabItem { Label("UserTab", image: "user") }
+                    .tabItem { Label("User", systemImage: "person") }
                 }
             }
         }
         .sheet(isPresented: $sheet.isPresented) {
-            
+            RegistrationView(registration: registration)
+        }
+    }
+    
+    private var registrationAction: (() -> Void)? {
+        registration.isRegistered ? nil : { [weak sheet] in
+            sheet?.isPresented = true
         }
     }
 }

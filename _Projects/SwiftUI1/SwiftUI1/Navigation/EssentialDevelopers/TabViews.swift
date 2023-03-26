@@ -7,8 +7,16 @@ struct KeysTab: View {
 }
 
 struct UserTab: View {
+    let registrationAction: (() -> Void)?
+    
     var body: some View {
-        Text("UserTab")
+        VStack {
+            Text("UserTab")
+            Print("Start registration \(registrationAction)")
+            registrationAction.map { action in
+                Button("Start registration") { action() }
+            }
+        }
     }
 }
 
