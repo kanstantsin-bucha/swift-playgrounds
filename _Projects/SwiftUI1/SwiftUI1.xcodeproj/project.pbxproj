@@ -19,6 +19,7 @@
 		FE52958E29D03AAF009E58B8 /* TabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52958D29D03AAF009E58B8 /* TabViews.swift */; };
 		FE52959029D03B1F009E58B8 /* CompositionRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52958F29D03B1F009E58B8 /* CompositionRootView.swift */; };
 		FE52959229D06341009E58B8 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52959129D06341009E58B8 /* RegistrationView.swift */; };
+		FE52959429D07AE1009E58B8 /* NextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52959329D07AE1009E58B8 /* NextView.swift */; };
 		FE9AEF2829C737510009ABA1 /* ValueNavigationInNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2729C737510009ABA1 /* ValueNavigationInNavigationStack.swift */; };
 		FE9AEF2B29C740900009ABA1 /* DestinationInNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2A29C740900009ABA1 /* DestinationInNavigationView.swift */; };
 		FE9AEF2E29C742C50009ABA1 /* NavigationDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2D29C742C50009ABA1 /* NavigationDestination.swift */; };
@@ -41,6 +42,7 @@
 		FE52958D29D03AAF009E58B8 /* TabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViews.swift; sourceTree = "<group>"; };
 		FE52958F29D03B1F009E58B8 /* CompositionRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionRootView.swift; sourceTree = "<group>"; };
 		FE52959129D06341009E58B8 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		FE52959329D07AE1009E58B8 /* NextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextView.swift; sourceTree = "<group>"; };
 		FE9AEF2729C737510009ABA1 /* ValueNavigationInNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueNavigationInNavigationStack.swift; sourceTree = "<group>"; };
 		FE9AEF2A29C740900009ABA1 /* DestinationInNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationInNavigationView.swift; sourceTree = "<group>"; };
 		FE9AEF2D29C742C50009ABA1 /* NavigationDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestination.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				FE52958D29D03AAF009E58B8 /* TabViews.swift */,
 				FE52958F29D03B1F009E58B8 /* CompositionRootView.swift */,
 				FE52959129D06341009E58B8 /* RegistrationView.swift */,
+				FE52959329D07AE1009E58B8 /* NextView.swift */,
 			);
 			path = EssentialDevelopers;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				FE9AEF3029C749120009ABA1 /* PrintView.swift in Sources */,
 				FE44634C298010AB008FA94A /* Child.swift in Sources */,
 				FE44639F2982762F008FA94A /* RadialGradientAnimation.swift in Sources */,
+				FE52959429D07AE1009E58B8 /* NextView.swift in Sources */,
 				FE52959029D03B1F009E58B8 /* CompositionRootView.swift in Sources */,
 				FE44634E298013D7008FA94A /* PreviewIntro.swift in Sources */,
 				FE44633A29800790008FA94A /* SwiftUI1App.swift in Sources */,
