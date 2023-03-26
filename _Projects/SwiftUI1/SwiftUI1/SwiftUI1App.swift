@@ -15,10 +15,11 @@ struct SwiftUI1App: App {
 //            ParentChildDataFlow()
 //            GeometryReaderV()
 //            BottomSheetSizedToFitView()
-            if #available(iOS 16, *) {
-                ValueNavigationInNavigationStack()
-            }
+//            if #available(iOS 16, *) {
+//                ValueNavigationInNavigationStack()
+//            }
 //            DestinationInNavigationView()
+            composeMainNavigationView()
         }
     }
 }

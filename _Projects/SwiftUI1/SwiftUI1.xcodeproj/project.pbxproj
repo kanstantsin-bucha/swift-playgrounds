@@ -16,6 +16,8 @@
 		FE44634E298013D7008FA94A /* PreviewIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44634D298013D7008FA94A /* PreviewIntro.swift */; };
 		FE4463502980160B008FA94A /* GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44634F2980160B008FA94A /* GeometryReader.swift */; };
 		FE44639F2982762F008FA94A /* RadialGradientAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44639E2982762F008FA94A /* RadialGradientAnimation.swift */; };
+		FE52958E29D03AAF009E58B8 /* TabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52958D29D03AAF009E58B8 /* TabViews.swift */; };
+		FE52959029D03B1F009E58B8 /* CompositionRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52958F29D03B1F009E58B8 /* CompositionRootView.swift */; };
 		FE9AEF2829C737510009ABA1 /* ValueNavigationInNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2729C737510009ABA1 /* ValueNavigationInNavigationStack.swift */; };
 		FE9AEF2B29C740900009ABA1 /* DestinationInNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2A29C740900009ABA1 /* DestinationInNavigationView.swift */; };
 		FE9AEF2E29C742C50009ABA1 /* NavigationDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2D29C742C50009ABA1 /* NavigationDestination.swift */; };
@@ -35,6 +37,8 @@
 		FE44634D298013D7008FA94A /* PreviewIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewIntro.swift; sourceTree = "<group>"; };
 		FE44634F2980160B008FA94A /* GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader.swift; sourceTree = "<group>"; };
 		FE44639E2982762F008FA94A /* RadialGradientAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientAnimation.swift; sourceTree = "<group>"; };
+		FE52958D29D03AAF009E58B8 /* TabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViews.swift; sourceTree = "<group>"; };
+		FE52958F29D03B1F009E58B8 /* CompositionRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionRootView.swift; sourceTree = "<group>"; };
 		FE9AEF2729C737510009ABA1 /* ValueNavigationInNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueNavigationInNavigationStack.swift; sourceTree = "<group>"; };
 		FE9AEF2A29C740900009ABA1 /* DestinationInNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationInNavigationView.swift; sourceTree = "<group>"; };
 		FE9AEF2D29C742C50009ABA1 /* NavigationDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestination.swift; sourceTree = "<group>"; };
@@ -120,6 +124,25 @@
 			path = Gradients;
 			sourceTree = "<group>";
 		};
+		FE52958B29D03A73009E58B8 /* MySolutions */ = {
+			isa = PBXGroup;
+			children = (
+				FE9AEF2929C740750009ABA1 /* NavigationBeforeiOS16 */,
+				FE9AEF2629C737280009ABA1 /* NavigationFromiOS16 */,
+				FE9AEF2D29C742C50009ABA1 /* NavigationDestination.swift */,
+			);
+			path = MySolutions;
+			sourceTree = "<group>";
+		};
+		FE52958C29D03A8D009E58B8 /* EssentialDevelopers */ = {
+			isa = PBXGroup;
+			children = (
+				FE52958D29D03AAF009E58B8 /* TabViews.swift */,
+				FE52958F29D03B1F009E58B8 /* CompositionRootView.swift */,
+			);
+			path = EssentialDevelopers;
+			sourceTree = "<group>";
+		};
 		FE9AEF2629C737280009ABA1 /* NavigationFromiOS16 */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,9 +162,8 @@
 		FE9AEF2C29C7429C0009ABA1 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				FE9AEF2929C740750009ABA1 /* NavigationBeforeiOS16 */,
-				FE9AEF2629C737280009ABA1 /* NavigationFromiOS16 */,
-				FE9AEF2D29C742C50009ABA1 /* NavigationDestination.swift */,
+				FE52958C29D03A8D009E58B8 /* EssentialDevelopers */,
+				FE52958B29D03A73009E58B8 /* MySolutions */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -218,6 +240,7 @@
 			files = (
 				FE446349298007A8008FA94A /* Parent.swift in Sources */,
 				FE9AEF2B29C740900009ABA1 /* DestinationInNavigationView.swift in Sources */,
+				FE52958E29D03AAF009E58B8 /* TabViews.swift in Sources */,
 				FE2B0A32298FAF9A00F425F3 /* BottomSheetSizedToFitView.swift in Sources */,
 				FE4463502980160B008FA94A /* GeometryReader.swift in Sources */,
 				FE9AEF2E29C742C50009ABA1 /* NavigationDestination.swift in Sources */,
@@ -225,6 +248,7 @@
 				FE9AEF3029C749120009ABA1 /* PrintView.swift in Sources */,
 				FE44634C298010AB008FA94A /* Child.swift in Sources */,
 				FE44639F2982762F008FA94A /* RadialGradientAnimation.swift in Sources */,
+				FE52959029D03B1F009E58B8 /* CompositionRootView.swift in Sources */,
 				FE44634E298013D7008FA94A /* PreviewIntro.swift in Sources */,
 				FE44633A29800790008FA94A /* SwiftUI1App.swift in Sources */,
 			);
