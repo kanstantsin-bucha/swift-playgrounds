@@ -1,20 +1,31 @@
 import SwiftUI
 
+public class NextViewModel: ObservableObject {
+    @Published fileprivate var isPresented = false
+    
+    public func present() {
+        isPresented = true
+    }
+    
+    public func dismiss() {
+        isPresented = false
+    }
+}
+
 public struct NextView<Content: View>: View {
-    // Let's check if binding works here ?
-    private let isPresented: Binding<Bool>
+    @ObservedObject private var model: NextViewModel
     private let content: () -> Content
     
-    public init(isPresented: Binding<Bool>, content: @escaping () -> Content) {
-        self.isPresented = isPresented
+    public init(model: NextViewModel, content: @escaping () -> Content) {
+        self.model = model
         self.content = content
     }
     
     public var body: some View {
         let _ = Self._printChanges()
-        Print("redraw \(isPresented.wrappedValue)")
+        Print("Redraw next \(model.isPresented)")
         NavigationLink(
-            isActive: isPresented,
+            isActive: $model.isPresented,
             destination: content,
             label: EmptyView.init
         )
