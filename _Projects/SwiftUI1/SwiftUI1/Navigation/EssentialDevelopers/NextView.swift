@@ -26,10 +26,3 @@ public struct NextView<Content: View>: View {
         )
     }
 }
-
-
-struct NextView_Previews: PreviewProvider {
-    static var previews: some View {
-        NextView()
-    }
-}
