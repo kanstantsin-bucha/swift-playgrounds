@@ -1,42 +1,42 @@
 import SwiftUI
 
 class DoorsNavigationModel: ObservableObject {
-    @Published var cabinetNextModel = NextViewModel()
-    @Published var kitchenNextModel = NextViewModel()
+    @Published var isCabinetPresented = false
+    @Published var isKitchenPresented = false
 }
 
 enum DoorsViewFactory {
-    static func doorsTabView(navigation: DoorsNavigationModel) -> some View {
+    static func doorsTabView(navigation: ObservedObject<DoorsNavigationModel>.Wrapper) -> some View {
         let nextView = NextView(
-            model: navigation.cabinetNextModel,
+            isPresented: navigation.isCabinetPresented,
             content: { DoorsViewFactory.cabinetView(navigation: navigation) }
         )
         return NavigationView {
             VStack {
-                DoorsTab(action: { [weak navigation] in
-                    navigation?.cabinetNextModel.present()
+                DoorsTab(action: {
+                    navigation.isCabinetPresented.wrappedValue = true
                 })
                 nextView
             }
         }
     }
     
-    static func cabinetView(navigation: DoorsNavigationModel) -> some View {
+    static func cabinetView(navigation: ObservedObject<DoorsNavigationModel>.Wrapper) -> some View {
         let nextView = NextView(
-            model: navigation.kitchenNextModel,
+            isPresented: navigation.isKitchenPresented,
             content: { DoorsViewFactory.kitchenView(navigation: navigation) })
         return VStack {
-            CabinetDoorsView(action: { [weak navigation] in
-                navigation?.kitchenNextModel.present()
+            CabinetDoorsView(action: {
+                navigation.isKitchenPresented.wrappedValue = true
             })
             nextView
         }
     }
     
-    static func kitchenView(navigation: DoorsNavigationModel) -> some View {
-        return KitchenDoorsView(action: { [weak navigation] in
-            navigation?.kitchenNextModel.dismiss()
-            navigation?.cabinetNextModel.dismiss()
+    static func kitchenView(navigation: ObservedObject<DoorsNavigationModel>.Wrapper) -> some View {
+        return KitchenDoorsView(action: {
+            navigation.isKitchenPresented.wrappedValue = false
+            navigation.isCabinetPresented.wrappedValue = false
         })
     }
 }

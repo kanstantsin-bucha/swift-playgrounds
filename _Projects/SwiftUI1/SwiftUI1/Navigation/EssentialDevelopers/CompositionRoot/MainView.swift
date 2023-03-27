@@ -12,7 +12,7 @@ struct MainView: View {
                 case .keys: KeysTab()
                     .tag(tab)
                     .tabItem { Label("Keys", systemImage: "key.horizontal") }
-                case .doors: DoorsViewFactory.doorsTabView(navigation: doorsNavigation)
+                case .doors: DoorsViewFactory.doorsTabView(navigation: $doorsNavigation)
                     .tag(tab)
                     .tabItem { Label("Doors", systemImage: "door.left.hand.open") }
                 case .sites: SitesTab()
