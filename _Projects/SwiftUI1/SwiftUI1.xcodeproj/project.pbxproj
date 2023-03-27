@@ -20,6 +20,10 @@
 		FE52959029D03B1F009E58B8 /* CompositionRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52958F29D03B1F009E58B8 /* CompositionRootView.swift */; };
 		FE52959229D06341009E58B8 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52959129D06341009E58B8 /* RegistrationView.swift */; };
 		FE52959429D07AE1009E58B8 /* NextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52959329D07AE1009E58B8 /* NextView.swift */; };
+		FE52959729D21E6F009E58B8 /* DoorsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52959629D21E6F009E58B8 /* DoorsViews.swift */; };
+		FE52959929D2257C009E58B8 /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52959829D2257C009E58B8 /* ViewModels.swift */; };
+		FE52959B29D225CC009E58B8 /* DoorsNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52959A29D225CC009E58B8 /* DoorsNavigation.swift */; };
+		FE52959F29D2263C009E58B8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52959E29D2263C009E58B8 /* MainView.swift */; };
 		FE9AEF2829C737510009ABA1 /* ValueNavigationInNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2729C737510009ABA1 /* ValueNavigationInNavigationStack.swift */; };
 		FE9AEF2B29C740900009ABA1 /* DestinationInNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2A29C740900009ABA1 /* DestinationInNavigationView.swift */; };
 		FE9AEF2E29C742C50009ABA1 /* NavigationDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2D29C742C50009ABA1 /* NavigationDestination.swift */; };
@@ -43,6 +47,10 @@
 		FE52958F29D03B1F009E58B8 /* CompositionRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionRootView.swift; sourceTree = "<group>"; };
 		FE52959129D06341009E58B8 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		FE52959329D07AE1009E58B8 /* NextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextView.swift; sourceTree = "<group>"; };
+		FE52959629D21E6F009E58B8 /* DoorsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorsViews.swift; sourceTree = "<group>"; };
+		FE52959829D2257C009E58B8 /* ViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
+		FE52959A29D225CC009E58B8 /* DoorsNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorsNavigation.swift; sourceTree = "<group>"; };
+		FE52959E29D2263C009E58B8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		FE9AEF2729C737510009ABA1 /* ValueNavigationInNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueNavigationInNavigationStack.swift; sourceTree = "<group>"; };
 		FE9AEF2A29C740900009ABA1 /* DestinationInNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationInNavigationView.swift; sourceTree = "<group>"; };
 		FE9AEF2D29C742C50009ABA1 /* NavigationDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestination.swift; sourceTree = "<group>"; };
@@ -141,12 +149,32 @@
 		FE52958C29D03A8D009E58B8 /* EssentialDevelopers */ = {
 			isa = PBXGroup;
 			children = (
+				FE52959D29D225FA009E58B8 /* CompositionRoot */,
+				FE52959C29D225E8009E58B8 /* Doors */,
 				FE52958D29D03AAF009E58B8 /* TabViews.swift */,
-				FE52958F29D03B1F009E58B8 /* CompositionRootView.swift */,
 				FE52959129D06341009E58B8 /* RegistrationView.swift */,
 				FE52959329D07AE1009E58B8 /* NextView.swift */,
+				FE52959829D2257C009E58B8 /* ViewModels.swift */,
 			);
 			path = EssentialDevelopers;
+			sourceTree = "<group>";
+		};
+		FE52959C29D225E8009E58B8 /* Doors */ = {
+			isa = PBXGroup;
+			children = (
+				FE52959629D21E6F009E58B8 /* DoorsViews.swift */,
+				FE52959A29D225CC009E58B8 /* DoorsNavigation.swift */,
+			);
+			path = Doors;
+			sourceTree = "<group>";
+		};
+		FE52959D29D225FA009E58B8 /* CompositionRoot */ = {
+			isa = PBXGroup;
+			children = (
+				FE52958F29D03B1F009E58B8 /* CompositionRootView.swift */,
+				FE52959E29D2263C009E58B8 /* MainView.swift */,
+			);
+			path = CompositionRoot;
 			sourceTree = "<group>";
 		};
 		FE9AEF2629C737280009ABA1 /* NavigationFromiOS16 */ = {
@@ -244,15 +272,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE52959729D21E6F009E58B8 /* DoorsViews.swift in Sources */,
 				FE446349298007A8008FA94A /* Parent.swift in Sources */,
 				FE9AEF2B29C740900009ABA1 /* DestinationInNavigationView.swift in Sources */,
 				FE52958E29D03AAF009E58B8 /* TabViews.swift in Sources */,
 				FE52959229D06341009E58B8 /* RegistrationView.swift in Sources */,
+				FE52959F29D2263C009E58B8 /* MainView.swift in Sources */,
+				FE52959B29D225CC009E58B8 /* DoorsNavigation.swift in Sources */,
 				FE2B0A32298FAF9A00F425F3 /* BottomSheetSizedToFitView.swift in Sources */,
 				FE4463502980160B008FA94A /* GeometryReader.swift in Sources */,
 				FE9AEF2E29C742C50009ABA1 /* NavigationDestination.swift in Sources */,
 				FE9AEF2829C737510009ABA1 /* ValueNavigationInNavigationStack.swift in Sources */,
 				FE9AEF3029C749120009ABA1 /* PrintView.swift in Sources */,
+				FE52959929D2257C009E58B8 /* ViewModels.swift in Sources */,
 				FE44634C298010AB008FA94A /* Child.swift in Sources */,
 				FE44639F2982762F008FA94A /* RadialGradientAnimation.swift in Sources */,
 				FE52959429D07AE1009E58B8 /* NextView.swift in Sources */,

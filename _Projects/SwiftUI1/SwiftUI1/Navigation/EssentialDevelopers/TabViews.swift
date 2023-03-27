@@ -12,17 +12,11 @@ struct UserTab: View {
     var body: some View {
         VStack {
             Text("UserTab")
-            Print("Start registration \(registrationAction)")
+            Print("Start registration \(String(describing: registrationAction))")
             registrationAction.map { action in
                 Button("Start registration") { action() }
             }
         }
-    }
-}
-
-struct DoorsTab: View {
-    var body: some View {
-        Text("DoorsTab")
     }
 }
 

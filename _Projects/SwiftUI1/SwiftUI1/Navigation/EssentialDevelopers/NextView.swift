@@ -1,17 +1,20 @@
 import SwiftUI
 
 public class NextViewModel: ObservableObject {
-    @Published var isActive = false
+    @Published fileprivate var isPresented = false
     
-    public func activate() {
-        isActive = true
+    public func present() {
+        isPresented = true
+    }
+    
+    public func dismiss() {
+        isPresented = false
     }
 }
 
 public struct NextView<Content: View>: View {
-    // Let's check if binding works here ?
     @ObservedObject private var model: NextViewModel
-    let content: () -> Content
+    private let content: () -> Content
     
     public init(model: NextViewModel, content: @escaping () -> Content) {
         self.model = model
@@ -19,8 +22,10 @@ public struct NextView<Content: View>: View {
     }
     
     public var body: some View {
+        let _ = Self._printChanges()
+        Print("Redraw next \(model.isPresented)")
         NavigationLink(
-            isActive: $model.isActive,
+            isActive: $model.isPresented,
             destination: content,
             label: EmptyView.init
         )
