@@ -14,7 +14,7 @@ class MainFlow {
             .sink { isRegistered in
                 if isRegistered {
                     sheet.isPresented = false
-                    main.selected = .keys
+                    main.selected = .doors
                 }
             }
     }

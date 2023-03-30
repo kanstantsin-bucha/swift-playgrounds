@@ -2,48 +2,64 @@ import SwiftUI
 
 struct DoorsTab: View {
     private let action: () -> Void
+    private let actionTitle: String
     
-    init(action: @escaping () -> Void) {
+    init(actionTitle: String, action: @escaping () -> Void) {
+        self.actionTitle = actionTitle
         self.action = action
     }
     
     var body: some View {
         Text("DoorsTab")
             .padding()
-        Button("Present Cabinet") { action() }
+        Button(actionTitle) { action() }
             .padding()
     }
 }
 
-struct CabinetDoorsView: View {
-    private let action: () -> Void
+enum KitchenType: String, CaseIterable, Identifiable {
+    var id: String { self.rawValue }
     
-    init(action: @escaping () -> Void) {
+    case white
+    case black
+    case red
+}
+
+struct CabinetDoorsView: View {
+    private let action: (KitchenType) -> Void
+    
+    init(action: @escaping (KitchenType) -> Void) {
         self.action = action
     }
     
     var body: some View {
-        Text("Hello, Cabinet!")
-        Button("Present kitchen") { action() }
+        Text("Hello, in the cabinet!")
+        ForEach(KitchenType.allCases) { type in
+            Button("Present \(type.rawValue) kitchen") { action(type) }
+                .padding()
+        }
     }
 }
 
 struct KitchenDoorsView: View {
     private let action: () -> Void
+    private let type: KitchenType
     
-    init(action: @escaping () -> Void) {
+    init(type: KitchenType, action: @escaping () -> Void) {
+        self.type = type
         self.action = action
     }
     
     var body: some View {
-        Text("Hello, Kitchen!")
+        Text("Hello in the \(type.rawValue) kitchen!")
         Button("Close all") { action() }
+            .padding()
     }
 }
 
 struct DoorsViews_Previews: PreviewProvider {
     static var previews: some View {
-        CabinetDoorsView(action: {})
-        KitchenDoorsView(action: {})
+        CabinetDoorsView(action: { _ in })
+        KitchenDoorsView(type: .white, action: {})
     }
 }

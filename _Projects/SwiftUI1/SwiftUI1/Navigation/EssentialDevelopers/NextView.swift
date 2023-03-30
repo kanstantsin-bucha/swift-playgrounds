@@ -1,7 +1,8 @@
 import SwiftUI
 
-public class NextViewModel: ObservableObject {
+public class NextViewModel<T>: ObservableObject {
     @Published fileprivate var isPresented = false
+    var presentedObject: T?
     
     public func present() {
         isPresented = true
@@ -9,14 +10,15 @@ public class NextViewModel: ObservableObject {
     
     public func dismiss() {
         isPresented = false
+        presentedObject = nil
     }
 }
 
-public struct NextView<Content: View>: View {
-    @ObservedObject private var model: NextViewModel
+public struct NextView<T, Content: View>: View {
+    @ObservedObject private var model: NextViewModel<T>
     private let content: () -> Content
     
-    public init(model: NextViewModel, content: @escaping () -> Content) {
+    public init(model: NextViewModel<T>, content: @escaping () -> Content) {
         self.model = model
         self.content = content
     }
