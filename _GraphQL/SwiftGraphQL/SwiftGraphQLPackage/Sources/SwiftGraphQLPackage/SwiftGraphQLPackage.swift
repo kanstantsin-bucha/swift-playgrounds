@@ -11,6 +11,6 @@ public struct SwiftGraphQLPackage {
     }
     
     public func fetch() {
-        client
+        client.request
     }
 }

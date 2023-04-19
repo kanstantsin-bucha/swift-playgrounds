@@ -5,11 +5,10 @@
         <page name='Files'/>
         <page name='DispatchGroup'/>
         <page name='CoreDataIntro'/>
-        <page name='Groups'/>
+        <page name='DispatchGroups'/>
         <page name='DateFromatter'/>
         <page name='Dates'/>
         <page name='NSPredicate'/>
-        <page name='DispatchGroupWait'/>
         <page name='UserNotifications'/>
         <page name='CoreLocation'/>
         <page name='CoreBluetooth'/>

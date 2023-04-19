@@ -14,7 +14,12 @@ struct SwiftUI1App: App {
 //            PreviewsIntro()
 //            ParentChildDataFlow()
 //            GeometryReaderV()
-            BottomSheetSizedToFitView()
+//            BottomSheetSizedToFitView()
+//            if #available(iOS 16, *) {
+//                ValueNavigationInNavigationStack()
+//            }
+//            DestinationInNavigationView()
+            composeMainNavigationView()
         }
     }
 }

@@ -152,7 +152,7 @@
       location = "group:CodingInterview.playground">
    </FileRef>
    <FileRef
-      location = "group:play-Networking.playground">
+      location = "group:/Users/kanstantsinbucha/I/coder/apple/playgrounds/Networking.playground">
    </FileRef>
    <FileRef
       location = "group:StructuredConcurrency.playground">
@@ -161,7 +161,7 @@
       location = "group:UIKitiOS.playground">
    </FileRef>
    <FileRef
-      location = "group:SamplesPatternsMacOS.playground">
+      location = "group:/Users/kanstantsinbucha/I/coder/apple/playgrounds/DesignPatternsMacOS.playground">
    </FileRef>
    <Group
       location = "container:"
