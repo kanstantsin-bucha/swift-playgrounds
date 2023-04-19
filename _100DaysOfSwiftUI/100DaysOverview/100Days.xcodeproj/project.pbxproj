@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC028F0D29AF8C0600765C32 /* AccessibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC028F0C29AF8C0600765C32 /* AccessibilityView.swift */; };
 		AC028F0F29AF922400765C32 /* HidingAndGroupingAccessibilityDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC028F0E29AF922400765C32 /* HidingAndGroupingAccessibilityDataView.swift */; };
 		AC028F1129AF9DC400765C32 /* ReadingTheValueOfControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC028F1029AF9DC400765C32 /* ReadingTheValueOfControlsView.swift */; };
+		AC19E36B29E59D3700D10BC8 /* CoreHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC19E36A29E59D3700D10BC8 /* CoreHapticsView.swift */; };
+		AC19E36F29E8324800D10BC8 /* HitTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC19E36E29E8324800D10BC8 /* HitTestingView.swift */; };
+		AC19E37129EEBF1D00D10BC8 /* UsingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC19E37029EEBF1D00D10BC8 /* UsingTimerView.swift */; };
+		AC19E37329EEC29300D10BC8 /* NotifiedBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC19E37229EEC29300D10BC8 /* NotifiedBackgroundView.swift */; };
+		AC19E37729EFC4B600D10BC8 /* AccessibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC19E37629EFC4B600D10BC8 /* AccessibilityView.swift */; };
+		AC19E37929EFC87700D10BC8 /* ReduceMotionAccessibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC19E37829EFC87700D10BC8 /* ReduceMotionAccessibilityView.swift */; };
 		AC1D5B5E298AADBE00241F24 /* DrawingPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D5B5D298AADBE00241F24 /* DrawingPathView.swift */; };
 		AC1D5B60298AAFF800241F24 /* DrawingShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D5B5F298AAFF800241F24 /* DrawingShapeView.swift */; };
 		AC1D5B62298ABC7F00241F24 /* InsettableShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D5B61298ABC7F00241F24 /* InsettableShapeView.swift */; };
@@ -99,9 +104,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AC028F0C29AF8C0600765C32 /* AccessibilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityView.swift; sourceTree = "<group>"; };
 		AC028F0E29AF922400765C32 /* HidingAndGroupingAccessibilityDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HidingAndGroupingAccessibilityDataView.swift; sourceTree = "<group>"; };
 		AC028F1029AF9DC400765C32 /* ReadingTheValueOfControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingTheValueOfControlsView.swift; sourceTree = "<group>"; };
+		AC19E36A29E59D3700D10BC8 /* CoreHapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreHapticsView.swift; sourceTree = "<group>"; };
+		AC19E36E29E8324800D10BC8 /* HitTestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitTestingView.swift; sourceTree = "<group>"; };
+		AC19E37029EEBF1D00D10BC8 /* UsingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingTimerView.swift; sourceTree = "<group>"; };
+		AC19E37229EEC29300D10BC8 /* NotifiedBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifiedBackgroundView.swift; sourceTree = "<group>"; };
+		AC19E37629EFC4B600D10BC8 /* AccessibilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityView.swift; sourceTree = "<group>"; };
+		AC19E37829EFC87700D10BC8 /* ReduceMotionAccessibilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceMotionAccessibilityView.swift; sourceTree = "<group>"; };
 		AC1D5B5D298AADBE00241F24 /* DrawingPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingPathView.swift; sourceTree = "<group>"; };
 		AC1D5B5F298AAFF800241F24 /* DrawingShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingShapeView.swift; sourceTree = "<group>"; };
 		AC1D5B61298ABC7F00241F24 /* InsettableShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsettableShapeView.swift; sourceTree = "<group>"; };
@@ -279,7 +289,6 @@
 				ACEF278529A66FFA00364257 /* UserLocationsToMapView.swift */,
 				ACEF278729A6766E00364257 /* SecondLocation.swift */,
 				ACEF278929A8F00E00364257 /* EditView.swift */,
-				AC028F0C29AF8C0600765C32 /* AccessibilityView.swift */,
 				AC028F0E29AF922400765C32 /* HidingAndGroupingAccessibilityDataView.swift */,
 				AC028F1029AF9DC400765C32 /* ReadingTheValueOfControlsView.swift */,
 				ACE404CB29BA2804007DC8DA /* EnvironmentObjectView.swift */,
@@ -291,6 +300,12 @@
 				ACE404D729BB53A6007DC8DA /* SwipeActionsView.swift */,
 				ACE404D929BB632B007DC8DA /* SchedulingLocalNotificationView.swift */,
 				ACE404DD29BB7021007DC8DA /* SwiftPackageView.swift */,
+				AC19E36A29E59D3700D10BC8 /* CoreHapticsView.swift */,
+				AC19E36E29E8324800D10BC8 /* HitTestingView.swift */,
+				AC19E37029EEBF1D00D10BC8 /* UsingTimerView.swift */,
+				AC19E37229EEC29300D10BC8 /* NotifiedBackgroundView.swift */,
+				AC19E37629EFC4B600D10BC8 /* AccessibilityView.swift */,
+				AC19E37829EFC87700D10BC8 /* ReduceMotionAccessibilityView.swift */,
 				AC5E59FC29780BE400290E31 /* Assets.xcassets */,
 				AC5E59FE29780BE400290E31 /* Preview Content */,
 			);
@@ -453,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACA7F76B29816B70003B91AB /* CustomModifierView.swift in Sources */,
+				AC19E36F29E8324800D10BC8 /* HitTestingView.swift in Sources */,
 				ACEF275E29A50EBC00364257 /* ConformanceToComparableView.swift in Sources */,
 				AC7FE5E62987B3BF0036E736 /* ScrollViewExampleView.swift in Sources */,
 				ACA7F76729815CEA003B91AB /* DragView.swift in Sources */,
@@ -466,16 +482,19 @@
 				ACE404D029BA327A007DC8DA /* ObservableObjectChangesView.swift in Sources */,
 				AC7FE5EC2987D9920036E736 /* ScrollingGridView.swift in Sources */,
 				AC028F1129AF9DC400765C32 /* ReadingTheValueOfControlsView.swift in Sources */,
+				AC19E37929EFC87700D10BC8 /* ReduceMotionAccessibilityView.swift in Sources */,
 				ACE404D229BB38AC007DC8DA /* ResultTypeView.swift in Sources */,
 				AC1D5B6A298BEE4800241F24 /* SpecialEffectsView.swift in Sources */,
 				AC52F4EB297EABF3005006E8 /* ListView.swift in Sources */,
 				AC1D5B5E298AADBE00241F24 /* DrawingPathView.swift in Sources */,
+				AC19E37729EFC4B600D10BC8 /* AccessibilityView.swift in Sources */,
 				AC1D5B64298BC6F100241F24 /* FlowerShapeView.swift in Sources */,
 				ACA96DBC2983E4E500E557F8 /* AppStorageView.swift in Sources */,
 				ACEF273A299E72EB00364257 /* ImagePicker.swift in Sources */,
 				AC52F4E5297E7722005006E8 /* Term&ConditionView.swift in Sources */,
 				ACA96DB82983D9B900E557F8 /* DeletingView.swift in Sources */,
 				ACA7F769298160DC003B91AB /* ShowingAndHidingView.swift in Sources */,
+				AC19E36B29E59D3700D10BC8 /* CoreHapticsView.swift in Sources */,
 				ACEF273C299E9D9C00364257 /* ImageSaver.swift in Sources */,
 				AC5E5A61297AAE3200290E31 /*  BindingView.swift in Sources */,
 				ACEF276029A514C300364257 /* DataToDocumentsDirectoryView.swift in Sources */,
@@ -487,15 +506,16 @@
 				ACEF278429A652AE00364257 /* TouchIDandFaceIDView.swift in Sources */,
 				ACEF278629A66FFA00364257 /* UserLocationsToMapView.swift in Sources */,
 				ACE404CE29BA2AE4007DC8DA /* TabExampleView.swift in Sources */,
-				AC028F0D29AF8C0600765C32 /* AccessibilityView.swift in Sources */,
 				ACA96DB62983C19600E557F8 /* SheetView.swift in Sources */,
 				AC5E5A5B29796F9400290E31 /* ViewModifierView.swift in Sources */,
 				AC819C3229922ED1009F7522 /* CodableConformanceView.swift in Sources */,
 				ACEF2738299E703100364257 /* WrappingUIViewControllerInSwiftUIView.swift in Sources */,
 				ACE404DE29BB7021007DC8DA /* SwiftPackageView.swift in Sources */,
+				AC19E37129EEBF1D00D10BC8 /* UsingTimerView.swift in Sources */,
 				AC1D5B60298AAFF800241F24 /* DrawingShapeView.swift in Sources */,
 				AC819C3429924298009F7522 /* CodableDataView.swift in Sources */,
 				AC1D5B66298BD74D00241F24 /* BorderImageView.swift in Sources */,
+				AC19E37329EEC29300D10BC8 /* NotifiedBackgroundView.swift in Sources */,
 				AC1D5B74298C310600241F24 /* SpirographView.swift in Sources */,
 				AC1D5B68298BE1E600241F24 /* ColorCyclingView.swift in Sources */,
 				ACEF2734299E501400364257 /* ConfirmationDialogView.swift in Sources */,

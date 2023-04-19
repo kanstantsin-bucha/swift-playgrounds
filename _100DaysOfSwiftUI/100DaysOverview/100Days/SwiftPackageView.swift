@@ -8,7 +8,7 @@
 import SwiftUI
 
 //This example without Package
-//Show only conversion [Int] in String
+//Show only conversion [Int] to String
 struct SwiftPackageView: View {
     let numbers = Array(1...10)
     var body: some View {
@@ -16,7 +16,7 @@ struct SwiftPackageView: View {
     }
     
     var results: String {
-        return numbers.map(String.init).joined(separator: ", ")
+        return numbers.map(String.init).joined(separator: ",")
     }
 }
 
