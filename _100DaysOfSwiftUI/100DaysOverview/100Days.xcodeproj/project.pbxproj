@@ -15,6 +15,7 @@
 		AC19E37329EEC29300D10BC8 /* NotifiedBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC19E37229EEC29300D10BC8 /* NotifiedBackgroundView.swift */; };
 		AC19E37729EFC4B600D10BC8 /* AccessibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC19E37629EFC4B600D10BC8 /* AccessibilityView.swift */; };
 		AC19E37929EFC87700D10BC8 /* ReduceMotionAccessibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC19E37829EFC87700D10BC8 /* ReduceMotionAccessibilityView.swift */; };
+		AC19E37B29EFCE3300D10BC8 /* ReduceMotionAccessibility2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC19E37A29EFCE3300D10BC8 /* ReduceMotionAccessibility2View.swift */; };
 		AC1D5B5E298AADBE00241F24 /* DrawingPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D5B5D298AADBE00241F24 /* DrawingPathView.swift */; };
 		AC1D5B60298AAFF800241F24 /* DrawingShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D5B5F298AAFF800241F24 /* DrawingShapeView.swift */; };
 		AC1D5B62298ABC7F00241F24 /* InsettableShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D5B61298ABC7F00241F24 /* InsettableShapeView.swift */; };
@@ -112,6 +113,7 @@
 		AC19E37229EEC29300D10BC8 /* NotifiedBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifiedBackgroundView.swift; sourceTree = "<group>"; };
 		AC19E37629EFC4B600D10BC8 /* AccessibilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityView.swift; sourceTree = "<group>"; };
 		AC19E37829EFC87700D10BC8 /* ReduceMotionAccessibilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceMotionAccessibilityView.swift; sourceTree = "<group>"; };
+		AC19E37A29EFCE3300D10BC8 /* ReduceMotionAccessibility2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceMotionAccessibility2View.swift; sourceTree = "<group>"; };
 		AC1D5B5D298AADBE00241F24 /* DrawingPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingPathView.swift; sourceTree = "<group>"; };
 		AC1D5B5F298AAFF800241F24 /* DrawingShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingShapeView.swift; sourceTree = "<group>"; };
 		AC1D5B61298ABC7F00241F24 /* InsettableShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsettableShapeView.swift; sourceTree = "<group>"; };
@@ -306,6 +308,7 @@
 				AC19E37229EEC29300D10BC8 /* NotifiedBackgroundView.swift */,
 				AC19E37629EFC4B600D10BC8 /* AccessibilityView.swift */,
 				AC19E37829EFC87700D10BC8 /* ReduceMotionAccessibilityView.swift */,
+				AC19E37A29EFCE3300D10BC8 /* ReduceMotionAccessibility2View.swift */,
 				AC5E59FC29780BE400290E31 /* Assets.xcassets */,
 				AC5E59FE29780BE400290E31 /* Preview Content */,
 			);
@@ -506,6 +509,7 @@
 				ACEF278429A652AE00364257 /* TouchIDandFaceIDView.swift in Sources */,
 				ACEF278629A66FFA00364257 /* UserLocationsToMapView.swift in Sources */,
 				ACE404CE29BA2AE4007DC8DA /* TabExampleView.swift in Sources */,
+				AC19E37B29EFCE3300D10BC8 /* ReduceMotionAccessibility2View.swift in Sources */,
 				ACA96DB62983C19600E557F8 /* SheetView.swift in Sources */,
 				AC5E5A5B29796F9400290E31 /* ViewModifierView.swift in Sources */,
 				AC819C3229922ED1009F7522 /* CodableConformanceView.swift in Sources */,
