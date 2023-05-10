@@ -31,6 +31,8 @@
 		AC1D5B74298C310600241F24 /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D5B73298C310600241F24 /* SpirographView.swift */; };
 		AC4D66DC2A0A681C009334E7 /* Alignment&alignmentGuidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D66DB2A0A681C009334E7 /* Alignment&alignmentGuidesView.swift */; };
 		AC4D66DE2A0B88FE009334E7 /* CustomAlignmentGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D66DD2A0B88FE009334E7 /* CustomAlignmentGuideView.swift */; };
+		AC4D66E02A0B96B8009334E7 /* AbsolutePositioningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D66DF2A0B96B8009334E7 /* AbsolutePositioningView.swift */; };
+		AC4D66E22A0B9D6B009334E7 /* FrameAndCoordinateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D66E12A0B9D6B009334E7 /* FrameAndCoordinateView.swift */; };
 		AC52F4E5297E7722005006E8 /* Term&ConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52F4E4297E7722005006E8 /* Term&ConditionView.swift */; };
 		AC52F4E7297E9AA8005006E8 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52F4E6297E9AA8005006E8 /* StepperView.swift */; };
 		AC52F4E9297E9D45005006E8 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52F4E8297E9D45005006E8 /* DatePickerView.swift */; };
@@ -133,6 +135,8 @@
 		AC1D5B73298C310600241F24 /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
 		AC4D66DB2A0A681C009334E7 /* Alignment&alignmentGuidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alignment&alignmentGuidesView.swift"; sourceTree = "<group>"; };
 		AC4D66DD2A0B88FE009334E7 /* CustomAlignmentGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentGuideView.swift; sourceTree = "<group>"; };
+		AC4D66DF2A0B96B8009334E7 /* AbsolutePositioningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePositioningView.swift; sourceTree = "<group>"; };
+		AC4D66E12A0B9D6B009334E7 /* FrameAndCoordinateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAndCoordinateView.swift; sourceTree = "<group>"; };
 		AC52F4E4297E7722005006E8 /* Term&ConditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Term&ConditionView.swift"; sourceTree = "<group>"; };
 		AC52F4E6297E9AA8005006E8 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		AC52F4E8297E9D45005006E8 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
@@ -321,6 +325,8 @@
 				ACEE811F2A0621D5004BEF80 /* Layout&GeometryView.swift */,
 				AC4D66DB2A0A681C009334E7 /* Alignment&alignmentGuidesView.swift */,
 				AC4D66DD2A0B88FE009334E7 /* CustomAlignmentGuideView.swift */,
+				AC4D66DF2A0B96B8009334E7 /* AbsolutePositioningView.swift */,
+				AC4D66E12A0B9D6B009334E7 /* FrameAndCoordinateView.swift */,
 				AC5E59FC29780BE400290E31 /* Assets.xcassets */,
 				AC5E59FE29780BE400290E31 /* Preview Content */,
 			);
@@ -539,6 +545,7 @@
 				AC1D5B68298BE1E600241F24 /* ColorCyclingView.swift in Sources */,
 				ACEF2734299E501400364257 /* ConfirmationDialogView.swift in Sources */,
 				ACE404D429BB4318007DC8DA /* ControllingImageInterpolationView.swift in Sources */,
+				AC4D66E02A0B96B8009334E7 /* AbsolutePositioningView.swift in Sources */,
 				AC1D5B62298ABC7F00241F24 /* InsettableShapeView.swift in Sources */,
 				ACEF278829A6766E00364257 /* SecondLocation.swift in Sources */,
 				AC819C5629928669009F7522 /* LoadingImageFromServerView.swift in Sources */,
@@ -559,6 +566,7 @@
 				AC819C962994FAE3009F7522 /* TextEditorView.swift in Sources */,
 				ACE404D829BB53A6007DC8DA /* SwipeActionsView.swift in Sources */,
 				ACA96DBA2983E19000E557F8 /* UserDefaultView.swift in Sources */,
+				AC4D66E22A0B9D6B009334E7 /* FrameAndCoordinateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

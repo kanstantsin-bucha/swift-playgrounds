@@ -11,7 +11,7 @@ import SwiftUI
 struct _00DaysApp: App {
     var body: some Scene {
         WindowGroup {
-            CustomAlignmentGuideView()
+            FrameAndCoordinateView()
         }
     }
 }
