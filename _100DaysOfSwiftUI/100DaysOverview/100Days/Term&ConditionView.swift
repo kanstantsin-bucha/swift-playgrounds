@@ -26,10 +26,10 @@ struct Term_ConditionView: View {
         )
         return VStack {
             Toggle("Agree to all", isOn: agreedToAll)
-                    Toggle("Agree to terms", isOn: $agreedToTerms)
-                    Toggle("Agree to privacy policy", isOn: $agreedToPrivacyPolicy)
-                    Toggle("Agree to receive shipping emails", isOn: $agreedToEmails)
-                }
+            Toggle("Agree to terms", isOn: $agreedToTerms)
+            Toggle("Agree to privacy policy", isOn: $agreedToPrivacyPolicy)
+            Toggle("Agree to receive shipping emails", isOn: $agreedToEmails)
+        }
     }
 }
 

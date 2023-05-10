@@ -16,6 +16,7 @@
 		AC19E37729EFC4B600D10BC8 /* AccessibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC19E37629EFC4B600D10BC8 /* AccessibilityView.swift */; };
 		AC19E37929EFC87700D10BC8 /* ReduceMotionAccessibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC19E37829EFC87700D10BC8 /* ReduceMotionAccessibilityView.swift */; };
 		AC19E37B29EFCE3300D10BC8 /* ReduceMotionAccessibility2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC19E37A29EFCE3300D10BC8 /* ReduceMotionAccessibility2View.swift */; };
+		AC19E37D29EFD10F00D10BC8 /* ReduceTransparencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC19E37C29EFD10F00D10BC8 /* ReduceTransparencyView.swift */; };
 		AC1D5B5E298AADBE00241F24 /* DrawingPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D5B5D298AADBE00241F24 /* DrawingPathView.swift */; };
 		AC1D5B60298AAFF800241F24 /* DrawingShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D5B5F298AAFF800241F24 /* DrawingShapeView.swift */; };
 		AC1D5B62298ABC7F00241F24 /* InsettableShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D5B61298ABC7F00241F24 /* InsettableShapeView.swift */; };
@@ -28,6 +29,8 @@
 		AC1D5B70298C08A200241F24 /* TrapezoidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D5B6F298C08A200241F24 /* TrapezoidView.swift */; };
 		AC1D5B72298C13AE00241F24 /* CheckerBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D5B71298C13AE00241F24 /* CheckerBoardView.swift */; };
 		AC1D5B74298C310600241F24 /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D5B73298C310600241F24 /* SpirographView.swift */; };
+		AC4D66DC2A0A681C009334E7 /* Alignment&alignmentGuidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D66DB2A0A681C009334E7 /* Alignment&alignmentGuidesView.swift */; };
+		AC4D66DE2A0B88FE009334E7 /* CustomAlignmentGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D66DD2A0B88FE009334E7 /* CustomAlignmentGuideView.swift */; };
 		AC52F4E5297E7722005006E8 /* Term&ConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52F4E4297E7722005006E8 /* Term&ConditionView.swift */; };
 		AC52F4E7297E9AA8005006E8 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52F4E6297E9AA8005006E8 /* StepperView.swift */; };
 		AC52F4E9297E9D45005006E8 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52F4E8297E9D45005006E8 /* DatePickerView.swift */; };
@@ -71,6 +74,7 @@
 		ACE404D829BB53A6007DC8DA /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE404D729BB53A6007DC8DA /* SwipeActionsView.swift */; };
 		ACE404DA29BB632B007DC8DA /* SchedulingLocalNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE404D929BB632B007DC8DA /* SchedulingLocalNotificationView.swift */; };
 		ACE404DE29BB7021007DC8DA /* SwiftPackageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE404DD29BB7021007DC8DA /* SwiftPackageView.swift */; };
+		ACEE81202A0621D5004BEF80 /* Layout&GeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE811F2A0621D5004BEF80 /* Layout&GeometryView.swift */; };
 		ACEF2732299E481F00364257 /* RespondingToStateChangesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2731299E481F00364257 /* RespondingToStateChangesView.swift */; };
 		ACEF2734299E501400364257 /* ConfirmationDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2733299E501400364257 /* ConfirmationDialogView.swift */; };
 		ACEF2736299E59A600364257 /* IntegratingCoreImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF2735299E59A600364257 /* IntegratingCoreImageView.swift */; };
@@ -114,6 +118,7 @@
 		AC19E37629EFC4B600D10BC8 /* AccessibilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityView.swift; sourceTree = "<group>"; };
 		AC19E37829EFC87700D10BC8 /* ReduceMotionAccessibilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceMotionAccessibilityView.swift; sourceTree = "<group>"; };
 		AC19E37A29EFCE3300D10BC8 /* ReduceMotionAccessibility2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceMotionAccessibility2View.swift; sourceTree = "<group>"; };
+		AC19E37C29EFD10F00D10BC8 /* ReduceTransparencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceTransparencyView.swift; sourceTree = "<group>"; };
 		AC1D5B5D298AADBE00241F24 /* DrawingPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingPathView.swift; sourceTree = "<group>"; };
 		AC1D5B5F298AAFF800241F24 /* DrawingShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingShapeView.swift; sourceTree = "<group>"; };
 		AC1D5B61298ABC7F00241F24 /* InsettableShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsettableShapeView.swift; sourceTree = "<group>"; };
@@ -126,6 +131,8 @@
 		AC1D5B6F298C08A200241F24 /* TrapezoidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapezoidView.swift; sourceTree = "<group>"; };
 		AC1D5B71298C13AE00241F24 /* CheckerBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckerBoardView.swift; sourceTree = "<group>"; };
 		AC1D5B73298C310600241F24 /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
+		AC4D66DB2A0A681C009334E7 /* Alignment&alignmentGuidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alignment&alignmentGuidesView.swift"; sourceTree = "<group>"; };
+		AC4D66DD2A0B88FE009334E7 /* CustomAlignmentGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentGuideView.swift; sourceTree = "<group>"; };
 		AC52F4E4297E7722005006E8 /* Term&ConditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Term&ConditionView.swift"; sourceTree = "<group>"; };
 		AC52F4E6297E9AA8005006E8 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		AC52F4E8297E9D45005006E8 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
@@ -172,6 +179,7 @@
 		ACE404D729BB53A6007DC8DA /* SwipeActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsView.swift; sourceTree = "<group>"; };
 		ACE404D929BB632B007DC8DA /* SchedulingLocalNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingLocalNotificationView.swift; sourceTree = "<group>"; };
 		ACE404DD29BB7021007DC8DA /* SwiftPackageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPackageView.swift; sourceTree = "<group>"; };
+		ACEE811F2A0621D5004BEF80 /* Layout&GeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Layout&GeometryView.swift"; sourceTree = "<group>"; };
 		ACEF2731299E481F00364257 /* RespondingToStateChangesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespondingToStateChangesView.swift; sourceTree = "<group>"; };
 		ACEF2733299E501400364257 /* ConfirmationDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogView.swift; sourceTree = "<group>"; };
 		ACEF2735299E59A600364257 /* IntegratingCoreImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegratingCoreImageView.swift; sourceTree = "<group>"; };
@@ -309,6 +317,10 @@
 				AC19E37629EFC4B600D10BC8 /* AccessibilityView.swift */,
 				AC19E37829EFC87700D10BC8 /* ReduceMotionAccessibilityView.swift */,
 				AC19E37A29EFCE3300D10BC8 /* ReduceMotionAccessibility2View.swift */,
+				AC19E37C29EFD10F00D10BC8 /* ReduceTransparencyView.swift */,
+				ACEE811F2A0621D5004BEF80 /* Layout&GeometryView.swift */,
+				AC4D66DB2A0A681C009334E7 /* Alignment&alignmentGuidesView.swift */,
+				AC4D66DD2A0B88FE009334E7 /* CustomAlignmentGuideView.swift */,
 				AC5E59FC29780BE400290E31 /* Assets.xcassets */,
 				AC5E59FE29780BE400290E31 /* Preview Content */,
 			);
@@ -486,6 +498,7 @@
 				AC7FE5EC2987D9920036E736 /* ScrollingGridView.swift in Sources */,
 				AC028F1129AF9DC400765C32 /* ReadingTheValueOfControlsView.swift in Sources */,
 				AC19E37929EFC87700D10BC8 /* ReduceMotionAccessibilityView.swift in Sources */,
+				AC19E37D29EFD10F00D10BC8 /* ReduceTransparencyView.swift in Sources */,
 				ACE404D229BB38AC007DC8DA /* ResultTypeView.swift in Sources */,
 				AC1D5B6A298BEE4800241F24 /* SpecialEffectsView.swift in Sources */,
 				AC52F4EB297EABF3005006E8 /* ListView.swift in Sources */,
@@ -509,6 +522,7 @@
 				ACEF278429A652AE00364257 /* TouchIDandFaceIDView.swift in Sources */,
 				ACEF278629A66FFA00364257 /* UserLocationsToMapView.swift in Sources */,
 				ACE404CE29BA2AE4007DC8DA /* TabExampleView.swift in Sources */,
+				ACEE81202A0621D5004BEF80 /* Layout&GeometryView.swift in Sources */,
 				AC19E37B29EFCE3300D10BC8 /* ReduceMotionAccessibility2View.swift in Sources */,
 				ACA96DB62983C19600E557F8 /* SheetView.swift in Sources */,
 				AC5E5A5B29796F9400290E31 /* ViewModifierView.swift in Sources */,
@@ -518,6 +532,7 @@
 				AC19E37129EEBF1D00D10BC8 /* UsingTimerView.swift in Sources */,
 				AC1D5B60298AAFF800241F24 /* DrawingShapeView.swift in Sources */,
 				AC819C3429924298009F7522 /* CodableDataView.swift in Sources */,
+				AC4D66DC2A0A681C009334E7 /* Alignment&alignmentGuidesView.swift in Sources */,
 				AC1D5B66298BD74D00241F24 /* BorderImageView.swift in Sources */,
 				AC19E37329EEC29300D10BC8 /* NotifiedBackgroundView.swift in Sources */,
 				AC1D5B74298C310600241F24 /* SpirographView.swift in Sources */,
@@ -532,6 +547,7 @@
 				AC028F0F29AF922400765C32 /* HidingAndGroupingAccessibilityDataView.swift in Sources */,
 				AC5E59FB29780BE400290E31 /* ContentView.swift in Sources */,
 				ACEF2732299E481F00364257 /* RespondingToStateChangesView.swift in Sources */,
+				AC4D66DE2A0B88FE009334E7 /* CustomAlignmentGuideView.swift in Sources */,
 				ACEF278A29A8F00E00364257 /* EditView.swift in Sources */,
 				AC1D5B70298C08A200241F24 /* TrapezoidView.swift in Sources */,
 				AC7FE5E82987C5360036E736 /* NavigationLinkView.swift in Sources */,

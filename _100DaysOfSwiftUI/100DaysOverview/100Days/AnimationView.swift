@@ -28,7 +28,7 @@ struct AnimationView: View {
                 .animation(.default, value: isEnabled)
                 
                 .foregroundColor(.white)
-                .cornerRadius(isEnabled ? 200 : 50)
+                .cornerRadius(isEnabled ? 50 : 200)
                 .shadow(radius: 30)
                 .animation(.interpolatingSpring(stiffness: 10, damping: 1), value: isEnabled)
                

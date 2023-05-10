@@ -24,12 +24,13 @@ struct DragView: View {
                 
             }
         }
-        .gesture(DragGesture()
-            .onChanged { dragAmount = $0.translation }
-            .onEnded{ _ in
-                dragAmount = .zero
-                isEnable.toggle()
-            }
+        .gesture(
+            DragGesture()
+                .onChanged { dragAmount = $0.translation }
+                .onEnded{ _ in
+                    dragAmount = .zero
+                    isEnable.toggle()
+                }
         )
     }
 }

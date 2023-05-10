@@ -15,7 +15,7 @@ struct ListView: View {
                 Text("Hello")
                 Text("Hello")
             }
-            Section("Section 2 ") {
+            Section("Section 2") {
                 ForEach(people, id: \.self) {
                     Text("People \($0)")
                 }

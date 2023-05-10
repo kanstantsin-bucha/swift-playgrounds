@@ -18,7 +18,7 @@ struct ResizingImageView: View {
                 Image("Image")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: geo.size.height)
+//                    .frame(width: geo.size.height)
                     .frame(width: geo.size.width, height: geo.size.height)
             }
             
