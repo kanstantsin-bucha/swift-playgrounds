@@ -33,6 +33,7 @@
 		AC4D66DE2A0B88FE009334E7 /* CustomAlignmentGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D66DD2A0B88FE009334E7 /* CustomAlignmentGuideView.swift */; };
 		AC4D66E02A0B96B8009334E7 /* AbsolutePositioningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D66DF2A0B96B8009334E7 /* AbsolutePositioningView.swift */; };
 		AC4D66E22A0B9D6B009334E7 /* FrameAndCoordinateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D66E12A0B9D6B009334E7 /* FrameAndCoordinateView.swift */; };
+		AC4D66E62A0E4798009334E7 /* ScrollViewWithGeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D66E52A0E4798009334E7 /* ScrollViewWithGeometryReaderView.swift */; };
 		AC52F4E5297E7722005006E8 /* Term&ConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52F4E4297E7722005006E8 /* Term&ConditionView.swift */; };
 		AC52F4E7297E9AA8005006E8 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52F4E6297E9AA8005006E8 /* StepperView.swift */; };
 		AC52F4E9297E9D45005006E8 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52F4E8297E9D45005006E8 /* DatePickerView.swift */; };
@@ -137,6 +138,7 @@
 		AC4D66DD2A0B88FE009334E7 /* CustomAlignmentGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentGuideView.swift; sourceTree = "<group>"; };
 		AC4D66DF2A0B96B8009334E7 /* AbsolutePositioningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePositioningView.swift; sourceTree = "<group>"; };
 		AC4D66E12A0B9D6B009334E7 /* FrameAndCoordinateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAndCoordinateView.swift; sourceTree = "<group>"; };
+		AC4D66E52A0E4798009334E7 /* ScrollViewWithGeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewWithGeometryReaderView.swift; sourceTree = "<group>"; };
 		AC52F4E4297E7722005006E8 /* Term&ConditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Term&ConditionView.swift"; sourceTree = "<group>"; };
 		AC52F4E6297E9AA8005006E8 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		AC52F4E8297E9D45005006E8 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
@@ -327,6 +329,7 @@
 				AC4D66DD2A0B88FE009334E7 /* CustomAlignmentGuideView.swift */,
 				AC4D66DF2A0B96B8009334E7 /* AbsolutePositioningView.swift */,
 				AC4D66E12A0B9D6B009334E7 /* FrameAndCoordinateView.swift */,
+				AC4D66E52A0E4798009334E7 /* ScrollViewWithGeometryReaderView.swift */,
 				AC5E59FC29780BE400290E31 /* Assets.xcassets */,
 				AC5E59FE29780BE400290E31 /* Preview Content */,
 			);
@@ -505,6 +508,7 @@
 				AC028F1129AF9DC400765C32 /* ReadingTheValueOfControlsView.swift in Sources */,
 				AC19E37929EFC87700D10BC8 /* ReduceMotionAccessibilityView.swift in Sources */,
 				AC19E37D29EFD10F00D10BC8 /* ReduceTransparencyView.swift in Sources */,
+				AC4D66E62A0E4798009334E7 /* ScrollViewWithGeometryReaderView.swift in Sources */,
 				ACE404D229BB38AC007DC8DA /* ResultTypeView.swift in Sources */,
 				AC1D5B6A298BEE4800241F24 /* SpecialEffectsView.swift in Sources */,
 				AC52F4EB297EABF3005006E8 /* ListView.swift in Sources */,
