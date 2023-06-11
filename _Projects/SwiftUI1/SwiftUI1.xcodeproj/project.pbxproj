@@ -24,10 +24,12 @@
 		FE52959929D2257C009E58B8 /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52959829D2257C009E58B8 /* ViewModels.swift */; };
 		FE52959B29D225CC009E58B8 /* DoorsNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52959A29D225CC009E58B8 /* DoorsNavigation.swift */; };
 		FE52959F29D2263C009E58B8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52959E29D2263C009E58B8 /* MainView.swift */; };
+		FE62F0F129E0148C00A61CF9 /* ModifiersOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE62F0F029E0148C00A61CF9 /* ModifiersOrder.swift */; };
 		FE9AEF2829C737510009ABA1 /* ValueNavigationInNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2729C737510009ABA1 /* ValueNavigationInNavigationStack.swift */; };
 		FE9AEF2B29C740900009ABA1 /* DestinationInNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2A29C740900009ABA1 /* DestinationInNavigationView.swift */; };
 		FE9AEF2E29C742C50009ABA1 /* NavigationDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2D29C742C50009ABA1 /* NavigationDestination.swift */; };
 		FE9AEF3029C749120009ABA1 /* PrintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2F29C749120009ABA1 /* PrintView.swift */; };
+		FECDDFC42A35E08A00227220 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECDDFC32A35E08A00227220 /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,10 +53,12 @@
 		FE52959829D2257C009E58B8 /* ViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
 		FE52959A29D225CC009E58B8 /* DoorsNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorsNavigation.swift; sourceTree = "<group>"; };
 		FE52959E29D2263C009E58B8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FE62F0F029E0148C00A61CF9 /* ModifiersOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersOrder.swift; sourceTree = "<group>"; };
 		FE9AEF2729C737510009ABA1 /* ValueNavigationInNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueNavigationInNavigationStack.swift; sourceTree = "<group>"; };
 		FE9AEF2A29C740900009ABA1 /* DestinationInNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationInNavigationView.swift; sourceTree = "<group>"; };
 		FE9AEF2D29C742C50009ABA1 /* NavigationDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestination.swift; sourceTree = "<group>"; };
 		FE9AEF2F29C749120009ABA1 /* PrintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintView.swift; sourceTree = "<group>"; };
+		FECDDFC32A35E08A00227220 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				FE2B0A31298FAF9A00F425F3 /* BottomSheetSizedToFitView.swift */,
 				FE44634F2980160B008FA94A /* GeometryReader.swift */,
 				FE44634D298013D7008FA94A /* PreviewIntro.swift */,
+				FE62F0F029E0148C00A61CF9 /* ModifiersOrder.swift */,
+				FECDDFC32A35E08A00227220 /* CustomTabBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -277,6 +283,7 @@
 				FE9AEF2B29C740900009ABA1 /* DestinationInNavigationView.swift in Sources */,
 				FE52958E29D03AAF009E58B8 /* TabViews.swift in Sources */,
 				FE52959229D06341009E58B8 /* RegistrationView.swift in Sources */,
+				FE62F0F129E0148C00A61CF9 /* ModifiersOrder.swift in Sources */,
 				FE52959F29D2263C009E58B8 /* MainView.swift in Sources */,
 				FE52959B29D225CC009E58B8 /* DoorsNavigation.swift in Sources */,
 				FE2B0A32298FAF9A00F425F3 /* BottomSheetSizedToFitView.swift in Sources */,
@@ -287,6 +294,7 @@
 				FE52959929D2257C009E58B8 /* ViewModels.swift in Sources */,
 				FE44634C298010AB008FA94A /* Child.swift in Sources */,
 				FE44639F2982762F008FA94A /* RadialGradientAnimation.swift in Sources */,
+				FECDDFC42A35E08A00227220 /* CustomTabBar.swift in Sources */,
 				FE52959429D07AE1009E58B8 /* NextView.swift in Sources */,
 				FE52959029D03B1F009E58B8 /* CompositionRootView.swift in Sources */,
 				FE44634E298013D7008FA94A /* PreviewIntro.swift in Sources */,
