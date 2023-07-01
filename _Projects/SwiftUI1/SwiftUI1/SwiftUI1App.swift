@@ -19,7 +19,8 @@ struct SwiftUI1App: App {
 //                ValueNavigationInNavigationStack()
 //            }
 //            DestinationInNavigationView()
-            composeMainNavigationView()
+//            composeMainNavigationView()
+            LifeView()
         }
     }
 }

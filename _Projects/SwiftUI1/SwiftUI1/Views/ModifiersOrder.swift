@@ -7,7 +7,16 @@
 
 import SwiftUI
 
+final class ADS: ObservableObject {
+    
+}
+
 struct ModifiersOrder: View {
+    @StateObject var ads: ADS
+    
+    init(ads: ADS) {
+        self._ads = StateObject(wrappedValue: ads)
+    }
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
             .background(.red)
@@ -18,6 +27,6 @@ struct ModifiersOrder: View {
 
 struct ModifiersOrder_Previews: PreviewProvider {
     static var previews: some View {
-        ModifiersOrder()
+        ModifiersOrder(ads: .init())
     }
 }

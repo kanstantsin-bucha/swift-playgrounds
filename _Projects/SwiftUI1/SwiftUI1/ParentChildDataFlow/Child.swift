@@ -19,7 +19,6 @@ struct Child: View {
             Form {
                 TextField("name", text: $name)
                 TextField("age", value: $age, format: .number)
-                    .keyboardType(.decimalPad)
             }
             Button("Save") {
                 var itemToSave = item

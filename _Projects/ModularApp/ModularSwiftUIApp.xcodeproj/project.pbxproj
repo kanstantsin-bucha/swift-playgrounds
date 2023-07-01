@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE9F7DA9294CEBC10036A923 /* ModularApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModularApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9F7DA9294CEBC10036A923 /* ModularSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModularSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9F7DAC294CEBC10036A923 /* ModularAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularAppApp.swift; sourceTree = "<group>"; };
 		FE9F7DB0294CEBC20036A923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE9F7DB2294CEBC20036A923 /* ModularApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ModularApp.entitlements; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		FE9F7DAA294CEBC10036A923 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE9F7DA9294CEBC10036A923 /* ModularApp.app */,
+				FE9F7DA9294CEBC10036A923 /* ModularSwiftUIApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE9F7DA8294CEBC10036A923 /* ModularApp */ = {
+		FE9F7DA8294CEBC10036A923 /* ModularSwiftUIApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE9F7DB8294CEBC20036A923 /* Build configuration list for PBXNativeTarget "ModularApp" */;
+			buildConfigurationList = FE9F7DB8294CEBC20036A923 /* Build configuration list for PBXNativeTarget "ModularSwiftUIApp" */;
 			buildPhases = (
 				FE9F7DA5294CEBC10036A923 /* Sources */,
 				FE9F7DA6294CEBC10036A923 /* Frameworks */,
@@ -99,13 +99,13 @@
 			);
 			dependencies = (
 			);
-			name = ModularApp;
+			name = ModularSwiftUIApp;
 			packageProductDependencies = (
 				FE9F7DBE294CEDF10036A923 /* MainModule */,
 				FE9F7DC2294D02F20036A923 /* UIModule */,
 			);
 			productName = ModularApp;
-			productReference = FE9F7DA9294CEBC10036A923 /* ModularApp.app */;
+			productReference = FE9F7DA9294CEBC10036A923 /* ModularSwiftUIApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FE9F7DA4294CEBC10036A923 /* Build configuration list for PBXProject "ModularApp" */;
+			buildConfigurationList = FE9F7DA4294CEBC10036A923 /* Build configuration list for PBXProject "ModularSwiftUIApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE9F7DA8294CEBC10036A923 /* ModularApp */,
+				FE9F7DA8294CEBC10036A923 /* ModularSwiftUIApp */,
 			);
 		};
 /* End PBXProject section */
@@ -351,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FE9F7DA4294CEBC10036A923 /* Build configuration list for PBXProject "ModularApp" */ = {
+		FE9F7DA4294CEBC10036A923 /* Build configuration list for PBXProject "ModularSwiftUIApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE9F7DB6294CEBC20036A923 /* Debug */,
@@ -360,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE9F7DB8294CEBC20036A923 /* Build configuration list for PBXNativeTarget "ModularApp" */ = {
+		FE9F7DB8294CEBC20036A923 /* Build configuration list for PBXNativeTarget "ModularSwiftUIApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE9F7DB9294CEBC20036A923 /* Debug */,

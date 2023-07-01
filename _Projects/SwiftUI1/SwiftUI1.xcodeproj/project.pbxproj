@@ -30,6 +30,8 @@
 		FE9AEF2E29C742C50009ABA1 /* NavigationDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2D29C742C50009ABA1 /* NavigationDestination.swift */; };
 		FE9AEF3029C749120009ABA1 /* PrintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2F29C749120009ABA1 /* PrintView.swift */; };
 		FECDDFC42A35E08A00227220 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECDDFC32A35E08A00227220 /* CustomTabBar.swift */; };
+		FEE46B2F2A500753000E71FE /* LifeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE46B2E2A500753000E71FE /* LifeView.swift */; };
+		FEEF281C2A50734200550FC0 /* SunflowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF281B2A50734200550FC0 /* SunflowerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,8 @@
 		FE9AEF2D29C742C50009ABA1 /* NavigationDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestination.swift; sourceTree = "<group>"; };
 		FE9AEF2F29C749120009ABA1 /* PrintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintView.swift; sourceTree = "<group>"; };
 		FECDDFC32A35E08A00227220 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		FEE46B2E2A500753000E71FE /* LifeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeView.swift; sourceTree = "<group>"; };
+		FEEF281B2A50734200550FC0 /* SunflowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunflowerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 		FE44633829800790008FA94A /* SwiftUI1 */ = {
 			isa = PBXGroup;
 			children = (
+				FEE46B2D2A500731000E71FE /* ChatGPT */,
 				FE9AEF2C29C7429C0009ABA1 /* Navigation */,
 				FE44639D2982760E008FA94A /* Gradients */,
 				FE2B0A33298FB32900F425F3 /* Views */,
@@ -208,6 +213,15 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		FEE46B2D2A500731000E71FE /* ChatGPT */ = {
+			isa = PBXGroup;
+			children = (
+				FEE46B2E2A500753000E71FE /* LifeView.swift */,
+				FEEF281B2A50734200550FC0 /* SunflowerView.swift */,
+			);
+			path = ChatGPT;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -281,6 +295,7 @@
 				FE52959729D21E6F009E58B8 /* DoorsViews.swift in Sources */,
 				FE446349298007A8008FA94A /* Parent.swift in Sources */,
 				FE9AEF2B29C740900009ABA1 /* DestinationInNavigationView.swift in Sources */,
+				FEEF281C2A50734200550FC0 /* SunflowerView.swift in Sources */,
 				FE52958E29D03AAF009E58B8 /* TabViews.swift in Sources */,
 				FE52959229D06341009E58B8 /* RegistrationView.swift in Sources */,
 				FE62F0F129E0148C00A61CF9 /* ModifiersOrder.swift in Sources */,
@@ -298,6 +313,7 @@
 				FE52959429D07AE1009E58B8 /* NextView.swift in Sources */,
 				FE52959029D03B1F009E58B8 /* CompositionRootView.swift in Sources */,
 				FE44634E298013D7008FA94A /* PreviewIntro.swift in Sources */,
+				FEE46B2F2A500753000E71FE /* LifeView.swift in Sources */,
 				FE44633A29800790008FA94A /* SwiftUI1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,9 +436,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SwiftUI1/SwiftUI1.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI1/Preview Content\"";
+				DEVELOPMENT_TEAM = J6252NJ42R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -456,9 +474,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SwiftUI1/SwiftUI1.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI1/Preview Content\"";
+				DEVELOPMENT_TEAM = J6252NJ42R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
