@@ -20,7 +20,9 @@ struct SwiftUI1App: App {
 //            }
 //            DestinationInNavigationView()
 //            composeMainNavigationView()
-            LifeView()
+//            LifeView()
+//            SunflowerPatternView()
+            OtherRoot()
         }
     }
 }
