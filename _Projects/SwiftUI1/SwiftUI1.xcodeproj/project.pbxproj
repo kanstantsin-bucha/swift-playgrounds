@@ -24,6 +24,7 @@
 		FE52959929D2257C009E58B8 /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52959829D2257C009E58B8 /* ViewModels.swift */; };
 		FE52959B29D225CC009E58B8 /* DoorsNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52959A29D225CC009E58B8 /* DoorsNavigation.swift */; };
 		FE52959F29D2263C009E58B8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52959E29D2263C009E58B8 /* MainView.swift */; };
+		FE5EF96D2A51991D00A9EA86 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5EF96C2A51991D00A9EA86 /* CardView.swift */; };
 		FE62F0F129E0148C00A61CF9 /* ModifiersOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE62F0F029E0148C00A61CF9 /* ModifiersOrder.swift */; };
 		FE9AEF2829C737510009ABA1 /* ValueNavigationInNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2729C737510009ABA1 /* ValueNavigationInNavigationStack.swift */; };
 		FE9AEF2B29C740900009ABA1 /* DestinationInNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9AEF2A29C740900009ABA1 /* DestinationInNavigationView.swift */; };
@@ -55,6 +56,7 @@
 		FE52959829D2257C009E58B8 /* ViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
 		FE52959A29D225CC009E58B8 /* DoorsNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorsNavigation.swift; sourceTree = "<group>"; };
 		FE52959E29D2263C009E58B8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FE5EF96C2A51991D00A9EA86 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FE62F0F029E0148C00A61CF9 /* ModifiersOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifiersOrder.swift; sourceTree = "<group>"; };
 		FE9AEF2729C737510009ABA1 /* ValueNavigationInNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueNavigationInNavigationStack.swift; sourceTree = "<group>"; };
 		FE9AEF2A29C740900009ABA1 /* DestinationInNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationInNavigationView.swift; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 			children = (
 				FEE46B2E2A500753000E71FE /* LifeView.swift */,
 				FEEF281B2A50734200550FC0 /* SunflowerView.swift */,
+				FE5EF96C2A51991D00A9EA86 /* CardView.swift */,
 			);
 			path = ChatGPT;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				FE52959029D03B1F009E58B8 /* CompositionRootView.swift in Sources */,
 				FE44634E298013D7008FA94A /* PreviewIntro.swift in Sources */,
 				FEE46B2F2A500753000E71FE /* LifeView.swift in Sources */,
+				FE5EF96D2A51991D00A9EA86 /* CardView.swift in Sources */,
 				FE44633A29800790008FA94A /* SwiftUI1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
