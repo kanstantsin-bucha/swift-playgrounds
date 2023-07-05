@@ -2,6 +2,7 @@ import SwiftUI
 
 struct CardView: View {
     @State private var cardPosition: CGSize = .zero
+    @State var isDragging: Bool = false // { cardPosition != .zero }
     
     var body: some View {
         ZStack {
@@ -18,20 +19,28 @@ struct CardView: View {
                 .gesture(
                     DragGesture()
                         .onChanged { gesture in
+                            isDragging = true
                             cardPosition = gesture.translation
                         }
                         .onEnded { gesture in
                             withAnimation(.spring()) {
                                 cardPosition = .zero
+                                isDragging = false
                             }
                         }
                 )
-            ParticleView(viewSize: .init(width: 440, height: 340))
+            ParticleView(
+                viewSize: .init(width: 440, height: 340),
+                isDragging: isDragging
+            )
                 .frame(width: 440, height: 340)
                 .cornerRadius(30)
                 .offset(cardPosition)
                 .allowsHitTesting(false)
-            ParticleView(viewSize: .init(width: 360, height: 240))
+            ParticleView(
+                viewSize: .init(width: 360, height: 240),
+                isDragging: isDragging
+            )
                 .frame(width: 360, height: 240)
                 .cornerRadius(30)
                 .offset(cardPosition)
@@ -44,16 +53,47 @@ struct CardView: View {
         )
     }
     
-    var cardBorderGradient: LinearGradient {
-        LinearGradient(
-            gradient: Gradient(stops: [
-                .init(color: Color.white.opacity(0.5), location: 0),
-                .init(color: Color.clear, location: 0.4),
-                .init(color: Color.white.opacity(0.5), location: 0.6)
-            ]),
-            startPoint: .topLeading,
-            endPoint: .bottomTrailing
-        )
+    var cardGradientsOverlay: some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: 30)
+                .stroke(
+                    .linearGradient(
+                        colors: [.white.opacity(0.6), .clear, .white.opacity(0.3)],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    )
+                )
+            RoundedRectangle(cornerRadius: 30)
+                .stroke(
+                    .linearGradient(
+                        colors: [.white.opacity(0.4), .clear, .white.opacity(0.3)],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    ),
+                    lineWidth: 20
+                )
+                .blur(radius: 30)
+            RoundedRectangle(cornerRadius: 30)
+                .stroke(
+                    .linearGradient(
+                        colors: [Color(#colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)).opacity(1), Color(#colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)).opacity(0.6), Color(#colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)).opacity(1)],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    ),
+                    lineWidth: 20
+                )
+                .blur(radius: 50)
+                .opacity(isDragging ? 1 : 0)
+            RoundedRectangle(cornerRadius: 30)
+                .fill(
+                    .linearGradient(
+                        colors: [Color(#colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)), Color(#colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)), Color(#colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)), Color(#colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1))],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    )
+                )
+                .blendMode(.overlay)
+        }
     }
     
     var cardBackgroundGradient: LinearGradient {
@@ -94,10 +134,7 @@ struct CardView: View {
          cardBackgroundGradient
         .frame(width: 360, height: 240)
         .cornerRadius(30)
-        .overlay(
-            RoundedRectangle(cornerRadius: 30)
-                .stroke(cardBorderGradient, lineWidth: 3)
-        )
+        .overlay(cardGradientsOverlay)
         .shadow(
             color: Color(hex:"#5D11F7").opacity(0.8),
             radius: 120,
@@ -113,15 +150,29 @@ struct CardView: View {
 
 import SwiftUI
 
+
+
 struct ParticleView: UIViewRepresentable {
+    final class Storage: ObservableObject {
+        var layer: CAEmitterLayer?
+    }
+    
     let viewSize: CGSize
+    let isDragging: Bool
+    @StateObject var storage = Storage()
+    
+    init(viewSize: CGSize, isDragging: Bool) {
+        self.viewSize = viewSize
+        self.isDragging = isDragging
+    }
     
     func makeUIView(context: Context) -> UIView {
+        print("make view")
         let particleCell = CAEmitterCell()
         particleCell.contents = createParticleImage(color: .white)?.cgImage
         particleCell.scale = 0.1
         particleCell.scaleRange = 0.3
-        particleCell.birthRate = 200 // Increase the birthRate for more particles
+        particleCell.birthRate = 200
         particleCell.lifetime = 3.5
         particleCell.velocity = 10
         particleCell.velocityRange = 5
@@ -135,7 +186,7 @@ struct ParticleView: UIViewRepresentable {
         particleCell2.contents = createParticleImage(color: .white)?.cgImage
         particleCell2.scale = 0.1
         particleCell2.scaleRange = 0.35
-        particleCell2.birthRate = 50 // Increase the birthRate for more particles
+        particleCell2.birthRate = 50
         particleCell2.lifetime = 5.5
         particleCell2.velocity = 60
         particleCell2.velocityRange = 30
@@ -146,6 +197,7 @@ struct ParticleView: UIViewRepresentable {
         particleCell2.alphaSpeed = -0.1
         
         let particleLayer = particleLayer()
+        storage.layer = particleLayer
         particleLayer.emitterCells = [particleCell, particleCell2]
         let particleView = UIView()
         particleView.layer.addSublayer(particleLayer)
@@ -153,7 +205,11 @@ struct ParticleView: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: UIView, context: Context) {
-        // No updates needed
+        print("isDragging: \(isDragging)")
+        
+        storage.layer?.velocity = isDragging ? 3 : 1
+        storage.layer?.birthRate = isDragging ? 5 : 1
+        print("layer: \(String(describing: storage.layer?.velocity))")
     }
     
     private func particleLayer() -> CAEmitterLayer {
