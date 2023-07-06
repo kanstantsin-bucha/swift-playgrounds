@@ -24,6 +24,9 @@ struct SwiftUI1App: App {
 //            SunflowerPatternView()
 //            OtherRoot()
             CardView()
+            if #available(iOS 17, *) {
+                ShaderTransitionView()
+            }
         }
     }
 }
