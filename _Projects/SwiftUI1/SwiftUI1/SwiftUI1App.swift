@@ -11,21 +11,49 @@ import SwiftUI
 struct SwiftUI1App: App {
     var body: some Scene {
         WindowGroup {
-//            PreviewsIntro()
-//            ParentChildDataFlow()
-//            GeometryReaderV()
-//            BottomSheetSizedToFitView()
-//            if #available(iOS 16, *) {
-//                ValueNavigationInNavigationStack()
-//            }
-//            DestinationInNavigationView()
-//            composeMainNavigationView()
-//            LifeView()
-//            SunflowerPatternView()
-//            OtherRoot()
-            CardView()
-            if #available(iOS 17, *) {
-                ShaderTransitionView()
+            content
+        }
+    }
+    
+    var content: some View {
+        return NavigationView {
+            Form {
+                Section {
+                    NavigationLink("Previews Intro") {
+                        PreviewsIntro()
+                    }
+                    NavigationLink("Parent Child Data Flow") {
+                        ParentChildDataFlow()
+                    }
+                    //            GeometryReaderV()
+                    //            BottomSheetSizedToFitView()
+                    //            if #available(iOS 16, *) {
+                    //                ValueNavigationInNavigationStack()
+                    //            }
+                    //            DestinationInNavigationView()
+                    //            composeMainNavigationView()
+                    //            LifeView()
+                    //            SunflowerPatternView()
+                    //            OtherRoot()
+                }
+                Section("Chat GPT") {
+                    NavigationLink("Card View") {
+                        CardView()
+                    }
+                    NavigationLink("Sunflower View") {
+                        SunflowerPatternView()
+                    }
+                    NavigationLink("Life View") {
+                        LifeView()
+                    }
+                }
+                Section("Metal") {
+                    if #available(iOS 17, *) {
+                        NavigationLink("Shader Transition View") {
+                            ShaderTransitionView()
+                        }
+                    }
+                }
             }
         }
     }
