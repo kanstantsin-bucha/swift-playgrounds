@@ -16,7 +16,7 @@ struct ShaderTransitionView: View {
             identity: ShiftTransitionModifier(effectValue: 0)
         )
         let removalTransition: AnyTransition = .modifier(
-            active: ShiftTransitionModifier(effectValue: -1),
+            active: ShiftTransitionModifier(effectValue: 1),
             identity: ShiftTransitionModifier(effectValue: 0)
         )
 
@@ -113,6 +113,6 @@ struct ShiftTransitionModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .frame(width: self.size.x, height: self.size.y)
-            .distortionEffect(self.slideAwayShader, maxSampleOffset: CGSize(width: 500, height: 500))
+            .distortionEffect(self.transitionShader, maxSampleOffset: CGSize(width: 500, height: 500))
     }
 }
